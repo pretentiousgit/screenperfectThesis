@@ -116,7 +116,7 @@ Sernag vo velar, arul re rintax ma su, la ux harle jince tharn morvit yiphras xu
             <Notes>The &lt;$projecttitle> and &lt;$fullname> tags get replaced with the information set in Project > Meta-Data Settings… > Project Properties. You can edit those settings or just replace this text altogether.</Notes>
         </Document>
         <Document ID="44">
-            <Title>Brainworms.</Title>
+            <Title>Brainworms unrelated to main writing</Title>
             <Text>Things the thesis should have in it:
 
 - Helene Cixous
@@ -145,23 +145,46 @@ As we live within an economy that values, more than ever, cleanliness, even as i
         </Document>
         <Document ID="45">
             <Title>Conclusion</Title>
-            <Text>The work that has gone into the production and release of psXXYTools is not inconsiderable. As a creative project based in grounded theory and reflective practice, code is a tricky thing to pin down; it must be declarative, yet reveals the internal architecture of the people who write it. To write code is to be a craftsperson, and to be a craftsperson is to reveal some of yourself with every stroke of the plane. 
+            <Text>The work that has gone into the production and release of screenPerfect is not inconsiderable. As a creative project based in grounded theory and reflective practice, code is a tricky thing to pin down; it must be declarative, yet reveals the internal architecture of the people who write it. To write code is to be a craftsperson, and to be a craftsperson is to reveal some of yourself with every stroke of the plane. 
 The tools themselves, though, are a concern. Programming solo is as rewarding as any other solitary occupation, yet it leaves many loose ends. An excellent piece of software is likely to require input from a wide array of specialists in graphic design, interface development, and logic. There is an inevitability to induced flaws - bugs - that cause the program to fail. Once complete, it is likely that finished software will fall out of fashion; the unfinished symphony of the 21st century. There is no way to call a piece of writing finished, because another word can always be added or cut loose - the best that can be managed is a date of publication. Similarly, code is subject to scope creep. It is not a silkscreen, once pulled and forever finished. It is not a painting, which, dried and delivered, is safe until the conservators come for it. Code lives, like writing, in context and within an ecosystem.
 Unlike writing, code answers to its context; without the machines to whom it speaks, it is without consequence. Within those machines, it may have a concrete effect on the world around it, and for that reason it continues to be valued; this is the craftsmanship that, unlike art, continues to make a living. Code cannot be set aside; although it will work as intended, it will break without permission. To code is to attempt to write a coherent world into being, to attempt to factor in all the diverse chances within.
-In Cixous’ Laugh of the Medusa, she expresses that to be considered real, women must write for themselves. In my thesis, I have extended this to the world of code; one must write after one’s own interests, because to take only that work which is assigned is to fall behind. Writing a projection/presentation/game system that emphasizes privacy has been work designed to address the problem of what, exactly, a game is, or what is a valuable piece of work. Most systems are designed to be public, to emphasize content or possibly advertisements, to be clear. Though functional, psXXYTools is not designed to do any of these things. Instead, this is software that disappears. It does not care what your content is, or to whom you’re serving it, or where. The emphasis is on allowing your audience to experience things as quickly and easily as possible.
-Works produced using psXXYTools can be displayed anywhere in the privileged world; anywhere a series of android/iDevices and a single server can be set up, to create a collaborative experience that will carry users through any content imaginable. This is designed to serve video first, and then to move through static content, sound, any experience in almost any context.
-This emphasis on experiences that are not solo, or hidden away inside a computer lab or a movie theatre, moves the interaction sphere firmly back to the real world. The display of the video-art and collaborative gameplay made possible through psXXYTools can be anywhere at all, and indeed works best at night, outdoors, in temporary installations. These are the new/old/new exhibits, the unmissable one-time-only parties, the experience that happens in a hard to access place but leaves no marks for future visitors to interpret. Collaborative spaces are difficult to build, and mass streaming technology is impossible to privatize; therefore, psXXYTools allows the possibility of being entirely removed from the cloud; no-one can see these videos except the people present at the time, and no-one can quite comprehend the overwhelming inputs outside the event. 
+In Cixous’ Laugh of the Medusa, she expresses that to be considered real, women must write for themselves. In my thesis, I have extended this to the world of code; one must write after one’s own interests, because to take only that work which is assigned is to fall behind. Writing a projection/presentation/game system that emphasizes privacy has been work designed to address the problem of what, exactly, a game is, or what is a valuable piece of work. Most systems are designed to be public, to emphasize content or possibly advertisements, to be clear. Though functional, screenPerfect is not designed to do any of these things. Instead, this is software that disappears. It does not care what your content is, or to whom you’re serving it, or where. The emphasis is on allowing your audience to experience things as quickly and easily as possible.
+Works produced using screenPerfect can be displayed anywhere in the privileged world; anywhere a series of android/iDevices and a single server can be set up, to create a collaborative experience. This is designed to serve video first, and then to move through static content, sound, any experience in almost any context.
+This emphasis on experiences that are not solo, or hidden away inside a computer lab or a movie theatre, moves the interaction sphere firmly back to the real world. The display of the video-art and collaborative gameplay made possible through screenPerfect can be anywhere at all, and indeed works best at night, outdoors, in temporary installations. These are the new/old/new exhibits, the unmissable one-time-only parties, the experience that happens in a hard to access place but leaves no marks for future visitors to interpret. Collaborative spaces are difficult to build, and mass streaming technology is impossible to privatize; therefore, screenPerfect allows the possibility of being entirely removed from the cloud; no-one can see these videos except the people present at the time, and no-one can quite comprehend the overwhelming inputs outside the event. 
 The practical uses for a one-time event control with local servers are fairly obvious. The first application is for large-scale events, such as Alternate Reality Games, which may need a totally private communication channel for players, which would be difficult to pirate or resell. The next is to move those ARGs to spaces like Yonge-Dundas square, where monitors could be tuned to a local-only website to extend the reach of the experience, which is in real time. By providing such spaces to interact with, an artist can redefine the scale of their video work; it no longer lives in a laptop or a theatre, but outside, and controllable from within the crowd at the base of the display.
-If this were an open connection, such a permission might prove challenging; access to the open internet invariably brings up privacy concerns. Therefore, psXXYTools is limited in context. It will allow access to the psXXYTools presentation application, and what that application can display is pre-set by the artist. Therefore, although a crowd of dozens could control what is going on at any given time, only a pre-set group of experiences (videos, still objects) can be shared. This saves on public embarrassment, and minimizes the staff required to support any given psXXYTools installation. 
+If this were an open connection, such a permission might prove challenging; access to the open internet invariably brings up privacy concerns. Therefore, screenPerfect is limited in context. It will allow access to the screenPerfect presentation application, and what that application can display is pre-set by the artist. Therefore, although a crowd of dozens could control what is going on at any given time, only a pre-set group of experiences (videos, still objects) can be shared. This saves on public embarrassment, and minimizes the staff required to support any given screenPerfect installation. 
 The reflective portion of this research has been to address the question of use and pragmatism, as well as what constitutes research within an artistic context. The answer is difficult to quantify; research is pursuing a read, book-learning, critical examination of a practice, as all art is practice. Art is fundamentally blue collar, as is coding; both are works of craftsmanship, both can be helped along by automation, but ultimately, their declaration within a finished state is dependent upon the person who has produced them. The blue-collar trade of art has been sold out by the academy, linked tightly to the idea that thinking about a thing is more valuable than working on a thing oneself. Coders are legendarily difficult to organize, resistant to unions or to the thought that they are themselves labourers.
-The design of video games is a renewal of old ideals of propaganda and imagination as previously permitted almost exclusively by theatre. Rather than being restricted to watching, an audience can now be, and do, their own experience. The experience is not unmediated, but is a collective participation. This makes some elements more difficult, and others simpler. We can make a world, and make that world better, but the world we make will still be influenced by the things we ourselves have experienced. Even the clearest softwware architecture is still an architecture that must adhere to the mechanics of being human.
-The newest video games try to dream worlds past being human, and most fall far short. Rather than permitting a wide exploration of possibilities, many possibilities narrow to the point of a gun, to the same forearms for twenty years (twitter). At the heart of psXXYtools is the idea that we can pull away from artificial distance and have instead on-site participation, unique experiences that project real, contemporary art into real, contemporary spaces. We can have events anywhere, and these events can bring anyone together, with even terrible technology. Underlying the architecture of this code is the idea that all the different flavours of classism should be undone with the opportunity to see amazing things, no matter who you are. Space should belong to the people who occupy it most often, not only the people who pay for it at a distance.
+The design of video games is a renewal of old ideals of propaganda and imagination as previously permitted almost exclusively by theatre. Rather than being restricted to watching, an audience can now be, and do, their own experience. The experience is not unmediated, but is a collective participation. This makes some elements more difficult, and others simpler. We can make a world, and make that world better, but the world we make will still be influenced by the things we ourselves have experienced. Even the clearest software architecture is still an architecture that must adhere to the mechanics of being human.
+The newest video games try to dream worlds past being human, and most fall far short. Rather than permitting a wide exploration of possibilities, many possibilities narrow to the point of a gun, to the same forearms for twenty years (twitter). At the heart of screenPerfect is the idea that we can pull away from artificial distance and have instead on-site participation, unique experiences that project real, contemporary art into real, contemporary spaces. We can have events anywhere, and these events can bring anyone together, with even terrible technology. Underlying the architecture of this code is the idea that all the different flavours of classism should be undone with the opportunity to see amazing things, no matter who you are. Space should belong to the people who occupy it most often, not only the people who pay for it at a distance.
 Having produced this work, which is fundamentally a software set designed for parties where people are too nervous to interact, has been a tremendous challenge. Learning new programming languages is always a challenge, as is enacting a pragmatic device from the perspective of art theory. There is the concern that these works are not for anything, not for a job or an application or a visible piece of content, a series of products released to do something in the world. Many applications, games and devices are released into the world that simply consume resources for the sake of their own consumption, simply to show that the people involved have the resources to spend. A new digital toy is frequently out of reach for the vast group of people who depend on their existing technology to work for as long as they can make it do so, and therefore, these tools are designed in the same way as the first university mainframes; they live somewhere else, and can be accessed by even the most unfortunate smartphones, five years out of date and slow. The idea is to permit this sort of advanced media to get to places that I do not expect it to turn up, in places that are specifically not shiny. The idea is to use existing technology to permit exploration, and inversion of the One Laptop Per Child project; use what there is, and then make it greater, rather than interject an external device that will require people to spend resources to use.
 Ultimately, this sort of software development is about permission. Permission for people to do what they like in the spaces they need to occupy and use, including the digital space. This is not about developing a single app or a platform that will be easily marketed, but is instead about focusing on the value of the exclusive, the small, the private, the well-built-for-humans space; these spaces are difficult to construct effectively and require more maintenance than the average Toronto garden. This is about exploring the possibilities of a space designed to share an experience through a personal connection.
-The content of the work itself, being mine, is designed to unsettle. As an artist, I have long cared about the powers of horror, the power of things being slightly not-right to make people deeply, passionately uncomfortable. Therefore, the content of the work and the final setup is designed to confuse. It is built to be difficult to experience all at once, without others with whom to cooperate. This part is less about joy than it is about the different values permitted to different classes of entertainment. At  a high level, art can afford to be alienating, and indeed is frequently valued more highly for its power of alienation than for any other thing. This is a distinction made especially true in video games, where the power of “fun” tends to be valued highly for its commercial properties; if a game is not “fun,” all elements of its interactive powers of storytelling cease. This means that games which are not “fun” are widely called by other names; interactive new media art, for example. 
-psXXYTools is designed to permit the development of games that are not only not necessarily fun, but which may be narratively incomplete, or nonsensical, while still being absorbing. These are games that do not require reading, but permit themselves to be experienced as deeply as a given group of readers wish to experience them. The tool can be perverted; perverse use is built in, with video copyright being at such a premium. It can be used to host experiences in galleries or in warehouses, by people with minimal technical knowledge and little ability to mask their normal online activities. This is a device to let people make maximum use of the devices they already have, to host a dance party on a subway or a massive art tour through a gallery. The demonstration content may be upsetting, but the access permitted is broad. This is about sharing things, for the better.
+The content of the work itself is designed to unsettle. As an artist, I have long cared about the powers of horror, the power of things being slightly not-right to make people deeply, passionately uncomfortable. Therefore, the content of the work and the final setup is designed to confuse. It is built to be difficult to experience all at once, without others with whom to cooperate. This part is less about joy than it is about the different values permitted to different classes of entertainment. At  a high level, art can afford to be alienating, and indeed is frequently valued more highly for its power of alienation than for any other thing. This is a distinction made especially true in video games, where the power of “fun” tends to be valued highly for its commercial properties; if a game is not “fun,” all elements of its interactive powers of storytelling cease. This means that games which are not “fun” are widely called by other names; interactive new media art, for example. 
+screenPerfect is designed to permit the development of games that are not only not necessarily fun, but which may be narratively incomplete, or nonsensical, while still being absorbing. These are games that do not require reading, but permit themselves to be experienced as deeply as a given group of readers wish to experience them. The tool can be perverted; perverse use is built in, with video copyright being at such a premium. It can be used to host experiences in galleries or in warehouses, by people with minimal technical knowledge and little ability to mask their normal online activities. This is a device to let people make maximum use of the devices they already have, to host a dance party on a subway or a massive art tour through a gallery. The demonstration content may be upsetting, but the access permitted is broad. This is about sharing things, for the better.
 
 </Text>
+            <Comments>This part is no good, things start to go really haywire in here.
+
+Alex Leitch, 2013-09-13 3:39 PM
+There is a maaaajor topical break here between art and gaming.
+
+Alex Leitch, 2013-09-13 3:40 PM
+How do we make that world? 
+
+Alex Leitch, 2013-09-13 3:40 PM
+Repetitive.
+
+Alex Leitch, 2013-09-13 3:41 PM
+Chapter needed on OLPC project and how it relates to the dream of accessible technology, some background from Negroponte and the MIT-classist dream that kids should have this before clean water.
+
+Alex Leitch, 2013-09-13 3:41 PM
+Colloquial tone. Journalistic.
+
+Alex Leitch, 2013-09-13 3:42 PM
+Chapter contrasting the power of body-horror with the dream of a technological cleanliness that is promoted and misunderstood by the OLPC project; these are concerns that are classist in the way that the genocide of the people who cannot access healthcare is. 
+
+It would be interesting to bring Roiphe and the art of the white lady writing into this. As a white lady writing, anyway.
+
+Alex Leitch, 2013-09-13 3:42 PM</Comments>
         </Document>
         <Document ID="38">
             <Title>Procedure</Title>
@@ -192,7 +215,7 @@ Final Note
 Scrivener project templates are flexible and are not intended to restrict you to a particular workflow. You can change, delete or move the files and folders contained in the template and you can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File > Save As Template.</Text>
         </Document>
         <Document ID="46">
-            <Title>References and positioning of work</Title>
+            <Title>References, spare.</Title>
             <Text>Interactive Sculpture
 - http://www.chriseckert.com/Sculpture/039_ToDo/gallery.shtml Chris Eckert, who makes machines that translate machine-tool perfection back into varying types of handwriting.
 - http://arthurganson.com/ Arthur Ganson, whose physical machinery to perform inconsequential work is on permanent display at MIT.
@@ -218,86 +241,135 @@ of form]. Location: Name of producer.
         <Document ID="24">
             <Title>References</Title>
             <Text>References
+Maly, T. (2013). We Have Always Coded. Medium.com. https://medium.com/weird-future/2acc5ba75929
+	This is a humorous article about gender essentialism and code. I think it has some witty remarks in it I may want to use going forward.
+
+
+Fashion article about hegemony of fashion writing and the death of exclusivity, with notes on shows being locked down to resist the blog invasion. http://thenewinquiry.com/essays/cool-fronthot-mess/
+
 
 bell hooks. (1992). Is Paris Burning?. Black looks: race and representation (pp. 145-156). Boston, MA: South End Press.
+	bell hooks is always useful in concert with Derrida to explain that you can’t actually know what anyone else is actually thinking; having sympathy for other people is not the same as understanding their direct experience. Useful because it underlies a lot of feminist practice
 
 Bizzocchi, J. &amp; Tanenbaum, J. (2011) Well Read: Applying Close Reading Techniques to Gameplay 
 	Experiences. In Well-Played 3.0, Drew Davidson Eds., Etc press
 	www.etc.cmu.edu—well-read-jim-bizzocchi-joshua-tanenbaum
+	Something to explain game design processes in the technical section of the document.
 
-Buxton, W. (2007) Sketching User Experiences: Getting the Design Right and the Right Design. Morgan 		Kaufmann Publishers. 
+Buxton, W. (2007) Sketching User Experiences: Getting the Design Right and the Right Design. Morgan Kaufmann Publishers. 
+	Something to explain user interface design practices in the technical section.
 
-Chun, W. H. (2011). Invisibly Visible; Visibly Invisible and On Sourcery and Source Code. Programmed 		visions software and memory (pp. 1-54). Cambridge, Mass.: MIT Press.
+Chun, W. H. (2011). Invisibly Visible; Visibly Invisible and On Sourcery and Source Code. Programmed visions software and memory (pp. 1-54). Cambridge, Mass.: MIT Press.
+	Still need to read this, but the title is pretty relevant to the central research question of my thesis, which is on the value of code and invisibility as a permission.
 
-Cixous, H., Cohen, K., &amp; Cohen, P. (1976). The Laugh Of The Medusa. Signs: Journal of Women in Culture 		and Society, 1(4), 875.
+Cixous, H., Cohen, K., &amp; Cohen, P. (1976). The Laugh Of The Medusa. Signs: Journal of Women in Culture and Society, 1(4), 875.
+	Woman must write her own desires into being in order to be seen
 
-Deleuze, G., &amp; Guattari, F. (1987). Introduction:Rhizome. A thousand plateaus: capitalism and 			schizophrenia (pp. 3-4). Minneapolis: University of Minnesota Press.
+
+Deleuze, G., &amp; Guattari, F. (1987). Introduction:Rhizome. A thousand plateaus: capitalism and schizophrenia (pp. 3-4). Minneapolis: University of Minnesota Press.
+	Everyone else is doing it [including them]. May as well. I gather they’re popular right now.
+
 
 Deleuze, G. (1992). Postscript on the Societies of Control. October, Winter(59), 3-7.
+	Surveillance culture is bad for people, yet inevitable as it becomes automated.
 
-Dell, K. (1998). Contract with the skin: masochism, performance art, and the 1970's. 					Minneapolis:University of Minnesota Press.
+
+Dell, K. (1998). Contract with the skin: masochism, performance art, and the 1970's. Minneapolis:University of Minnesota Press.
+	This moves into abjection, which is important to the technical section of this project; how people will destroy themselves in and for their art. There could be an interesting sub-section on the ways computer technicians break themselves, for instance. Mainly interesting because it lets me wrap a box in skin and call it art.
+
 
 Doctorow, C. (2008). Little Brother. New York: Tom Doherty Associates.
+	More surveillance culture. Like a How-To novel of Deleuze in more legible writing.
 
 Doctorow, C. (2012). Pirate Cinema. New York: Tom Doherty Associates, LLC.
+	Like the above, but this time for copyright people trying to cut off access to the internet. Only narrowly useful.
 
 Gleick, J. (2011). The information: a history, a theory, a flood. New York: Pantheon Books.
+	A survey text of the history and development of data-centric information technology. Explains a little of the context for how tools like screenperfect can be expected, themselves, to proliferate to the point of uselessness.
 
 Gram, S. (2013, March 1). Textual Relations: The Young-Girl and the Selfie. Textual Relations. Retrieved 
 	April 12, 2013, from http://text-relations.blogspot.ca/2013/03/the-young-girl-and-selfie.html
+	Young women’s bodies are not only super-powerful, but can be the stereotype vehicles for all of consumer culture. 
+	
 
 Grosz, E. A. (2008). Chaos, Cosmos, Territory, Architecture. Chaos, territory, art: Deleuze and the framing 
 	of the earth (pp. 15-28). New York: Columbia University Press.
+	Technology as sexual performance and definition of space. Not terribly well-realized but more academic than other sources on the same subject.
 
 Haraway, D. (1987). A Manifesto For Cyborgs: Science, Technology, And Socialist Feminism In The 1980s. 		Australian Feminist Studies, 2(4), 1-42.
+	Primary text on women restructuring their bodies, invisibly, to take over the world. See also Quinn Norton on IUDs (http://www.quinnnorton.com/said/?p=404)
+
 
 Haraway, D. (2009). The companion species manifesto: dogs, people and significant otherness. Chicago, 		Ill.: Prickly Paradigm Press.
+	More Haraway. Now on cancer, not sex.
 
-Hunicke, R., LeBlanc, M., Zubek, R. (2004) MDA: A Formal Approach to Game Design and Game 
-	Research. sakai.rutgers.edu—hunicke_2004.pdf
+Hunicke, R., LeBlanc, M., Zubek, R. (2004) MDA: A Formal Approach to Game Design and Game Research. sakai.rutgers.edu—hunicke_2004.pdf
+	More on game design techniques for the technical portions of the paper. 
 
-Kristeva, J. (1982). Powers of horror: an essay on abjection. New York: Columbia University Press.
+
+Kristeva, J. (1982). Powers of horror: an essay on abjection. New York: Columbia University Press. (http://www.csus.edu/indiv/o/obriene/art206/readings/kristeva%20-%20powers%20of%20horror[1].pdf)
+	Horrifying things have a power that is more potent than any non-horrifying things could hope to possess. This paper details why that is. It goes very nicely with Cixous and discussions of the IUD, because it is about what happens when barriers truly break down. I think Kristeva’s horrors are basically the key to the entire news cycle and Grand Theft Auto to boot.
+
 
 Krug, Steve (2000) Don’t Make Me Think: A Common Sense Approach to Web Usability.
 	Riders Publishers.
+	This is another technical paper for arguing that software design should be totally invisible.
 
-LucasArts (1998). Grim Fandango [PC Adventure Game]. United States: LucasArts.
 
-Luvaas, B. (2006). Re-producing pop: The aesthetics of ambivalence in a contemporary dance 
-	music.International Journal of Cultural Studies, 9(6), 167-187. Retrieved April 10, 2013, from the 
+
+Schafer, T. (1998). Grim Fandango (1.0) [Video Game]. USA:LucasArts.
+	Classic adventure game with minimal interface and a fixed runthrough. One of the last great adventure games.
+
+
+Luvaas, B. (2006). Re-producing pop: The aesthetics of ambivalence in a contemporary dance music.International Journal of Cultural Studies, 9(6), 167-187. Retrieved April 10, 2013, from the 
 	Scholar's Portal database.
+	An interesting look at what ethnographic research can be, and the speed of cultural shift and recycle since the rise of the internet. To be read in concert with various VICE mag articles about cocaine, new york. Used originally in article about Seapunk movement.
 
 Moggridge, Bill (2006). Designing Interactions. MIT Press, Cambridge MA.
+	More technical reading about how people interact with software.
 
 Moyer, J. (2012, September 14). Our Band Could Be Your Band: How the Brooklynization of culture killed 
 	regional music scenes - Washington City Paper. Washington City Paper - D.C. Arts, News, Food and 	
 	Living. Retrieved April 22, 2013, from 
 	http://www.washingtoncitypaper.com/articles/43235/our-band-could-be-your-band-how-the-brooklynization-of/
 
+	Cultural uniformity because the internet makes things from different places seem the same, even though they’re really not the same.
+
 Mulvey, L. (1975). Visual Pleasure and Narrative Cinema. Screen, 16(3), 6-18.
+	On the male gaze, which is the central gaze in most videogames, particularly first-person shooters.	
 
 One Laptop per Child. (n.d.). One Laptop per Child. Retrieved July 3, 2013, from http://one.laptop.org/
+	I was thinking about discussing how the OLPC project led to various other tech advances, including the rasPI - it made netbooks happen, then tablets happened. The OLPC was the project that said “wait, things don’t need to be faster, they need to be better.” Absolute disaster; in the countries it was intended for, it was already superceded by mobile phones. Classic example of condescending outsiders trying to Make A Difference rather than examining difference. Probably too broad a scope for this project.
 
 Orlan: a hybrid body of artworks. (2010). London [u.a.: Routledge.
+	Orlan led to Lady Gaga so directly that she has since sued her. Discussing the liminality and limits of flesh without Orlan’s surgeries is a challenge; almost no other artist (burden? Shoot) has gone so far, but this distance is collapsed in film like Nip|tuck and the normalization of Hollywood surgery.
 
-Reines, A., &amp; TIQQUN. (2012). Preliminary materials for a theory of the young-girl. Los Angeles, CA: 
-	Semiotext(e)
+Reines, A., &amp; TIQQUN. (2012). Preliminary materials for a theory of the young-girl. Los Angeles, CA: Semiotext(e)
+	… Besides, who needs a new body when their old one is already a pure commodity and an act of war? Misogynistic. But excellent. Some people say it’s not brave to publish anonymously, but this came out originally in 1999 and was excellent and stood opposed to more optimistic cyborg narratives. Which is good, because assuming anyone’s going to get up to unforbidden things with new technology is unwise, even as we cannot plan for those things.
 
-Schafer, T. (1998). Grim Fandango (1.0) [Video Game]. USA:LucasArts.
 
 Stephenson, N. (1995). The diamond age, or, Young lady's illustrated primer. New York: Bantam Books.
+	This is pretty well a perfect piece of fiction about cyborgs and universal education and China as an Oriental-escape paradise. Fun look at a post-scarcity economy that has simultaneously happened and can’t happen.
 
 Sternberg, M. (2012). They Bleed Pixels (1.0) [Video Game]. Toronto:SpookySquid Games.
-
-Swartz, A. (2013). Aaron Swartz's A programmable Web an unfinished work. San Rafael, Calif.: Morgan &amp; 		Claypool Publishers.
+	Excellent representation of a female lead game character in a genuinely challenging platformer.
+	
+Swartz, A. (2013). Aaron Swartz's A programmable Web an unfinished work. San Rafael, Calif.: Morgan &amp; Claypool Publishers.
+	The internet doesn’t belong to us, but it could, and here are some technical guidelines to pursuing that as a worthy goal.
 
 Team Little Angels (2009). Bayonetta (1.0) [Video Game]. Japan:Sega.
+	What a hilariously sexist but also perfect meta-narrative of female power while subject to the male gaze. The rudest, most violent fun game released to ever feature a lady protected, literally, by her hair.
 
 Toom, A. (2012). Considering the Artistry and Epistemology of Tacit Knowledge and Knowing. Educational 
-	Theory, 62, 621-640. Retrieved April 12, 2013, from the Scholar's Portal database.
+	Theory, 62, 621-640. Retrieved April 12, 2013, from the 	Scholar's Portal database.
+	More technical information on how to design interfaces so that people understand, passively, what they’re supposed to do with it.
 
 Volition Inc. (2011). Saint’s Row the Third (1.0) [Video Game]. USA:THQ.
-</Text>
+	This and the followup, Saint’s Row 4. Games that took the GTA pattern and subverted it to make a game that is cleverly and strongly and messily about playing video games and the fantasies of those games.</Text>
+            <Comments>I need some work on how basic economics works with supply and demand in the absence of a good money supply.
+
+Look into nobel economist paper on purchasing decisions via Demi
+Alex Leitch, 2013-09-18 11:31 AM</Comments>
         </Document>
         <Document ID="8">
             <Title>Footnotes</Title>

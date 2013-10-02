@@ -178,7 +178,7 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
-                <BinderItem ID="24" Type="Text" Created="2010-10-03 17:04:22 -0400" Modified="2013-07-03 12:18:29 -0400">
+                <BinderItem ID="24" Type="Text" Created="2010-10-03 17:04:22 -0400" Modified="2013-09-24 14:32:03 -0400">
                     <Title>References</Title>
                     <MetaData>
                         <PageBreakBefore>Yes</PageBreakBefore>
@@ -187,7 +187,17 @@
                         <NotesTextSelection>0,0</NotesTextSelection>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>405,0</TextSelection>
+                        <TextSelection>0,10181</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem ID="47" Type="Text" Created="2013-10-01 14:10:06 -0400" Modified="2013-10-02 08:16:46 -0400">
+                    <Title>References</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem ID="8" Type="Text" Created="2010-10-01 12:05:21 -0400" Modified="2010-10-31 10:20:59 -0400">
@@ -299,7 +309,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-07-07 07:27:17 -0400" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="-10" Characters="-37" Date="2013-09-13 15:08:41 -0400"></PreviousSession>
+        <PreviousSession Words="0" Characters="-3" Date="2013-10-01 14:08:41 -0400"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
