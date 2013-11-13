@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 NOV 2013 13:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 NOV 2013 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,53 +868,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--120
 
  []
 
-[1] [2
-
-]
+[1]
 ------------------------------------------------------------------------------
  Acknowledgements
 ------------------------------------------------------------------------------
-[3
-
-
-]
-------------------------------------------------------------------------------
- Table of Contents
-------------------------------------------------------------------------------
-(./AlexLeitchScreenPerfect.toc [4
-
-
-])
-\tf@toc=\write4
-\openout4 = `AlexLeitchScreenPerfect.toc'.
-
- [5]
-------------------------------------------------------------------------------
- List of Figures
-------------------------------------------------------------------------------
-(./AlexLeitchScreenPerfect.lof)
-\tf@lof=\write5
-\openout5 = `AlexLeitchScreenPerfect.lof'.
-
- [6
-
-
-]
-------------------------------------------------------------------------------
- List of Tables
-------------------------------------------------------------------------------
-(./AlexLeitchScreenPerfect.lot)
-\tf@lot=\write6
-\openout6 = `AlexLeitchScreenPerfect.lot'.
-
- [7
+[2
 
 
 ]
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[8
+[3
 
 
 
@@ -922,7 +887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--120
 ------------------------------------------------------------------------------
  Dedicatory
 ------------------------------------------------------------------------------
-[9
+[4
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
@@ -1141,28 +1106,28 @@ Package natbib Warning: Empty `thebibliography' environment on input line 8.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
 [31
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (./AlexLeitchScreenPerfect.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
-(rerunfilecheck)             Checksum: E811669E44FA4490A25297848943A924;8592.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+(rerunfilecheck)             Checksum: 15B32DAC6769C12DDA0C938541794078;8262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  ) 
 Here is how much of TeX's memory you used:
- 13278 strings out of 493315
- 186432 string characters out of 6137904
- 266313 words of memory out of 5000000
- 16417 multiletter control sequences out of 15000+600000
+ 13255 strings out of 493315
+ 186129 string characters out of 6137904
+ 266312 words of memory out of 5000000
+ 16414 multiletter control sequences out of 15000+600000
  14311 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,12n,45p,1543b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,45p,1543b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1175,10 +1140,10 @@ al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (42 pages, 236330 bytes).
+Output written on AlexLeitchScreenPerfect.pdf (37 pages, 224053 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 96 named destinations out of 1000 (max. 500000)
- 377 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 367 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
