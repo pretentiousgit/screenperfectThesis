@@ -1,14 +1,13 @@
 # Fdb version 3
-["bibtex AlexLeitchScreenPerfect"] 1384922429 "AlexLeitchScreenPerfect.aux" "AlexLeitchScreenPerfect.bbl" "AlexLeitchScreenPerfect" 1384922504
-  "/usr/local/texlive/2013/texmf-dist/bibtex/bst/apacite/apacite.bst" 1330389189 146015 a52e2433e0975b0c119e79a54ea43b01 ""
+["bibtex AlexLeitchScreenPerfect"] 1384923757 "AlexLeitchScreenPerfect.aux" "AlexLeitchScreenPerfect.bbl" "AlexLeitchScreenPerfect" 1384923758
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1233624470 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "AlexLeitchScreenPerfect.aux" 1384922503 8661 72d13fb04590092cb7dcd804a7b2fe21 ""
+  "AlexLeitchScreenPerfect.aux" 1384923758 8664 afe7b4e2894d1a0c103abc723a07631e ""
   "AlexLeitchScreenPerfect.bcf" 0 -1 0 ""
-  "Bibliography.bib" 1384922276 2572 42f16b35058351e5d2fd444e38eaf216 ""
+  "Bibliography.bib" 1384923735 2408 b91f305d8e183feee0d235e5592fcd39 ""
   (generated)
   "AlexLeitchScreenPerfect.blg"
   "AlexLeitchScreenPerfect.bbl"
-["pdflatex"] 1384922503 "AlexLeitchScreenPerfect.tex" "AlexLeitchScreenPerfect.pdf" "AlexLeitchScreenPerfect" 1384922504
+["pdflatex"] 1384923757 "AlexLeitchScreenPerfect.tex" "AlexLeitchScreenPerfect.pdf" "AlexLeitchScreenPerfect" 1384923758
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty" 1335995445 7612 c47308d923ec19888707b0f1792b326a ""
@@ -82,10 +81,10 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty" 1312409015 4405 b7f0681f78908bf1aa3cd73228e9fd38 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/vmargin/vmargin.sty" 1137111065 6845 5eae49c3f07fead60d92def0a4f5c30f ""
-  "AlexLeitchScreenPerfect.aux" 1384922503 8661 72d13fb04590092cb7dcd804a7b2fe21 ""
-  "AlexLeitchScreenPerfect.bbl" 1384922429 880 8c4ac9557e1115797f41b4ed63abf221 "bibtex AlexLeitchScreenPerfect"
-  "AlexLeitchScreenPerfect.out" 1384922503 11446 00615b8886ef9e5c290865c88c6ec102 ""
-  "AlexLeitchScreenPerfect.tex" 1384922486 11833 d0d87ca925064fe019e30407d6b873d0 ""
+  "AlexLeitchScreenPerfect.aux" 1384923758 8664 afe7b4e2894d1a0c103abc723a07631e ""
+  "AlexLeitchScreenPerfect.bbl" 1384923757 838 0f12497bb1a5dfb2f16859462c3419a1 "bibtex AlexLeitchScreenPerfect"
+  "AlexLeitchScreenPerfect.out" 1384923758 11446 00615b8886ef9e5c290865c88c6ec102 ""
+  "AlexLeitchScreenPerfect.tex" 1384923752 11804 431ebcdf40f1f52e305dda70381a1d58 ""
   "Appendices/AppendixA.tex" 1384896771 2610 ae6a546cc1b28564ba870c1239d32038 ""
   "Appendices/AppendixB.tex" 1382989926 21950 b8ec1b4784880051e9a8630e47ffe488 ""
   "Appendices/AppendixC.tex" 1384892255 3430 ebe4f087b8dba7a75537c4736ea08819 ""
@@ -102,7 +101,7 @@
   "AlexLeitchScreenPerfect.toc"
   "AlexLeitchScreenPerfect.pdf"
   "AlexLeitchScreenPerfect.log"
-  "AlexLeitchScreenPerfect.out"
   "AlexLeitchScreenPerfect.aux"
-  "AlexLeitchScreenPerfect.lof"
+  "AlexLeitchScreenPerfect.out"
   "AlexLeitchScreenPerfect.lot"
+  "AlexLeitchScreenPerfect.lof"

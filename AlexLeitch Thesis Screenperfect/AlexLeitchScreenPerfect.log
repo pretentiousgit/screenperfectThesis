@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 NOV 2013 23:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  20 NOV 2013 00:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -714,27 +714,27 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 39.
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 
 (./AlexLeitchScreenPerfect.aux)
 \openout1 = `AlexLeitchScreenPerfect.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -763,7 +763,7 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count144
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring ON on input line 42.
+Package hyperref Info: Link coloring ON on input line 40.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -772,20 +772,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
 (./AlexLeitchScreenPerfect.out) (./AlexLeitchScreenPerfect.out)
 \@outlinefile=\write3
 \openout3 = `AlexLeitchScreenPerfect.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+LaTeX Font Info:    Try loading font information for U+msa on input line 79.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -798,7 +798,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  Declaration of Authorship
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--126
+Underfull \hbox (badness 10000) in paragraph at lines 124--124
 
  []
 
@@ -845,9 +845,6 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 
 ]
 
-Package natbib Warning: Citation `mda' on page 2 undefined on input line 19.
-
-
 Package natbib Warning: Citation `B' on page 2 undefined on input line 25.
 
 [2] [3]
@@ -863,82 +860,6 @@ Chapter 2.
 Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
-
-! Undefined control sequence.
-\b@anthropy ->{1}{{\APACyear 
-                             {2001}}}{{Hawthorn\ \BOthers {.}}}{{Hawthorn, W...
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\b@anthropy ...Cyear {2001}}}{{Hawthorn\ \BOthers 
-                                                  {.}}}{{Hawthorn, Weber{}\ ...
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   }
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-\b@anthropy ->{1}{{\APACyear 
-                             {2001}}}{{Hawthorn\ \BOthers {.}}}{{Hawthorn, W...
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\b@anthropy ...Cyear {2001}}}{{Hawthorn\ \BOthers 
-                                                  {.}}}{{Hawthorn, Weber{}\ ...
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   }
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.38 ...of the Videogame Zinesters \cite{anthropy}
-                                                  .
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
 
 [9
 
@@ -988,10 +909,6 @@ Chapter 6.
 Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
-
-
-Package natbib Warning: Citation `medusa' on page 15 undefined on input line 17
-.
 
 [15
 
@@ -1166,262 +1083,30 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(./AlexLeitchScreenPerfect.bbl
-! Undefined control sequence.
-\b@anthropy ->{1}{{\APACyear 
-                             {2001}}}{{Hawthorn\ \BOthers {.}}}{{Hawthorn, W...
-l.12 anthropy}
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\b@anthropy ...Cyear {2001}}}{{Hawthorn\ \BOthers 
-                                                  {.}}}{{Hawthorn, Weber{}\ ...
-l.12 anthropy}
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   }
-l.12 anthropy}
-              
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   }
-l.12 anthropy}
-              
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Undefined control sequence.
-<write> ...t \BOthers {.}}}{{Hawthorn, Weber\BCBL 
-                                                  {}\ \BBA {} Scholten}}}
-l.12 anthropy}
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ...s {.}}}{{Hawthorn, Weber\BCBL {}\ \BBA 
-                                                  {} Scholten}}}
-l.12 anthropy}
-              
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.13 \APACinsertmetastar
-                         {%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment APACrefauthors undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \begin{APACrefauthors}
-                           %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.16 Hawthorn, C\BPBI
-                      J.%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.17 , Weber, K\BPBI
-                     P.%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 \BCBL
-           {}\ \BBA {} Scholten, R\BPBI E.%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 \BCBL {}\ \BBA
-                    {} Scholten, R\BPBI E.%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.18 \BCBL {}\ \BBA {} Scholten, R\BPBI
-                                        E.%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{APACrefaut
-hors}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \end{APACrefauthors}
-                         %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.22 \APACrefYearMonthDay
-                         {2001}{December}{}.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.24 {\BBOQ
-           }\APACrefatitle {Littrow Configuration Tunable External Cavity Diode
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.24 {\BBOQ}\APACrefatitle
-                           {Littrow Configuration Tunable External Cavity Diode
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.26 ...r with fixed direction output beam}.{\BBCQ
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.28 \APACjournalVolNumPages
-                            {Review of Scientific Instruments}{72}{12}{4477-...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment APACrefURL undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 \begin{APACrefURL}
-                        \url{http://link.aip.org/link/?RSI/72/4477/1}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{APACrefURL
-}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31   \end{APACrefURL}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.32 \PrintBackRefs
-                   {\CurrentBib}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.32 \PrintBackRefs{\CurrentBib
-                               }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+(./AlexLeitchScreenPerfect.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
 [33
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
  (./AlexLeitchScreenPerfect.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
 (rerunfilecheck)             Checksum: 00615B8886EF9E5C290865C88C6EC102;11446.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 13392 strings out of 493315
- 187752 string characters out of 6137904
- 261518 words of memory out of 5000000
- 16524 multiletter control sequences out of 15000+600000
- 15493 words of font info for 54 fonts, out of 8000000 for 9000
+ 13390 strings out of 493315
+ 187744 string characters out of 6137904
+ 260518 words of memory out of 5000000
+ 16521 multiletter control sequences out of 15000+600000
+ 15325 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,12n,45p,1319b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1437,13 +1122,12 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
 3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (38 pages, 260745 bytes).
+exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on AlexLeitchScreenPerfect.pdf (38 pages, 250688 bytes).
 PDF statistics:
- 502 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 500 PDF objects out of 1000 (max. 8388607)
+ 441 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
  473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
