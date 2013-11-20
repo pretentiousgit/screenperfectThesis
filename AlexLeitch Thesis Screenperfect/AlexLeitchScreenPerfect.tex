@@ -29,7 +29,14 @@
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
-\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers'
+\usepackage[british]{babel}
+\usepackage{csquotes}
+\usepackage[style=apa]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
+
+\addbibresource{Bibliography.bib}
+% \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers'
+
 
 %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 \usepackage[Bjornstrup]{fncychap}
@@ -271,8 +278,6 @@ Now we can go back to conquering the world.
 
 \lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
 
-\bibliographystyle{unsrtnat} % Use the "unsrtnat" BibTeX style for formatting the Bibliography
-
-\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+ \printbibliography
 
 \end{document}  

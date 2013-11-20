@@ -1,49 +1,17 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: AlexLeitchScreenPerfect.aux
-The style file: unsrtnat.bst
-Database file #1: Bibliography.bib
-Warning--I didn't find a database entry for "B"
-Warning--I didn't find a database entry for "D"
-You've used 3 entries,
-            2481 wiz_defined-function locations,
-            571 strings with 4836 characters,
-and the built_in function-call counts, 845 in all, are:
-= -- 67
-> -- 21
-< -- 3
-+ -- 12
-- -- 6
-* -- 44
-:= -- 138
-add.period$ -- 8
-call.type$ -- 3
-change.case$ -- 6
-chr.to.int$ -- 3
-cite$ -- 3
-duplicate$ -- 52
-empty$ -- 95
-format.name$ -- 9
-if$ -- 178
-int.to.chr$ -- 1
-int.to.str$ -- 4
-missing$ -- 3
-newline$ -- 22
-num.names$ -- 9
-pop$ -- 31
-preamble$ -- 1
-purify$ -- 3
-quote$ -- 0
-skip$ -- 34
-stack$ -- 0
-substring$ -- 15
-swap$ -- 6
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 18
-warning$ -- 0
-while$ -- 7
-width$ -- 0
-write$ -- 43
-(There were 2 warnings)
+[0] Config.pm:387> INFO - This is Biber 1.6
+[1] Config.pm:390> INFO - Logfile is 'AlexLeitchScreenPerfect.blg'
+[115] biber-darwin:218> INFO - === Wed Nov 20, 2013, 14:53:57
+[115] Biber.pm:325> INFO - Reading 'AlexLeitchScreenPerfect.bcf'
+[200] Biber.pm:623> INFO - Found 5 citekeys in bib section 0
+[212] Biber.pm:2995> INFO - Processing section 0
+[226] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[228] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[229] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
+[258] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/tg/609s_52558q3nx06xby2qt100000gp/T/Ir95rGDnIZ/Bibliography.bib_14037.utf8, line 49, warning: 1195 characters of junk seen at toplevel
+[258] Utils.pm:169> WARN - I didn't find a database entry for 'daimio' (section 0)
+[334] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[334] Biber.pm:2887> INFO - Sorting 'entry' list 'apa' keys
+[334] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[393] bbl.pm:472> INFO - Writing 'AlexLeitchScreenPerfect.bbl' with encoding 'UTF-8'
+[394] bbl.pm:545> INFO - Output to AlexLeitchScreenPerfect.bbl
+[394] Biber.pm:105> INFO - WARNINGS: 2
