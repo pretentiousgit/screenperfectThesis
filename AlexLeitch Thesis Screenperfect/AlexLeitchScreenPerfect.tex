@@ -29,7 +29,13 @@
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
-\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' 
+\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers'
+
+%Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+\usepackage[Bjornstrup]{fncychap}
+
+\bibliographystyle{apacite}
+
 \hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
 \title{\ttitle} % Defines the thesis title - don't touch this
 
@@ -149,6 +155,21 @@ Now we can go back to conquering the world.
 }
 \clearpage % Start a new page
 
+
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Return the line spacing back to 1.3
+
+\pagestyle{empty} % Page style needs to be empty for this page
+
+\dedicatory{For Adina, and her unflagging belief in the value of the work.\ldots} % Dedication text
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
@@ -184,19 +205,27 @@ Now we can go back to conquering the world.
 
 \textbf{DMG} & \textbf{D}ames \textbf{M}aking \textbf{G}ames \\
 %\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+
+\textbf{JS} & \textbf{Ja}va\textbf{S}cript \\
+%\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+
 }
-
 %----------------------------------------------------------------------------------------
-%	DEDICATION
+%	DEFINITIONS
 %----------------------------------------------------------------------------------------
 
-\setstretch{1.3} % Return the line spacing back to 1.3
+% \clearpage % Start a new page
 
-\pagestyle{empty} % Page style needs to be empty for this page
+% \lhead{\emph{Definitions}} % Set the left side page header to "Physical Constants"
 
-\dedicatory{For Adina, and her unflagging belief in the value of the work.\ldots} % Dedication text
+% \listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+% {
+% Framework: a universal, reusable software platform to develop applications, products and solutions.
 
-\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+% Library:  a collection of implementations of behavior, written in terms of a language, that has a well-defined interface by which the behavior is invoked.
+
+% Platform: the combination of operating system and software frameworks that allows a given piece of software or application to run.
+% }
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS

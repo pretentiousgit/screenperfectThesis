@@ -1,8 +1,34 @@
-\begin{thebibliography}{0}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Hawthorn%
+, Weber%
+\BCBL {}\ \BBA {} Scholten%
+}{%
+Hawthorn%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+anthropy}
+\APACinsertmetastar {%
+anthropy}%
+\begin{APACrefauthors}%
+Hawthorn, C\BPBI J.%
+, Weber, K\BPBI P.%
+\BCBL {}\ \BBA {} Scholten, R\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{December}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Littrow Configuration Tunable External Cavity Diode
+  Laser with Fixed Direction Output Beam} {Littrow configuration tunable
+  external cavity diode laser with fixed direction output beam}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Review of Scientific Instruments}{72}{12}{4477--4479}.
+\newblock
+\begin{APACrefURL} \url{http://link.aip.org/link/?RSI/72/4477/1}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

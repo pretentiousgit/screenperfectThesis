@@ -214,11 +214,11 @@
                 {DIGITAL FUTURES}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
                 {DIGITAL FUTURES}}
 %-------------------------------------------------                
-\groupname{\texorpdfstring{\href{Digital Futures} % Your department's URL
+\group{\texorpdfstring{\href{Digital Futures} % Your department's URL
                 {Digital Futures}} % Your department's name - used in the title page and abstract
                 {Digital Futures}}
 %-------------------------------------------------                
-\GROUPNAME{\texorpdfstring{\href{http://www.ocadu.ca)} % Your department's URL
+\GROUP{\texorpdfstring{\href{http://www.ocadu.ca)} % Your department's URL
                 {DIGITAL FUTURES}} % Your department's name in capitals - this is not currently used anywhere in the template, cite it with \DEPTNAME if you want it
                 {DIGITAL FUTURES}}
 %-------------------------------------------------                

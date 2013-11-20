@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 NOV 2013 13:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  19 NOV 2013 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,81 +669,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip66
 )
-! Undefined control sequence.
-l.217 \groupname
-                {\texorpdfstring{\href{Digital Futures} % Your department's URL
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219                 {Digital Futures}
-                                       }
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Undefined control sequence.
-\hyper@linkfile ...ionraw >>}\relax \Hy@colorlink 
-                                                  \@filecolor #1\Hy@xspace@e...
-l.219                 {Digital Futures}
-                                       }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\close@pdflink ->\Hy@endcolorlink 
-                                  \Hy@VerboseLinkStop \pdfendlink 
-l.219                 {Digital Futures}
-                                       }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.221 \GROUPNAME
-                {\texorpdfstring{\href{http://www.ocadu.ca)} % Your departme...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\hyper@linkurl ...tionraw >>}\relax \Hy@colorlink 
-                                                  \@urlcolor #1\Hy@xspace@en...
-l.223                 {DIGITAL FUTURES}
-                                       }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\close@pdflink ->\Hy@endcolorlink 
-                                  \Hy@VerboseLinkStop \pdfendlink 
-l.223                 {DIGITAL FUTURES}
-                                       }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 \c@dummy=\count131
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip67
@@ -769,27 +696,45 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count137
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fncychap/fncychap.sty
+Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
+\RW=\skip73
+\mylen=\skip74
+\myhi=\skip75
+\px=\skip76
+\py=\skip77
+\pyy=\skip78
+\pxx=\skip79
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
 
 (./AlexLeitchScreenPerfect.aux)
 \openout1 = `AlexLeitchScreenPerfect.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -818,17 +763,8 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count144
 \AtBeginShipoutBox=\box36
- (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
-Package hyperref Info: Link coloring ON on input line 36.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring ON on input line 42.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -836,35 +772,33 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 36.
-LaTeX Info: Redefining \pageref on input line 36.
-LaTeX Info: Redefining \nameref on input line 36.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./AlexLeitchScreenPerfect.out) (./AlexLeitchScreenPerfect.out)
 \@outlinefile=\write3
 \openout3 = `AlexLeitchScreenPerfect.out'.
 
- [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 75.
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 75.
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-]
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 ------------------------------------------------------------------------------
  Declaration of Authorship
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
+Underfull \hbox (badness 10000) in paragraph at lines 126--126
 
  []
 
@@ -877,99 +811,218 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--120
 
 ]
 ------------------------------------------------------------------------------
- Abbreviations
+ Dedicatory
 ------------------------------------------------------------------------------
 [3
 
-
-
 ]
 ------------------------------------------------------------------------------
- Dedicatory
+ Abbreviations
 ------------------------------------------------------------------------------
 [4
+
+
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
- 1 Introduction: Researching A Better Toolset
+ 1 Introduction: Researching A Better Engine
 ------------------------------------------------------------------------------
+LaTeX Font Info:    Try loading font information for OT1+pzc on input line 3.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pzc.fd
+File: ot1pzc.fd 2001/06/04 font definitions for OT1/pzc.
+)
+LaTeX Font Info:    Font shape `OT1/pzc/m/n' in size <76> not available
+(Font)              Font shape `OT1/pzc/mb/it' tried instead on input line 3.
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
 [1
 
 
 
 ]
 
-Package natbib Warning: Citation `B' on page 2 undefined on input line 24.
+Package natbib Warning: Citation `mda' on page 2 undefined on input line 19.
 
-[2] [3] [4] [5]) (./Chapters/Chapter2.tex [6]
+
+Package natbib Warning: Citation `B' on page 2 undefined on input line 25.
+
+[2] [3]
+
+Package natbib Warning: Citation `D' on page 4 undefined on input line 55.
+
+[4] [5] [6] [7]) (./Chapters/Chapter2.tex [8]
 Chapter 2.
 ------------------------------------------------------------------------------
- 2 Literature Review and the State of the Art
+ 2 Background
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter3.tex [7
 
-]
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+! Undefined control sequence.
+\b@anthropy ->{1}{{\APACyear 
+                             {2001}}}{{Hawthorn\ \BOthers {.}}}{{Hawthorn, W...
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\b@anthropy ...Cyear {2001}}}{{Hawthorn\ \BOthers 
+                                                  {.}}}{{Hawthorn, Weber{}\ ...
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   }
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+\b@anthropy ->{1}{{\APACyear 
+                             {2001}}}{{Hawthorn\ \BOthers {.}}}{{Hawthorn, W...
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\b@anthropy ...Cyear {2001}}}{{Hawthorn\ \BOthers 
+                                                  {.}}}{{Hawthorn, Weber{}\ ...
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   }
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.38 ...of the Videogame Zinesters \cite{anthropy}
+                                                  .
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[9
+
+]) (./Chapters/Chapter3.tex [10]
 Chapter 3.
 ------------------------------------------------------------------------------
- 3 Critical Theory and Software Design
+ 3 State of the Art
 ------------------------------------------------------------------------------
-[8
 
-]) (./Chapters/Chapter4.tex [9]
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+) (./Chapters/Chapter4.tex [11
+
+]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Industry Engagement and Design Research: Community Collaboration in Software
  Development
 ------------------------------------------------------------------------------
-[10
 
-]) (./Chapters/Chapter5.tex [11]
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+[12
+
+]) (./Chapters/Chapter5.tex [13]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Complications and Problems
 ------------------------------------------------------------------------------
-) (./Chapters/Chapter6.tex [12
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+) (./Chapters/Chapter6.tex [14
 
 ]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusion
 ------------------------------------------------------------------------------
-[13
 
-] [14] [15]) (./Chapters/Chapter7.tex [16] [17]
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+
+Package natbib Warning: Citation `medusa' on page 15 undefined on input line 17
+.
+
+[15
+
+] [16]) (./Chapters/Chapter7.tex [17] [18]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Endnotes, References, Works Cited
 ------------------------------------------------------------------------------
-[18
 
-]) (./Appendices/AppendixA.tex [19]
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+) (./Appendices/AppendixA.tex [19
+
+]
 Appendix A.
 ------------------------------------------------------------------------------
  A Agile Manifesto
 ------------------------------------------------------------------------------
 
-! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 ...s, while there is value in the items on 
-                                                   the right, we value the i...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
  [20
 
 ])
@@ -978,6 +1031,11 @@ Appendix B.
 ------------------------------------------------------------------------------
  B Annotated Literature Review
 ------------------------------------------------------------------------------
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
 
 Overfull \hbox (54.79686pt too wide) in paragraph at lines 20--21
 \OT1/cmr/m/n/10.95 notes on shows be-ing locked down to re-sist the blog in-va-
@@ -1023,13 +1081,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[23]
+[23] [24]
 Overfull \hbox (2.05441pt too wide) in paragraph at lines 62--65
 \OT1/cmr/m/n/10.95 Re-la-tions. Re-trieved April 12, 2013, from http://text-rel
 ations.blogspot.ca/2013/03/the-
  []
 
-[24]
+[25]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1054,7 +1112,7 @@ ribesmethodswhichwillneedtobeaddressedaspartoftheAgile=HowDidIMakeThisGamemetho
 dology:$ 
  []
 
-[25]
+
 Overfull \hbox (7.86404pt too wide) in paragraph at lines 80--82
 \OT1/cmr/m/n/10.95 ver-sity Press. (http://www.csus.edu/indiv/o/obriene/art206/
 readings/kristevaHorrifying
@@ -1077,6 +1135,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
+[28]
 ! Misplaced alignment tab character &.
 l.124 ...nished work. San Rafael, Calif.: Morgan &
                                                    Claypool Publishers.
@@ -1087,63 +1146,304 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[28]) (./Appendices/AppendixC.tex [29]
+[29]) (./Appendices/AppendixC.tex [30]
 Appendix C.
 ------------------------------------------------------------------------------
  C Game Jam Documentation
 ------------------------------------------------------------------------------
-) [30
 
-]
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 13.
+
+[31
+
+]) [32]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
 (./AlexLeitchScreenPerfect.bbl
+! Undefined control sequence.
+\b@anthropy ->{1}{{\APACyear 
+                             {2001}}}{{Hawthorn\ \BOthers {.}}}{{Hawthorn, W...
+l.12 anthropy}
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
+! Undefined control sequence.
+\b@anthropy ...Cyear {2001}}}{{Hawthorn\ \BOthers 
+                                                  {.}}}{{Hawthorn, Weber{}\ ...
+l.12 anthropy}
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing = inserted for \ifnum.
+<to be read again> 
+                   }
+l.12 anthropy}
+              
+I was expecting to see `<', `=', or `>'. Didn't.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.12 anthropy}
+              
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Undefined control sequence.
+<write> ...t \BOthers {.}}}{{Hawthorn, Weber\BCBL 
+                                                  {}\ \BBA {} Scholten}}}
+l.12 anthropy}
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> ...s {.}}}{{Hawthorn, Weber\BCBL {}\ \BBA 
+                                                  {} Scholten}}}
+l.12 anthropy}
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13 \APACinsertmetastar
+                         {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment APACrefauthors undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin{APACrefauthors}
+                           %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.16 Hawthorn, C\BPBI
+                      J.%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.17 , Weber, K\BPBI
+                     P.%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \BCBL
+           {}\ \BBA {} Scholten, R\BPBI E.%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \BCBL {}\ \BBA
+                    {} Scholten, R\BPBI E.%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.18 \BCBL {}\ \BBA {} Scholten, R\BPBI
+                                        E.%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{APACrefaut
+hors}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \end{APACrefauthors}
+                         %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.22 \APACrefYearMonthDay
+                         {2001}{December}{}.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 {\BBOQ
+           }\APACrefatitle {Littrow Configuration Tunable External Cavity Diode
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.24 {\BBOQ}\APACrefatitle
+                           {Littrow Configuration Tunable External Cavity Diode
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.26 ...r with fixed direction output beam}.{\BBCQ
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.28 \APACjournalVolNumPages
+                            {Review of Scientific Instruments}{72}{12}{4477-...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment APACrefURL undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \begin{APACrefURL}
+                        \url{http://link.aip.org/link/?RSI/72/4477/1}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{APACrefURL
+}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31   \end{APACrefURL}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.32 \PrintBackRefs
+                   {\CurrentBib}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.32 \PrintBackRefs{\CurrentBib
+                               }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 )
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
-[31
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+[33
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./AlexLeitchScreenPerfect.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
-(rerunfilecheck)             Checksum: 15B32DAC6769C12DDA0C938541794078;8262.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
+(rerunfilecheck)             Checksum: 00615B8886EF9E5C290865C88C6EC102;11446.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 13255 strings out of 493315
- 186129 string characters out of 6137904
- 266312 words of memory out of 5000000
- 16414 multiletter control sequences out of 15000+600000
- 14311 words of font info for 52 fonts, out of 8000000 for 9000
+ 13392 strings out of 493315
+ 187752 string characters out of 6137904
+ 261518 words of memory out of 5000000
+ 16524 multiletter control sequences out of 15000+600000
+ 15493 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,12n,45p,1543b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
-/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
-texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (37 pages, 224053 bytes).
+ 49i,12n,45p,1319b,424s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
+2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on AlexLeitchScreenPerfect.pdf (38 pages, 260745 bytes).
 PDF statistics:
- 422 PDF objects out of 1000 (max. 8388607)
- 367 compressed objects within 4 object streams
- 85 named destinations out of 1000 (max. 500000)
- 353 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 502 PDF objects out of 1000 (max. 8388607)
+ 442 compressed objects within 5 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
