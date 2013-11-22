@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  20 NOV 2013 14:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  22 NOV 2013 15:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,11 +736,6 @@ File: csquotes.cfg
 (/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2013/05/01 v2.6 programmable bibliographies (PK/JW/AB)
 
-
-Package biblatex Warning: No "backend" specified, using Biber backend.
-(biblatex)                To use BibTeX, load biblatex with 
-(biblatex)                the "backend=bibtex" option.
-
 (/usr/local/texlive/2013/texmf-dist/tex/latex/biblatex/biblatex2.sty
 Package: biblatex2 2013/05/01 v2.6 programmable bibliographies (biber) (PK/JW/A
 B)
@@ -1376,10 +1371,10 @@ Package logreq Info: Writing requests to 'AlexLeitchScreenPerfect.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 19254 strings out of 493315
- 291272 string characters out of 6137904
- 736951 words of memory out of 5000000
- 22306 multiletter control sequences out of 15000+600000
+ 19260 strings out of 493315
+ 291358 string characters out of 6137904
+ 736999 words of memory out of 5000000
+ 22311 multiletter control sequences out of 15000+600000
  15325 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,12n,52p,1299b,1652s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1398,10 +1393,10 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (38 pages, 252639 bytes).
+Output written on AlexLeitchScreenPerfect.pdf (38 pages, 254236 bytes).
 PDF statistics:
- 505 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 103 named destinations out of 1000 (max. 500000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 449 compressed objects within 5 object streams
+ 104 named destinations out of 1000 (max. 500000)
  473 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,17 +1,16 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
-[1] Config.pm:390> INFO - Logfile is 'AlexLeitchScreenPerfect.blg'
-[115] biber-darwin:218> INFO - === Wed Nov 20, 2013, 14:53:57
-[115] Biber.pm:325> INFO - Reading 'AlexLeitchScreenPerfect.bcf'
-[200] Biber.pm:623> INFO - Found 5 citekeys in bib section 0
-[212] Biber.pm:2995> INFO - Processing section 0
-[226] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
-[228] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
-[229] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
-[258] Utils.pm:169> WARN - BibTeX subsystem: /var/folders/tg/609s_52558q3nx06xby2qt100000gp/T/Ir95rGDnIZ/Bibliography.bib_14037.utf8, line 49, warning: 1195 characters of junk seen at toplevel
-[258] Utils.pm:169> WARN - I didn't find a database entry for 'daimio' (section 0)
-[334] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[334] Biber.pm:2887> INFO - Sorting 'entry' list 'apa' keys
-[334] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[393] bbl.pm:472> INFO - Writing 'AlexLeitchScreenPerfect.bbl' with encoding 'UTF-8'
-[394] bbl.pm:545> INFO - Output to AlexLeitchScreenPerfect.bbl
-[394] Biber.pm:105> INFO - WARNINGS: 2
+[0] Config.pm:390> INFO - Logfile is 'AlexLeitchScreenPerfect.blg'
+[125] biber-darwin:218> INFO - === Fri Nov 22, 2013, 15:12:51
+[126] Biber.pm:325> INFO - Reading 'AlexLeitchScreenPerfect.bcf'
+[217] Biber.pm:623> INFO - Found 6 citekeys in bib section 0
+[229] Biber.pm:2995> INFO - Processing section 0
+[246] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[248] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[249] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
+[271] Utils.pm:169> WARN - I didn't find a database entry for 'daimio' (section 0)
+[363] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[363] Biber.pm:2887> INFO - Sorting 'entry' list 'apa' keys
+[363] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
+[409] bbl.pm:472> INFO - Writing 'AlexLeitchScreenPerfect.bbl' with encoding 'UTF-8'
+[410] bbl.pm:545> INFO - Output to AlexLeitchScreenPerfect.bbl
+[410] Biber.pm:105> INFO - WARNINGS: 1

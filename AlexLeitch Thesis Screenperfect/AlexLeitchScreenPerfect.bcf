@@ -2071,7 +2071,10 @@
     <bcf:citekey order="2">bissell</bcf:citekey>
     <bcf:citekey order="3">daimio</bcf:citekey>
     <bcf:citekey order="4">anthropy</bcf:citekey>
-    <bcf:citekey order="5">medusa</bcf:citekey>
+    <bcf:citekey order="5">galloway</bcf:citekey>
+    <bcf:citekey order="6">galloway</bcf:citekey>
+    <bcf:citekey order="7">galloway</bcf:citekey>
+    <bcf:citekey order="8">medusa</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" type="entry" label="apa">
   <bcf:sorting>

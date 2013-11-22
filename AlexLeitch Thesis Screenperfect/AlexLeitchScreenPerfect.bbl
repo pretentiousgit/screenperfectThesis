@@ -86,6 +86,27 @@
       \field{year}{1976}
       \field{pages}{875}
     \endentry
+    \entry{galloway}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=88ca2c2f46311ea11cc7b5b1d095677d}{Galloway}{G\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=88ca2c2f46311ea11cc7b5b1d095677d}{Galloway}{G\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{88ca2c2f46311ea11cc7b5b1d095677d}
+      \strng{fullhash}{88ca2c2f46311ea11cc7b5b1d095677d}
+      \field{sortinit}{G}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Gaming: Essays On Algorithmic Culture (Electronic Mediations)}
+      \field{title}{Gaming: Essays On Algorithmic Culture (Electronic Mediations)}
+      \field{year}{2006}
+    \endentry
     \entry{mda}{article}{}
       \name{labelname}{3}{}{%
         {{uniquename=0,hash=5eeee8f66d452006be5b86b51aed051d}{Hunicke}{H\bibinitperiod}{Robin}{R\bibinitperiod}{}{}{}{}}%
