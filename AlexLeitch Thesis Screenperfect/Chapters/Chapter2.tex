@@ -12,21 +12,6 @@
 % needed to follow your thesis, so you need to give it to them.
 %----------------------------------------------------------------------------------------
 
-
-%----------------------------------------------------------------------------------------
-%	Feminist Theory
-%----------------------------------------------------------------------------------------
-
-\section{Feminist Theory}
-
-\subsection{Helene Cixous}
-
-\subsection{History of Women in Technology}
-
-\subsection{Pragmatic Reference Works}
-
-
-
 %----------------------------------------------------------------------------------------
 %	Software
 %----------------------------------------------------------------------------------------
@@ -34,19 +19,53 @@
 \section{Existing Software}
 ScreenPerfect does not exist in a void. Although written fresh in Javascript, it is dependent on many frameworks and libraries in order to work. The code was developed using the Node framework for Javascript on the server, which is supported by Google. It mimics functionality produced by the Dataton Watchout system, which provides simultaneous video windows using a custom, private hardware platform. The software that screenPerfect interacts best with is Google Chrome.
 
+\subsection{Game Engines: What Are They? How is ScreenPerfect Different?}
+
+A game engine is a collection of software designed to make it possible for a team of artists, developers, musicians, and producers to work together to produce a complete product. Traditionally, game engines are used to produce 2D or 3D experiences with clear "assets" such as 2D sprites or 3D player character/interaction models, backgrounds, interaction assets - crates, for example - music, and scripts in a programming language to tie all of these together into a play experience.
+
+Some popular professional engines at the time of writing are Unity3D, which features native mobile integration and ease of scripting in both Javascript and C#, Crytek, which comes with many high-end 3D resources preloaded for high definition graphic support, the Unreal Engine, which is quite stable and useful to experienced teams that prefer more control over their work.
+
+There are popular hobby engines that de-emphasise programming as well, such as GameMaker, which is prized for PC compatibility, Game Salad for OSX, and Construct 2, which is PC-only but has a very powerful engine to manage game physics and interactions.
+
+These engines all assume a certain type of player interaction: they are designed to enable designers to produce specific types of games, such as a "shooter" or a "platformer", similar in style to the Call of Duty franchise or Nintendo's Mario series. The interactions available are easily understood as a language of action by their players, provided players have previous experience with video game play.
+
+ScreenPerfect is distinct from pre-existing engines. It is a piece of software custom written to encourage artists to use their own skillset in image and video creation to explore what is possible in an interactive experience. Screenperfect has a set of play mechanics that have been pre-written. While they can be \textit{extended} by anyone who knows the \cite{daimio} language, the mechanics are straightforward to use and not designed to be altered by artists. This means that artists have a consistent environment in which to place their work, which will reliably showcase that work without them needing to learn how to program - an entirely new creative skillset - to do so.
+
 \subsection{Twine}
-Twine is a branching narrative platform which relies on the user to download software to their local machine. The user can then produce a narrative that branches in a conventional browser window. This software was popularized by indie gaming celebrity Anna Anthropy in her 2012 book Rise of the Videogame Zinesters \cite{anthropy}. 
+Twine is the closest game engine to screenPerfect at the time of writing. Twine is a locally-installed hypertext-based branching narrative platform, which produces an interactive narrative that can be accessed through any web browser. It encourages expressive type styling and elements of multimedia, including music, coloured type, and well-designed game screens, but does not require them. Twine does not yet support video narratives, and is not entirely stored online as of yet.
 
+The Twine engine was popularized by indie gaming celebrity Anna Anthropy in her 2012 book Rise of the Videogame Zinesters \cite[2012]{anthropy}. Since then, hundreds of Twines have gone live. 
 
-\subsection{Game Engines: What Are They?}
-Unity
-Crytek
-Unreal Engine
-GameMaker, Game Salad, and Construct 2
+Twine is most notably popular with the queer indie gaming community. It has been used in wide popular release by Anna Anthropy, Merrit Kopas - author of \textit{Lim}, Porpentine, Zöe Quinn, and games critic Soha El-Sabaawi, among others. 
 
 
 %----------------------------------------------------------------------------------------
 %	Software
 %----------------------------------------------------------------------------------------
 
-\section{Existing Games}
+\section{Multiscreen Video Technology}
+Dual screen technology, or more accurately, multi-screen synchronous web technology, is one of the big new ideas being heavily backed by Google in 2013. As a consequence, its Chrome browser has been designed to support software developed with a very specific suite of frameworks, many of which are wholly supported by Google. This is an example of how software is not free: we cannot guarantee \textit{what} is being done with the whole of our software installations, or whether there is a security flaw in a system written to be dependent on development tools from major software houses. 
+
+That being said, Google supports it, so multi-screen technology using web browsers is something that is accessible. ScreenPerfect relies on Node.JS, which is based on Google's V8 engine, and MongoDB, which is owned by a separate organization. In addition, although the engine was originally authored independently using exclusively javascript, later versions have been reauthored using the \cite{daimio} dataflow language, which has been released under the MIT licence by Bento Miso in Toronto.
+
+The architecture of screenPerfect is wholly new, but the concept is based on the very expensive Dataton Watchout system, which encourages producers to develop large multi-screen \textit{single} video experiences on custom hardward. What screenPerfect does is permit people to use existing hardware to synch either the same video, or multiple videos, to one set of controls. This is also distinct from ChromeCast, which allows people to wirelessly pair a television with a touchscreen for control and consumption of the touchscreen at a larger size. 
+
+Neither of these software packages provide any kind of support for a branching video experience natively, nor do they provide the ability to use existing hardware with same.
+
+
+
+%----------------------------------------------------------------------------------------
+%	Feminist Theory
+%----------------------------------------------------------------------------------------
+
+\section{Theory}
+
+\subsection{Helene Cixous}
+This is where a discussion of ecriture feminine as a rebellion against constructed language goes.
+
+\subsection{History of Women in Technology}
+This is where references to the Indiana paper and Sadie Plant goes.
+
+\subsection{Pragmatic Reference Works}
+I forget what this is for. Is it for technology works?
+
