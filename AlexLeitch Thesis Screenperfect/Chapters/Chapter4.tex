@@ -7,29 +7,74 @@
 \lhead{Chapter 4. \emph{Industry Engagement and Design Research}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
-%	SECTION 1
+%	Industry Engagement
 %----------------------------------------------------------------------------------------
-\begin{itemize}
 \section{Industry Engagement}
 
-\item[\tiny{$\blacksquare$}] Describe Miso's involvement here
+%-----------------------------------
+%	Miso and Bento Box
+%-----------------------------------
+\subsection{Bento Miso and Bento Box}
+In order to run a game jam, one requires space, and people interested in working on games that are in line with any themes you might want to test. In order to access that space, I worked with the Bento Miso coworking facility here in Toronto.
+
+Miso is a not-for-profit bricks and mortar site that serves as home for both Bento Box, a local development hub, and the Dames Making Games, a feminist initiative to introduce women to digital game development processes. As a board member of DMG, I have repeatedly witnessed the limitations of extant gamemaking tools. The software has bugs, runs on only a few systems, or relies heavily on metaphors and software constructs that are understood to those who already play a range of commercial digital games, but which are not clear to those of us who are new to gamemaking practice.
+
+As a not-for-profit, Miso also serves as the hub for a great deal of Toronto's indie - independent - game development community. They offer professional support and development advice, and I felt there was a good match between their professional skillset and my research interests. The DMG traditionally run a jam in November, and felt that screenPerfect - a new software designed to be accessible in a short time frame to people with extant skills - would be a good match for the audience associated with the organization.
+
+Miso, and Bento Box, offered to help me with coding a more accessible front end to the screenPerfect engine in time for the jam, so that I could get feedback on the system mechanics rather than just the interface.
 
 %-----------------------------------
 %	Dames Making Games
 %-----------------------------------
-\subsection{DMG}
+\subsection{Dames Making Games, Design Charrettes, and Game Jams}
 
-\item[\tiny{$\blacksquare$}] Describe Dames Making Games here, history of jams
+
+* Describe Dames Making Games here, history of jams
+
 
 %-----------------------------------
-%	What is game jam
+%	What is a Game Jam
 %-----------------------------------
 
-\subsection{What is a game jam?}
+\subsection{Game Jams, A Design Method}
 
+\begin{itemize}
 \item[\tiny{$\blacksquare$}] Explain the Game Jam practice and premise
 \item[\tiny{$\blacksquare$}] Ground with references to design charettes.
 \item[\tiny{$\blacksquare$}] refer to appendices for jam participant experiences
+
+
+
+%-----------------------------------
+%	Software Design for Game Jam
+%-----------------------------------
+
+\section{Software Design}
+\subsection{Interfaces, engines, and interactions}
+
+A software interface is the part of the software that a person interacts with directly \cite{interactiondestext}, where a software engine is the part of the code that detects and defines what a computer can do with that interaction. The engine that I coded responds to interactions sourced from users. Interface interaction is what appears to to define the majority of user experience, but the response of the engine underlying that interface is just as important. A key part of the design of screenPerfect is that it was laid out to handle things like auto-saving invisibly, so that a user's work would not be lost.
+
+The interface of the software is just as important as the engine, however, because a poorly designed interface will confuse a user, thereby rendering the experience of using the engine figuratively opaque. screenPerfect's roots are as a software engine, which takes user interaction and then does things with it. The user interacts with the interface, which speaks to the engine, which then returns values to whichever interface the user has selected.
+
+\begin{figure}[h]
+  \caption{screenPerfect software communication model}
+  \centering
+    \includegraphics[width=0.5\textwidth]{model}
+\end{figure}
+
+
+\subsection{Initial screenPerfect Engine|Interface Layout}
+In the case of screenPerfect, the interface is laid out in three parts. The first part is the setup screen, which is where game designers load their media (both videos and static files) and lay out the links between those files. This is the essence of a game made in screenPerfect: which choice will a player make to navigate the system as designed by the artist?
+
+The further screens are the client and control screens. screenPerfect supports up to ten client screens and ten control screens, although the interface only exposes a polyphony of client windows, while restricting artists to a single control set for simplicity's sake.
+
+\begin{figure}[h]
+  \caption{screenPerfect initial screen layout. Client, Control, Setup.}
+  \centering
+    \includegraphics[width=0.5\textwidth]{threeclient}
+\end{figure}
+
+
 
 %----------------------------------------------------------------------------------------
 %	Design Research
