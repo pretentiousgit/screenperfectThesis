@@ -26,11 +26,16 @@ Miso, and Bento Box, offered to help me with coding a more accessible front end 
 %-----------------------------------
 %	Dames Making Games
 %-----------------------------------
-\subsection{Dames Making Games, Design Charrettes, and Game Jams}
+\subsection{Dames Making Games and Game Jams}
 
+\begin{quote}
+Dames Making Games (or DMG Toronto) is a non-profit community organization based in Toronto dedicated to supporting dames interested in making, playing, and changing games. In short, we want to build an \textbf{inclusive} and \textbf{engaged} local community of game-makers. Our community isn't women only, but it is women-driven.
+\textit{from the DMG.to website, accessed \cite{dmgto} November 27 2013}
+\end{quote}
 
-* Describe Dames Making Games here, history of jams
+The Dames Making Games are a society within Toronto that work to promote women in video games. Initially funded in part by \textbf{FiG} and part of an SSHRC grant, the DMG are now entirely self-funded. They work by using the game jam method to introduce women and allies to simple game development tools. This provides a straightforward introduction to concepts of computer logic and programming problems for some people, to video game art development for others, and video game sound production for still others. Some develop system mechanics, some design whole levels or game narratives. 
 
+The point of the DMG is to promote access to this field to people other than the 18-to-35 year old males who form the primary demographic for the video game industry, in the hopes that a diverse population of game makers will produce a diverse population of games. 
 
 %-----------------------------------
 %	What is a Game Jam
@@ -38,11 +43,33 @@ Miso, and Bento Box, offered to help me with coding a more accessible front end 
 
 \subsection{Game Jams, A Design Method}
 
-\begin{itemize}
-\item[\tiny{$\blacksquare$}] Explain the Game Jam practice and premise
-\item[\tiny{$\blacksquare$}] Ground with references to design charettes.
-\item[\tiny{$\blacksquare$}] refer to appendices for jam participant experiences
+A game jam is a variant on the hackathon, which is a type of prolonged effort at taking an idea from concept to finished product in a limited period of time. They are related to design charettes or \textit{parallel prototyping} (\cite{charette}), a method whereby participants rapidly prototype a design idea over a short, intense period of time. A jam - or hackathon - gives registered participants a common area and space to set up their own supplies, and a theme. The group members come to the event with an idea and possibly some resources - video files, sound capability and so on - and use the jam time to assemble a game.
 
+Generally, a game jam will produce a panoply of small game ideas with fleshed mechanics but simple art and sound design in order to demonstrate a possible path forward for a device or piece of software, which will then be polished at a later date, and presented to the indie community either online or at a social event. Sometimes these works will then go on to be finished commercial products, or intended for further consumption at major conferences such as Indiecade or GDC. These conferences ideally further the careers of the developers by providing access to funding bodies: publishing houses, or in Ontario, the Ontario Media Development Corporation.
+
+Game jams can be time consuming to prepare, as they involve a great deal of communication on the part of the show-runners. In order to run a jam, one must open the application period well enough in advance to ensure a large available population of skilled users who are likely to be interested in producing content with the available tools, or interested in exploring new tools on offer. Typically, jam members have a theme suggested - "Mother May I" or "Snacktember" being a few run in 2013 by the Dames Making Games - and then participants bring their own preferred technology to knock out a fast prototype over a weekend.
+
+\subsection{NoJam 2: Video Video}
+
+The DMG have a great deal of experience running jams, and therefore, I partnered with DMG/Miso to get access to a group of skilled animators, filmmakers, and gamemakers. By partnering with them, I gained ready access to their community population, and they gained access to my software. One of the most common difficulties with game jams is that the short timeframe can cause a lot of frustration to new non-programmers: they spend a lot of time wrestling with tools, rather than generating the content of their games. The DMG would like to make it more straightforward for their membership to generate games and interactive narratives in a short period of time. 
+
+No Jam is a two-week jam scheduled by the DMG in November. In order to prepare screenPerfect for the jam, I handed over the basic engine to Bento Box - the production arm of Miso - who cleaned the interface elements and released a web-based version of the software for users. This was a win for them, as they were able to refactor my local code base to take advantage of a new language they have produced, called Daimio. Daimio, being a dataflow language, is ideal for describing choice patterns as they relate to a database. ScreenPerfect is a good engine match for types of games that rely on interactive choices. 
+
+As a pair, Dann Toliver - architect of Daimio - and I worked together to clean up the javascript elements of screenPerfect for speaking to Daimio. The group then released a refactored version of the code in time for No Jam, so that our participants could get a clean version of the software to work with. This was challenging for me, as it involved a great deal of trust, and moved the software away from how I had initially envisioned the UI. In particular, we needed to scrap an early idea for a branched narrative "tree" display, which was not included, although it had been planned all along.
+
+After we received No Jam applications, we went through to choose participants who seemed interested the theme and the software restrictions, sent out acceptances, ordered food, and generally set the dates. Applicants were provided diaries to record their working process over the course of the week. The first weekend of the jam consisted of workshops from a variety of specialists to provide direction in how to think about the software and the jam process as research. My presentation is included in Appendix C, consisting of how to work with the screenPerfect software, how to think about multi-screen video, and how to think about technology as a form of creative practice which is both limiting and freeing. 
+
+The applicants were then sent home for a week to work on their video projects, and asked to document their ongoing process with one another on a private Google Group. Most participants ignored this request, which left us with relatively little promotional material.
+
+On the actual weekend, we asked that participants arrive with the majority of their video content and design prepared. There were vastly uneven responses to this request, which strongly affected the ability of participants to produce a finished game by the end of the weekend. I interviewed each group early in the process, and then later polled them with informal questions regarding their experience with the software.
+
+The group experience with the software proved interesting. Accomplished filmmakers had a better time with it, but the most suprising response was from young, self-identified gamemakers, who rather than exploring what was possible within the context of the software tools, decided instead to try to use them to reproduce existing game types, many of which were totally incompatible with the software's design. Of particular interest was the group who tried to reproduce a classic Japenese roleplaying game within the context of video: this did not work so well, and they continued to work at it even after it became apparent it was unlikely to go well. The game itself remains unfinished, but deserves mention as the most unique and possibly stubborn effort. Used to working with uncooperative tools, the participants seemed unsure how to cooperate with a tool clearly designed to a single end.
+
+Despite this surprising result, No Jam was a success, with nine groups producing diverse works on ideas such as how to express a practice of mindfulness, how to work with pornography in a way that forces the viewer to interact with what's happening on screen, exploring systematic violence against women, exploring narratives of imprisonment, magic, and in one unique case, permitting a puppet to escape a toy box. 
+
+In setting up No Jam, we did present at least one workshop on the importance of the personal narrative in producing creative work, which may have influenced the results. Game jammers mostly described their interest in producing work that was finished, and one jammer explicitly stated that she was pleased to have had a finished work at the end of the jam, this being an uncommon result for her when she had to learn the usual round of new software each time.
+
+No Jam resulted in at least five "finished" works, which have since been included in several exhibitions around the city, including the December and January Toronto Long Winter series.
 
 
 %-----------------------------------
@@ -59,7 +86,7 @@ The interface of the software is just as important as the engine, however, becau
 \begin{figure}[h]
   \caption{screenPerfect software communication model}
   \centering
-    \includegraphics[width=0.5\textwidth]{model}
+    \includegraphics[width=0.5\textwidth]{SPmodel}
 \end{figure}
 
 
@@ -74,7 +101,19 @@ The further screens are the client and control screens. screenPerfect supports u
     \includegraphics[width=0.5\textwidth]{threeclient}
 \end{figure}
 
+\subsection{screenPerfect layout: NoJam}
 
+As the chief author of the screenPerfect software, it is very easy for me to understand where video files should go, and I come to understand how the software works implicitly. This is a common problem in software authorship, much as text requires editing and paintings require critique. I brought the software to Bento Box for refinement for reasons already stated: they needed a tool to express use cases for Daimio, and I needed help designing a UX that was actually useful to users.
+
+The final layout of screenPerfect is much cleaner than the one with which I had been working. Rather than hidden tabs, everything is laid out clearly, and allows users to see where their files are going. It is open-sourced, and available on GitHub for evolution by advanced users - the DMG has already forked a version, iV (\cite{iv}), for further development.
+
+What follows are screencaptures of the pre-fork game jam variant of screenPerfect.
+
+\begin{figure}[h]
+  \caption{screenPerfect NoJam screen layout. Client, Control, Setup.}
+  \centering
+    \includegraphics[width=0.5\textwidth]{threeclientNoJam}
+\end{figure}
 
 %----------------------------------------------------------------------------------------
 %	Design Research

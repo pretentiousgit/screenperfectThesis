@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  26 NOV 2013 12:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  29 NOV 2013 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1165,12 +1165,16 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
  []
 
 
-LaTeX Warning: Citation 'interactiondestext' on page 14 undefined on input line
- 24.
+LaTeX Warning: Citation 'dmgto' on page 14 undefined on input line 33.
 
 [14
 
 ]
+
+LaTeX Warning: Citation 'interactiondestext' on page 15 undefined on input line
+ 60.
+
+[15]
 
 ! LaTeX Error: File `model' not found.
 
@@ -1178,14 +1182,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...ncludegraphics[width=0.5\textwidth]{model}
+l.67 ...ncludegraphics[width=0.5\textwidth]{model}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[15]) (./Chapters/Chapter5.tex [16]
+
+! LaTeX Error: File `threeclient' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...graphics[width=0.5\textwidth]{threeclient}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16]) (./Chapters/Chapter5.tex [17]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Complications and Problems
@@ -1195,7 +1213,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
 
-) (./Chapters/Chapter6.tex [17
+) (./Chapters/Chapter6.tex [18
 
 ]
 Chapter 6.
@@ -1207,9 +1225,9 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
 
-[18
+[19
 
-] [19]) (./Chapters/Chapter7.tex [20]
+] [20]) (./Chapters/Chapter7.tex [21]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Endnotes, References, Works Cited
@@ -1219,7 +1237,7 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
 
-) (./Appendices/AppendixA.tex [21
+) (./Appendices/AppendixA.tex [22
 
 ]
 Appendix A.
@@ -1237,10 +1255,10 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
- [22
+ [23
 
 ])
-(./Appendices/AppendixB.tex [23]
+(./Appendices/AppendixB.tex [24]
 Appendix B.
 ------------------------------------------------------------------------------
  B Annotated Literature Review
@@ -1256,7 +1274,7 @@ Overfull \hbox (54.79686pt too wide) in paragraph at lines 20--21
 sion. http://thenewinquiry.com/essays/cool-
  []
 
-[24
+[25
 
 ]
 ! Misplaced alignment tab character &.
@@ -1295,13 +1313,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[25] [26]
+[26] [27]
 Overfull \hbox (2.05441pt too wide) in paragraph at lines 62--65
 \OT1/cmr/m/n/10.95 Re-la-tions. Re-trieved April 12, 2013, from http://text-rel
 ations.blogspot.ca/2013/03/the-
  []
 
-[27]
+[28]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1332,13 +1350,13 @@ Overfull \hbox (7.86404pt too wide) in paragraph at lines 80--82
 readings/kristevaHorrifying
  []
 
-[28]
+[29]
 Overfull \hbox (8.90822pt too wide) in paragraph at lines 98--102
 \OT1/cmr/m/n/10.95 http://www.washingtoncitypaper.com/articles/43235/our-band-c
 ould-be-your-band-how-
  []
 
-[29]
+[30]
 ! Misplaced alignment tab character &.
 l.114 Reines, A., &
                     TIQQUN. (2012). Preliminary materials for a theory of th...
@@ -1359,7 +1377,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[30]) (./Appendices/AppendixC.tex [31]
+[31]) (./Appendices/AppendixC.tex [32]
 Appendix C.
 ------------------------------------------------------------------------------
  C Game Jam Documentation
@@ -1373,14 +1391,14 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 13.
 
-[32
+[33
 
-]) [33]
+]) [34]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
-[34
+[35
 
 
 ]
@@ -1390,7 +1408,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
-(rerunfilecheck)             Checksum: BF7C3604342BE2ACC6E40DF2E55D2E8B;12465.
+(rerunfilecheck)             Checksum: 97CC693189EA68C30D969544955FFB72;13204.
 
 
 LaTeX Warning: There were undefined references.
@@ -1406,10 +1424,10 @@ Package logreq Info: Writing requests to 'AlexLeitchScreenPerfect.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 19285 strings out of 493315
- 291581 string characters out of 6137904
- 737022 words of memory out of 5000000
- 22317 multiletter control sequences out of 15000+600000
+ 19294 strings out of 493315
+ 291694 string characters out of 6137904
+ 737031 words of memory out of 5000000
+ 22320 multiletter control sequences out of 15000+600000
  15626 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,12n,52p,1299b,1652s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1428,10 +1446,10 @@ e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/201
 3/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (39 pages, 265777 bytes).
+Output written on AlexLeitchScreenPerfect.pdf (40 pages, 270342 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 489 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 540 PDF objects out of 1000 (max. 8388607)
+ 479 compressed objects within 5 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 513 words of extra memory for PDF output out of 10000 (max. 10000000)
 
