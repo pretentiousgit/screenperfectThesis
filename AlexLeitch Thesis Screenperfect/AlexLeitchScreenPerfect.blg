@@ -1,2 +1,17 @@
-[0] de39bb48.pm:387> INFO - This is Biber 1.6
-[0] de39bb48.pm:390> INFO - Logfile is 'AlexLeitchScreenPerfect.blg'
+[0] Config.pm:387> INFO - This is Biber 1.6
+[1] Config.pm:390> INFO - Logfile is 'AlexLeitchScreenPerfect.blg'
+[99] biber-darwin:218> INFO - === Mon Dec  9, 2013, 16:42:58
+[99] Biber.pm:325> INFO - Reading 'AlexLeitchScreenPerfect.bcf'
+[178] Biber.pm:623> INFO - Found 28 citekeys in bib section 0
+[192] Biber.pm:2995> INFO - Processing section 0
+[210] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[212] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[213] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
+[214] Utils.pm:169> WARN - Entry medusa does not parse correctly
+[214] Utils.pm:169> WARN - Entry mozillacontribute does not parse correctly
+[214] Utils.pm:169> WARN - Entry charette does not parse correctly
+[215] Utils.pm:169> WARN - Entry iv does not parse correctly
+[215] Utils.pm:169> WARN - Entry emin does not parse correctly
+[229] Utils.pm:185> ERROR - BibTeX subsystem: /var/folders/tg/609s_52558q3nx06xby2qt100000gp/T/nhgLK_JwoD/Bibliography.bib_1457.utf8, line 39, syntax error: found "URL", expected end of entry ("}" or ")") (skipping to next "@")
+[229] Biber.pm:105> INFO - WARNINGS: 5
+[229] Biber.pm:109> INFO - ERRORS: 1

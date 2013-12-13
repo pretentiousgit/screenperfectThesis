@@ -126,23 +126,41 @@ Beginning development from a first position within the arts is unusual, even for
 
 In order for software to exist, and to be seen to exist, it requires an interaction. Unlike a hammer, which takes up space on a shelf, software is essentially a text document until it is used. As \citeauthor{galloway}says, a game is defined by action \citeyear{galloway}. \cite{galloway}
 
+%----------------------------------------------------------------------------------------
+%	Agile Methodology
+%----------------------------------------------------------------------------------------
 
-\item[\tiny{$\blacksquare$}] Explain initial process with Hannah's YouTube idea
+\section{Development Methods}
+\subsection{Agile}
+The Agile methodology is based on a manifesto, as is so much else of this work. Agile is a response to previous software design practices, called "Waterfall," where software frameworks are laid out and heavily documented in advance of production. Waterfall methods are popular in major software companies, which rely on extensive documentation to communicate between business units. They emphasize planning over software production or delivery deadlines. 
 
-\subsection{Summer installation of psXXYborg}
-\item[\tiny{$\blacksquare$}] Describe installation of psXXYborg.
-\item[\tiny{$\blacksquare$}] Include photographs of original van in figures list.
+Agile, described in 2001 by a group of software developers, reflects a less top-down approach to the software development practice. Rather than pre-planning every element of software, screenPerfect was designed by discussion with key stakeholders as to how it should come together, and what the final product of the development process should be. This is a hacker-oriented means of development, reflecting Plant's statement that reverse engineering - "starting at the end, and then engaging in a process that simultaneously dismantles the route back to the start" is how hackers work \cite{plant}. Agile, released four years after Plant's assertion, engages the process of iterative development via reverse engineering in a more formal sense. Agile specifically emphasizes \textbf{individuals and interactions} over processes and tools, \textbf{working software} over comprehensive documentation, \textbf{customer collaboration} over contract negotiation, and \textbf{responding to change} over following a plan. 
 
-\subsection{Fiction Input}
-\item[\tiny{$\blacksquare$}] Describe Cory Doctorow's Pirate Cinema scene. Out-take.
-\item[\tiny{$\blacksquare$}] Include photographs of original van
+In the case of my development process, this worked as follows: The initial project was laid out by Hannah Epstein, who described how the game processes for psXXYborg should work using a series of YouTube videos linked through their annotation technique. In development conversations, it became clear that Youtube, in addition to having many distracting advertisements, also did not have a great way to make annotation invisible, and was very slow to load. This is a problem with reliance on external networks: they cannot be as fast as locally served files. Hannah specifically emphasized speed, smooth loading, and using video based in static rather than streaming or live files. These needed to be served within a closed environment to an attentive audience.
 
-\subsection{GitHub and learning on the internet}
-\item[\tiny{$\blacksquare$}] Explain gitHub
-\item[\tiny{$\blacksquare$}] Explain open source software, benefits and questions therein.
-\item[\tiny{$\blacksquare$}] Explain closed-source software.
+From that point, I began to research languages that emphasized speed over structure. Scripting languages, without strong classes or inheritance, are especially good at this type of development work. I reached out to other developers and asked how they would solve this problem, and they came back to me with a variety of answers - some used PHP, some used Python, all of them relied on JS for their front end. In researching different ways to solve the basic problem - passing a variable back and forth through wireless technology to select two on-screen videos at almost the same time - I discovered the Node framework. I explained how this would work - minimum installation time and expense, reliance on a straightforward machine installation on-site - and got approval from my partners.
 
-\subsection{Problems in Artistic Collaboration}
-\item[\tiny{$\blacksquare$}] Artist selling off installation
-\item[\tiny{$\blacksquare$}] No ownership for technician
-\end{itemize}
+At that point, I went home and wrote a server using Express.JS, socket.io, and node to write an application intended for the Safari browser, in line with my partner's habit of exporting video in the restricted H.264 format. Due to conflicts relating to codec patenting, one of the many secret things that underly the "free" internet, Safari supports H.264 where Chrome does not. Chrome supports Webm via the V8 engine, the same engine that supports the Node framework. Webm is also a more compact video format, which results in smaller file sizes and lower bandwidth costs, which eventually affects both load time and playback lag on client machines. 
+
+Having worked extensively to serve H.264 video and discovered that loading many videos in H.264 will quickly overload the Node-native server, I reencoded the video works into the Webm format and converted my development process to pursue the Chrome browser. This also made psXXYborg available on mobile browsers on the Android platform, which is advantageous, as Android is much more readily available to low or no-budget projects than Apple devices, even old ones.
+
+Throughout this process, I would meet with Hannah, who would provide me with updated feature requests. This is normal for the agile process, which places an emphasis on completing software delivery by deadlines, rather than on documentation and a firm attachment to original plans. 
+
+In order to keep track of all of the changes to the software, I used the GitHub source control system. GitHub allows users to store and update their code base while keeping track of changes in what are called "commits." Other GitHub users can then "fork" or copy a specific version of the existing codebase, and from there make their own changes. A "fork" is considered a new project. A "branch" is a "fork" within a project that contains changes not yet passed to the "master" branch. My GitHub commit log for the screenPerfect fork of psXXYborg can be seen in Appendix C, which documents the changes made over months - bug fixes, design shifts, changes in the layout of the program, and new ideas for the setup and control files, including the late inclusion of how branching narrative would actually work without a database.
+
+Overall, Agile worked for this process by allowing me to respond to user requests for code changes and information rather than forcing me to work to a standard pre-set from above. A Waterfall process would have discouraged me from even attempting to take on the work. By working in small steps back from a pre-set destination with total freedom as to how the code actually came together, Agile allowed me to demonstrate different working parts of the software as they came together. The documentation for the project is tied into the code commits, and inseparable from the actual written code within its archive.
+
+\subsection{GitHub and Open Source Software}
+The development of screenPerfect is dependent on a variety of external technologies. Although relatives and derivatives of Google's V8 system are foremost among these, there is also a dependence on the licencing and mindset of the open-source movement, and the GitHub software repository system.
+
+Open source software is not the same as free software, as provided by structures such as the GNU General Public Licence . Open source is the peer reviewing system of software. What open source means is that even if a given piece of software compiles to a single program which can then be distributed for use on the desktop - as screenPerfect does not - the code that goes into the executable file is freely available on the internet, to be changed, supported, and developed by the population of software workers who exist in the broader world. These developers may work on closed or open source projects in their usual working time. They may be very skilled or quite new to development work. What matters is that the software's code is then shared publicly, where it can be reviewed and compiled and extended and changed by anyone at all.
+
+The intent of open source is that anyone may learn from such freely-shared information, and anyone may contribute to the collective knowledge base. In this, GitHub is not unlike JSTOR. The stark difference is that GitHub is costly to the user who is sharing information, rather than to the user who is seeking information. A public GitHub account costs nothing, a private one with a limit on projects is less than $10CAD per month, and any public projects can be found online by anyone. This is useful for reference, as one can quickly find the solution to many coding problems for the cost of looking them up, and an internet connection on which to do so.
+
+There are some obvious problems with open source. One of the clearest is that with all that intellectual property out there for free, it is a challenge to make any money on an open project. The other is that there is no way to guarantee quality: one takes what one can get, although it is assumed that contributions to projects are made in good faith, and major project contributions are checked by trusted individuals before they are published. For example, the Mozilla project relies on contributors whose code is applied to the codebase after approval by certified reviewers \cite[URL]{mozillacontribute}. 
+
+\subsection{Licencing}
+One of the ways these problems are dealt with is through licencing. The Creative Commons at creativecommons.org expresses their mission as follows: "Creative Commons develops, supports, and stewards legal and technical infrastructure that maximizes digital creativity, sharing, and innovation." It is therefore an appropriate open standard licence for \textit{creative practice}. A preferred licence for software development is the MIT Licence, which is closer to the Gnu Public Licence, but does not preclude making money from one's open source work.
+
+\subsection{Science Fiction Inputs}
+My own idea for how this project would work is taken from Cory Doctorow's \textit{Pirate Cinema}, which features a scene wherein characters climb trees, and using pico projectors already built into their phones, assemble a movie theatre from nothing more than sheets and ropes in the trees. I felt this sort of mesh-networked sharing is much more likely than a continued reliance on the surveilled internet for sharing copyrighted and copyrighted-material derived works. Since I could not find a system that would permit this type of sharing on the internet, I felt that this project would provide a good chance to build one.

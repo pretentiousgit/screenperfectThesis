@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  29 NOV 2013 15:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  13 DEC 2013 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,16 +1095,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--131
 
 ]
 ------------------------------------------------------------------------------
+ Table of Contents
+------------------------------------------------------------------------------
+(./AlexLeitchScreenPerfect.toc [4
+
+
+] [5])
+\tf@toc=\write5
+\openout5 = `AlexLeitchScreenPerfect.toc'.
+
+ [6]
+------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
-[4
+[7
 
 
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
- 1 Introduction: Researching A Better Engine
+ 1 Introduction: Researching A Better Game Engine
 ------------------------------------------------------------------------------
 LaTeX Font Info:    Try loading font information for OT1+pzc on input line 3.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pzc.fd
@@ -1121,7 +1132,43 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 
 
 
-] [2] [3] [4] [5] [6] [7]) (./Chapters/Chapter2.tex [8]
+] [2] [3] [4]
+
+LaTeX Warning: Citation 'ensmenger' on page 5 undefined on input line 71.
+
+
+LaTeX Warning: Citation 'processing' on page 5 undefined on input line 73.
+
+! Misplaced alignment tab character &.
+l.73 ...ke the Arduino platform by Massimo Banzi &
+                                                  co. (\cite{arduino}), and ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+LaTeX Warning: Citation 'arduino' on page 5 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'scratch' on page 5 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'adobe' on page 5 undefined on input line 75.
+
+[5]
+! Undefined control sequence.
+l.77 ... of the ideal of the starving artist \site
+                                                  {starvingartist}. Therefor...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[6]) (./Chapters/Chapter2.tex [7]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Background
@@ -1139,9 +1186,48 @@ I'll just pretend that you didn't ask for it.
 If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
-[9
+[8
 
-] [10] [11]) (./Chapters/Chapter3.tex [12]
+] [9]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.47 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (1645.11209pt too wide) in paragraph at lines 46--47
+\OT1/cmr/m/n/10.95 ex-per-i-ences on cus-tom hard-ware. Data-ton Watchout costs
+ ap-prox-im-ately $40\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 000\OML/cmm/m/it/
+10.95 perinstallation; whichmakesaninexpensivealternativeappeallingfromacreativ
+estandpoint:ScreenPerfectpermitspeopletouseexistinghardwaretosynchmultiplevideo
+stoonesetofcontrols:ThisisalsodistinctfromChromeCast; whichallowspeopletowirele
+sslypairatelevisionwithatouchscreenforcontrolandconsumptionofthetouchscreenatal
+argersize:$ 
+ []
+
+
+LaTeX Warning: Citation 'cixous' on page 10 undefined on input line 64.
+
+[10]
+
+LaTeX Warning: Citation 'cixous' on page 11 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'straddler' on page 11 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'straddler' on page 11 undefined on input line 76.
+
+
+LaTeX Warning: Citation 'straddler' on page 11 undefined on input line 78.
+
+
+LaTeX Warning: Citation 'plant' on page 11 undefined on input line 83.
+
+[11]) (./Chapters/Chapter3.tex [12] [13]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 State of the Art
@@ -1151,12 +1237,38 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
 
-) (./Chapters/Chapter4.tex [13
+[14
 
 ]
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 Industry Engagement and Design Research: Community Collaboration in Software
+ 4 State of the Art
+------------------------------------------------------------------------------
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 4--4
+[][][][][][][][][]  
+ []
+
+
+LaTeX Warning: Citation 'emin' on page 15 undefined on input line 50.
+
+[15
+
+]
+
+LaTeX Warning: Citation 'tiqqun' on page 16 undefined on input line 52.
+
+
+LaTeX Warning: Citation 'economyterrible' on page 16 undefined on input line 54
+.
+
+
+LaTeX Warning: Citation 'valueofaaa' on page 16 undefined on input line 56.
+
+) (./Chapters/Chapter4.tex [16] [17]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 Industry Engagement and Design Research: Community Collaboration in Software
  Development
 ------------------------------------------------------------------------------
 
@@ -1164,31 +1276,35 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
 
-
-LaTeX Warning: Citation 'dmgto' on page 14 undefined on input line 33.
-
-[14
+[18
 
 ]
 
-LaTeX Warning: Citation 'interactiondestext' on page 15 undefined on input line
- 60.
+LaTeX Warning: Citation 'dmgto' on page 19 undefined on input line 33.
 
-[15]
 
-! LaTeX Error: File `model' not found.
+LaTeX Warning: Citation 'charette' on page 19 undefined on input line 46.
+
+[19] [20] [21]
+
+LaTeX Warning: Citation 'interactiondestext' on page 22 undefined on input line
+ 82.
+
+
+! LaTeX Error: File `SPmodel' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 ...ncludegraphics[width=0.5\textwidth]{model}
+l.89 ...ludegraphics[width=0.5\textwidth]{SPmodel}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[22]
 
 ! LaTeX Error: File `threeclient' not found.
 
@@ -1196,50 +1312,154 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...graphics[width=0.5\textwidth]{threeclient}
+l.101 ...raphics[width=0.5\textwidth]{threeclient}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[16]) (./Chapters/Chapter5.tex [17]
-Chapter 5.
-------------------------------------------------------------------------------
- 5 Complications and Problems
-------------------------------------------------------------------------------
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
-[][][][][][][][][]  
+LaTeX Warning: Citation 'iv' on page 23 undefined on input line 108.
+
+
+! LaTeX Error: File `threeclientNoJam' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...cs[width=0.5\textwidth]{threeclientNoJam}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[23]
+
+LaTeX Warning: Citation 'plant' on page 24 undefined on input line 137.
+
+[24] [25]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.159 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (659.3997pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10.95 10\OML/cmm/m/it/10.95 CADpermonth; andanypublicprojectscanbe
+foundonlinebyanyone:Thisisusefulforreference; asonecanquicklyfindthesolutiontom
+anycodingproblemsforthecostoflookingthemup; andaninternetconnectiononwhichtodos
+o:$ 
  []
 
-) (./Chapters/Chapter6.tex [18
 
-]
+LaTeX Warning: Citation 'mozillacontribute' on page 26 undefined on input line 
+160.
+
+[26]) (./Chapters/Chapter5.tex [27]
 Chapter 6.
 ------------------------------------------------------------------------------
- 6 Conclusion
+ 6 Complications and Problems
 ------------------------------------------------------------------------------
 
 Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
 
-[19
-
-] [20]) (./Chapters/Chapter7.tex [21]
-Chapter 7.
-------------------------------------------------------------------------------
- 7 Endnotes, References, Works Cited
-------------------------------------------------------------------------------
-
-Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
-[][][][][][][][][]  
- []
-
-) (./Appendices/AppendixA.tex [22
+) (./Chapters/Chapter6.tex [28
 
 ]
+Chapter 7.
+------------------------------------------------------------------------------
+ 7 Conclusion
+------------------------------------------------------------------------------
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 4--4
+[][][][][][][][][]  
+ []
+
+[29
+
+] [30]) (./Chapters/Chapter7.tex [31]
+Chapter 8.
+------------------------------------------------------------------------------
+ 8 Endnotes, References, Works Cited
+------------------------------------------------------------------------------
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+
+Overfull \hbox (12.95367pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10.95 Anna An-thropy, Rise of the Video-game Zin-esters, http://ww
+w.auntiepixelante.com/games/
+ []
+
+
+Overfull \hbox (210.4798pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10.95 Mer-rit Ko-pas, http://mkopas.net/ Zoe Quinn, http://www.bee
+sgo.biz/ Zach Blas, http://www.queertechnologies.info/products/gay-
+ []
+
+
+Overfull \hbox (30.59528pt too wide) in paragraph at lines 16--22
+\OT1/cmr/m/n/10.95 bombs/ Por-pentine, http://aliendovecote.com/ Soha El-Sabaaw
+i, http://www.el-sabaawi.com/ 
+ []
+
+) (./Chapters/Chapter8.tex [32
+
+]
+Chapter 9.
+------------------------------------------------------------------------------
+ 9 Central Thesis Argument
+------------------------------------------------------------------------------
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+[33
+
+] [34]
+
+LaTeX Warning: Citation 'ensmenger1' on page 35 undefined on input line 44.
+
+[35]
+
+LaTeX Warning: Citation 'pronounscience' on page 36 undefined on input line 46.
+
+
+
+LaTeX Warning: Citation 'everydaythings' on page 36 undefined on input line 52.
+
+
+[36]
+
+LaTeX Warning: Citation 'consumerbeauty' on page 37 undefined on input line 54.
+
+
+
+! Package inputenc Error: Unicode char \u8:élè not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 ...ightforward theorist on this topic is Hélè
+                                                  ne Cixous, who wrote in 19...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[37] [38] [39] [40]) (./Appendices/AppendixA.tex [41]
 Appendix A.
 ------------------------------------------------------------------------------
  A Agile Manifesto
@@ -1255,10 +1475,10 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
- [23
+ [42
 
 ])
-(./Appendices/AppendixB.tex [24]
+(./Appendices/AppendixB.tex [43]
 Appendix B.
 ------------------------------------------------------------------------------
  B Annotated Literature Review
@@ -1274,7 +1494,7 @@ Overfull \hbox (54.79686pt too wide) in paragraph at lines 20--21
 sion. http://thenewinquiry.com/essays/cool-
  []
 
-[25
+[44
 
 ]
 ! Misplaced alignment tab character &.
@@ -1313,13 +1533,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[26] [27]
+[45] [46]
 Overfull \hbox (2.05441pt too wide) in paragraph at lines 62--65
 \OT1/cmr/m/n/10.95 Re-la-tions. Re-trieved April 12, 2013, from http://text-rel
 ations.blogspot.ca/2013/03/the-
  []
 
-[28]
+[47]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1350,13 +1570,13 @@ Overfull \hbox (7.86404pt too wide) in paragraph at lines 80--82
 readings/kristevaHorrifying
  []
 
-[29]
+[48]
 Overfull \hbox (8.90822pt too wide) in paragraph at lines 98--102
 \OT1/cmr/m/n/10.95 http://www.washingtoncitypaper.com/articles/43235/our-band-c
 ould-be-your-band-how-
  []
 
-[30]
+[49]
 ! Misplaced alignment tab character &.
 l.114 Reines, A., &
                     TIQQUN. (2012). Preliminary materials for a theory of th...
@@ -1377,7 +1597,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[31]) (./Appendices/AppendixC.tex [32]
+[50]) (./Appendices/AppendixC.tex [51]
 Appendix C.
 ------------------------------------------------------------------------------
  C Game Jam Documentation
@@ -1391,24 +1611,52 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 13.
 
-[33
+[52
 
-]) [34]
+]) (./Appendices/AppendixD.tex [53]
+Appendix D.
+------------------------------------------------------------------------------
+ D Software Dependencies, GitHub Records
+------------------------------------------------------------------------------
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+) (./Appendices/AppendixE.tex [54
+
+]
+Appendix E.
+------------------------------------------------------------------------------
+ E Transcriptions of Public Talks
+------------------------------------------------------------------------------
+
+Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
+[][][][][][][][][]  
+ []
+
+[55
+
+] [56]
+
+LaTeX Warning: Citation 'LISA notes' on page 57 undefined on input line 32.
+
+[57]) [58]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
-[35
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+[59
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  (./AlexLeitchScreenPerfect.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
-(rerunfilecheck)             Checksum: 97CC693189EA68C30D969544955FFB72;13204.
+(rerunfilecheck)             Checksum: 2D47A1D124C9826741AE74120D2F0730;19665.
 
 
 LaTeX Warning: There were undefined references.
@@ -1421,35 +1669,36 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'AlexLeitchScreenPerfect.run.xml'.
 \openout1 = `AlexLeitchScreenPerfect.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
- 19294 strings out of 493315
- 291694 string characters out of 6137904
- 737031 words of memory out of 5000000
- 22320 multiletter control sequences out of 15000+600000
- 15626 words of font info for 54 fonts, out of 8000000 for 9000
+ 19383 strings out of 493315
+ 292731 string characters out of 6137904
+ 738431 words of memory out of 5000000
+ 22347 multiletter control sequences out of 15000+600000
+ 15985 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,12n,52p,1299b,1652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,52p,1299b,1930s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (40 pages, 270342 bytes).
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on AlexLeitchScreenPerfect.pdf (67 pages, 355645 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 479 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
- 513 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 748 compressed objects within 8 object streams
+ 161 named destinations out of 1000 (max. 500000)
+ 673 words of extra memory for PDF output out of 10000 (max. 10000000)
 
