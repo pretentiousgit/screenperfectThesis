@@ -113,10 +113,10 @@ Sernag vo velar, arul re rintax ma su, la ux harle jince tharn morvit yiphras xu
             <Text>
 
 
-&lt;$projecttitle>
-&lt;$fullname>
+&lt;$projecttitle&gt;
+&lt;$fullname&gt;
 {School-Name}</Text>
-            <Notes>The &lt;$projecttitle> and &lt;$fullname> tags get replaced with the information set in Project > Meta-Data Settings… > Project Properties. You can edit those settings or just replace this text altogether.</Notes>
+            <Notes>The &lt;$projecttitle&gt; and &lt;$fullname&gt; tags get replaced with the information set in Project &gt; Meta-Data Settings… &gt; Project Properties. You can edit those settings or just replace this text altogether.</Notes>
         </Document>
         <Document ID="44">
             <Title>Brainworms unrelated to main writing</Title>
@@ -204,18 +204,18 @@ How To Use This Template
 	•	Edit the text of the “Title Page” document to contain the title of your paper.
 	•	Write your introduction in the “Introduction” document. (It doesn’t matter what formatting you use in this document, as it will be formatted correctly during the Compile process.)
 	•	Compose the main body of your paper in text documents inside the “Main Content” folder (again, it doesn’t matter what formatting you use to draft your essay in these documents as the Compile settings will take care of this). The Compile options are set up so that documents in the first level of the “Main Content” folder (“Method”, “Results” and “Discussion”) will have their titles added in bold and centred, whereas documents at the second level (“Participants”, “Research Design”, and so on) with have their titles added in bold and left-aligned. (The documents provided are just by way of example and can be deleted or renamed as necessary.)
-	•	Indent block quotes or other special passages using the ruler settings you require in the finished document and enclose them in a “Preserve Formatting” block. To do this, select the text of the block quote and go to Format > Formatting > Preserve Formatting. (The quickest way of formatting a block quote is to click in the paragraph and select “Essay Block Quote (Preserved)” from the formatting presets, either using the “Presets…” control in the format bar, or by going to the Format  menu and choosing Formatting > Apply Preset - this will indent the text and apply the “Preserve Formatting” block for you.) All other text will have the default APA indentation assigned during the compile process.
+	•	Indent block quotes or other special passages using the ruler settings you require in the finished document and enclose them in a “Preserve Formatting” block. To do this, select the text of the block quote and go to Format &gt; Formatting &gt; Preserve Formatting. (The quickest way of formatting a block quote is to click in the paragraph and select “Essay Block Quote (Preserved)” from the formatting presets, either using the “Presets…” control in the format bar, or by going to the Format  menu and choosing Formatting &gt; Apply Preset - this will indent the text and apply the “Preserve Formatting” block for you.) All other text will have the default APA indentation assigned during the compile process.
 	•	Edit the “References” file so that it contains your bibliography, being careful to adhere to APA formatting.
 	•	This template includes a “Footnotes” document which will be used to hold any footnotes you have created in the main body of the text. If you have not created any footnotes, you should either delete this document or deselect its “Include in Compile” setting in the inspector or Compile sheet. Note that if you export to RTF or Word .doc format and want footnotes exporting as “true” RTF footnotes or endnotes, deselect “Flatten footnotes” in the “Layout Options” pane of the Compile sheet (note that the “Layout Options” pane is only available for RTF and Word .doc formats).
 	•	Create as many appendix documents as you require at the end of the “Paper” folder, making sure to tick “Page Break Before” for each in the inspector or “Contents” pane of the Compile settings sheet.
 	•	Be sure to fill in the short paper title and your school name in the “Replacements” pane of the Compile sheet.
-	•	Use File > Compile… to compile your essay for printing.
+	•	Use File &gt; Compile… to compile your essay for printing.
 
 Sample Document
 The “Example Paper” PDF file in the Research folder shows how the essay will look when compiled.
 
 Final Note
-Scrivener project templates are flexible and are not intended to restrict you to a particular workflow. You can change, delete or move the files and folders contained in the template and you can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File > Save As Template.</Text>
+Scrivener project templates are flexible and are not intended to restrict you to a particular workflow. You can change, delete or move the files and folders contained in the template and you can create your own templates by setting up a skeletal project with the files, folders and settings you would like to use for new projects and using File &gt; Save As Template.</Text>
         </Document>
         <Document ID="46">
             <Title>References, spare.</Title>
@@ -377,7 +377,7 @@ Alex Leitch, 2013-09-18 11:31 AM</Comments>
         <Document ID="8">
             <Title>Footnotes</Title>
             <Text>Footnotes
-&lt;$--ENDNOTES--> All footnotes will get inserted here upon print, and this bubble will be removed automatically.</Text>
+&lt;$--ENDNOTES--&gt; All footnotes will get inserted here upon print, and this bubble will be removed automatically.</Text>
         </Document>
         <Document ID="47">
             <Title>References</Title>

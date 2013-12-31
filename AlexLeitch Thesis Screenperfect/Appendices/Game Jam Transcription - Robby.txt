@@ -1,0 +1,46 @@
+13-11-16-14-14-10
+
+Alex: My thesis is sort of about how quality tools make themselves easy to use in ways that elide the work of the backup staff of the rock concert. You don't see the magic trick. The underlying theory to this is the Penn and Teller theory, which is that magic is super easy. You just have to work at it so hard that no-one can believe you would put in that much effort. That's how a lot of technology goes now. So what ScreenPerfect is about is permitting people who have a very technical skillset, that's extremely particular, to interface with a new piece of technology without having to suffer the slings and arrows of learning a new piece of software. Because the thing I've noticed most in game jams is people running into the thing where they try to make the character jump from one screen to the next screen and then they spend four hours trying to sort out a screen transition. Which would be useful to someone like me as a programmer, but for a game designer, or a narrative designer, that's just a disaster.
+
+Robby is nodding into my tape.
+
+So I guess I have some questions here.... 
+I know you work at Miso so you get some background with what's going on here. I know you're an AV Guy by trade - is that correct?
+Robby: That's correct.
+Alex: So you have some experience with video stuff?
+Robby: Yeah, so I... where do I start. I've run an AV business for seven years. That's taken me from television production... I've never done film. I've done a lot of pharmaceutical meetings. I've done a lot of recording advisory boards. I've done a lot of interview videos, a lot of setup of random meetings in a lot of hotels across North America. And from that I have a generalist approach to video making. I'd say lighting is my softest, worst area. The rest I'm quite comfortable with. 
+
+That being said, coming in to work for Miso, I setup, teardown, and record basically every event we have here.
+
+Alex: Okay, so you feel super confident with recording techniques. Do you also do all the editing for this stuff?
+Robby: Yes.
+Alex: Okay, so you both tape and cut, and paste, I imagine. So what were you expecting from the screenPerfect software from what was described to begin with?
+
+Robby: Well, looking at Henry's mockup, which is a little different from the existing thing now, I got that it would be straightforward. I thought there would be more visual representation of how the screens interact with each other? Almost like a ... in the same way as Twine has a passage view, I thought there was going to be something like that. 
+
+Alex: Ergh, we meant to do that.
+
+Robby: It didn't bother me that there was not, I just made a diagram on paper myself, and then I made my rooms line up to what that was. But again, our game was very simple, so the graphic is quite simple as well. So it wasn't hard to make that happen without help.
+
+Alex: I noticed that your game, which is a passcode game, is very, very smooth. I noticed your transitions are very smooth. That is not actually a thing I had expected. One of the things about yours I found very impressive - your game is called...
+Robby: Mindsafe?
+Alex: Mindsafe, and what is consistent about it is that your skill at video has very obviously let you get things like people touching the buttons from place to place down without - there's no transitions whatsoever, which is super impressive. Were there any features while you were working with the software, other than Passage or Tree view, that you missed? Because Tree View was something that I was working on in the Alex model, but we decided to skip it so smooth transitions happened.
+
+Robby: Yeah, I can speak to that. The thing that was sorely missed from my point of view was the ability to copy and paste single rooms. So the way the video works is that there are 43 or 44 rooms of keypresses. 
+
+Alex: Whoa. That is a lot of keypresses.
+
+Robby: Yeah, so... there's A Room where the keypad shows up, and it waits for you to touch one of the ten buttons, then there's a room (a video clip) for each of those ten buttons, one of which is good - but the video is good or bad, there's a room with that video. So each of the ten rooms point to another ten rooms, each of which has links to either the good or bad section - ten ten ten ten. So because I was working with Dann who had access to the JSON -
+Alex: Yeah, people do have access to that now, that was a request we put in.
+Robby: Oh good, that's good - because I couldn't copy and paste rooms, I'd have made ten copies (etc.)
+Robby: So I made the 40 rooms, but I did the keymapping for ten of them, and then Dann copied them to the remaining ten rooms, and then the game was done. 
+Alex: Okay! So... it worked very smoothly for you, you wanted to be able to see the branch and you wanted to be able to copy and paste rooms (rooms: video x button layouts).
+Robby: I also noticed you can't delete rooms. 
+Alex: Okay, you need to be able to delete rooms. You can't really delete anything right now. So... how did your group process work through the week? I know you had to work here, I recognized some of your desk stuff...
+Robby: The idea of making a demo for the engine was presented to me, Dann approached me a couple weeks ago and said "look, I want to do something with the engine, I want to show it at the jam to show people what you can do, I'd like to do this game about a passcode, you look at items on the desk and the lower screen you're examining them and the upper screen shows what you're thinking." He pretty much laid out the game from the get-go, and I started filming right from that. It was, like you said, stuff from around the desk. What I appreciated in setting it up was there's an old adventure game trick where you want things onscreen to be clickable, but you don't want the room to be all whitespace. So what they used to do was to put in these really interesting backgrounds, and put, like, silhouettes of things in the close foreground, so we put bits and pieces in the edge of the desk - kleenex box, part of the scissors. So the process was we set it up, I did all the filming, did all the editing Saturday mostly, and then took an hour or two to make the actual rooms in screenPerfect. So by far the most work went into the videos. 
+Alex: Okay! That is to me good news, because the intent is for screenperfect, ideally, is a small app to allow video people to make these things, rather than forcing people to spend time with the app. It is kind of a proof of concept for engines for me going forward so we can spend our time at NoJam and at the DMG making games and not making Game Salad blood pressure medication. So it's a first sample for a pre-backed-up thing. It's interesting that it relies so heavily on people having a grasp of this older technology, video, but I think most people make video at this point. What impressed me about yours was how consistent it was, how smooth it was, and how ... really the way you guys handled the passcode thing freaked me out.
+Robby: *laughs* So the way we did that... just to pull the curtain back on that.... I set the original shot, and from there, I had the camera above my head and did the perspective shot. I put my hands into the shot and did an idle hand animation, and that's the main room. Sort of sitting there, tapping the table, put my hands away for a bit, bring them back, twiddle my thumbs, wait for someone to click on something. And so that's the main room. But when you click on one of the objects, that shot vanishes. I zoom in on where my hands were idling. I reach for one of the items, and bring my hand into the new shot, so it's like a, almost like a close-up cut shot, which people are used to seeing on TV anyway...
+Alex: So I don't even notice it, 'cause I'm used to seeing it anyway.
+Robby: You're used to seeing it all the time! It's just a normal cut, at the same exact angle, but closer, your brain says "yeah that's right there, I just saw that." And then when I put the object back at the end of the shot, it cuts back out to the old shot, which is the original shot. As for the keypad, call it the main keypad room, the shot of me grabbing the keypad, putting it down in the main room, and placing it, and then I wait, and I give it maybe a twenty or thirty-second gap, so they don't see me grab it over and over again in the loop, and then it waits for you to do a keypress.
+When you press a hotspot, it goes to the next room, and then with no delay it cuts to right before my hand comes onscreen to press that new button. And so I sat there right after doing the placement shot, I went one, pulled my hand back, two, pulled my hand back, three, four, and I just took those little cuts and added what I'd call whitespace, but took one frame where my hand's not on screen and then pasted it for ten seconds so the loop was ten seconds. 
+Alex: Okay! That worked really, really well. That is pretty darn awesome. I will spend more time with Mindsafe, to see if I can catch some of your tricks, because I saw all kinds of tricks that I just did not expect, and that is pretty cool thing when you're designing a tool is when people come up with new things.

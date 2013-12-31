@@ -1,0 +1,181 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {british}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}
+\defcounter {refsection}{0}\relax 
+\vspace {1em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{ii}{dummy.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgements}{ii}{dummy.3}
+\defcounter {refsection}{0}\relax 
+\vspace {1em}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Contents}{iv}{dummy.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbreviations}{vii}{dummy.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction: Researching A Better Game Engine}{1}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Research Question}{3}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Initial Approach}{3}{section.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Collaborative Practice}{3}{subsection.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Code and Theory}{4}{subsection.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Game Research}{4}{subsection.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Cyborgs, Women, Game Design (needs edits and actual arguments)}{5}{subsection.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Structure of the Remainder of this Document}{6}{section.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.1}Chapters}{6}{subsection.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.3.2}Appendices}{7}{subsection.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Background}{8}{chapter.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Existing Software}{8}{section.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.1}Game Engines: What Are They?}{8}{subsection.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1.2}Twine}{9}{subsection.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Multiscreen Video Technology}{9}{section.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Theory}{10}{section.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}Helene Cixous and the \textit {\IeC {\'E}criture F\IeC {\'e}minine}}{10}{subsection.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}History of Women in Technology}{12}{subsection.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Lev Manovich, Alexander Galloway, and Software Takes Command}{12}{subsection.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}State of the Art}{14}{chapter.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}State of the Art}{15}{chapter.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Twine and Accessible Tools}{15}{section.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Unity}{15}{subsection.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Game Theory: Galloway, Anna Anthropy}{15}{section.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Cyborg Technology: Haraway}{15}{section.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}What About All The Gays And The Internet Sex}{16}{section.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Cut this, even though it's clearly pretty relevant and f*cking everyone just turned out porn or violence games.}{16}{subsection.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Industry Engagement and Design Research: Community Collaboration in Software Development}{18}{chapter.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Industry Engagement}{18}{section.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.1}Bento Miso and Bento Box}{18}{subsection.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.2}Dames Making Games and Game Jams}{19}{subsection.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.3}Game Jams, A Design Method}{19}{subsection.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1.4}NoJam 2: Video Video}{20}{subsection.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Software Design}{22}{section.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.1}Interfaces, engines, and interactions}{22}{subsection.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.2}Initial screenPerfect Engine|Interface Layout}{22}{subsection.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2.3}screenPerfect layout: NoJam}{23}{subsection.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Design Research: What Goes Into Starting A Software Project}{23}{section.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Artist Collaboration}{23}{subsection.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Development Methods}{24}{section.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Agile}{24}{subsection.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}GitHub and Open Source Software}{26}{subsection.51}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Licencing}{27}{subsection.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}Science Fiction Inputs}{27}{subsection.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Complications and Problems}{28}{chapter.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Problems and Complications}{28}{section.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.1}Problems with CYOA as a format}{28}{subsection.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1.2}Avocational Work versus Professionalisation}{28}{subsection.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Good Branching is Expensive and Difficult}{28}{section.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Conclusion}{29}{chapter.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Conclusion}{29}{section.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Endnotes, References, Works Cited}{32}{chapter.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Works Cited}{32}{section.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1.1}Software}{32}{subsection.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Central Thesis Argument}{33}{chapter.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Artists Need Accessible Technology}{33}{section.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.1}Software tools as creative practice}{34}{subsection.66}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.2}Large audiences are not always beneficial}{35}{subsection.67}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.3}Gendering Code}{36}{subsection.68}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.4}Simple, elegant design is important for accessibility}{36}{subsection.69}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.5}Linguistic visibility and the politicization of language in Canada specifically}{37}{subsection.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.6}Effectively resisting authority involves access to privacy and the ability to realize one's own visions}{39}{subsection.71}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.7}Video Games are new, and therefore as-yet free for expression}{39}{subsection.72}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.1.8}the importance of collaborative practice and responsive development practice}{40}{subsection.73}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Agile Manifesto}{42}{chapter.74}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Agile Manifesto}{42}{section.75}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}What Is Agile?}{42}{subsection.76}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Annotated Literature Review}{44}{chapter.77}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Literature Review}{44}{section.78}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Game Jam Documentation}{52}{chapter.79}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.1}Questions To Ask Game Jammers}{52}{subsection.80}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.2}Games List}{52}{subsection.81}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.3}Bug Discovery}{52}{subsection.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.4}Features Requested by Game Jammers}{53}{subsection.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.5}Notes from committed jammers about screenPerfect}{53}{subsection.84}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Software Dependencies, GitHub Records}{54}{chapter.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Transcriptions of Public Talks}{55}{chapter.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.1}Transcript of PsXXYborg presentation, August 29, 2013}{55}{section.87}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{59}{dummy.88}

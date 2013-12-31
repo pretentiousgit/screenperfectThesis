@@ -1,0 +1,135 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{apa}
+    \entry{anthropy}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=fe4bcac2bfe2ecce67ca4a619e46544b}{Anthropy}{A\bibinitperiod}{Anna}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=fe4bcac2bfe2ecce67ca4a619e46544b}{Anthropy}{A\bibinitperiod}{Anna}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {Seven Stories Press}%
+      }
+      \strng{namehash}{fe4bcac2bfe2ecce67ca4a619e46544b}
+      \strng{fullhash}{fe4bcac2bfe2ecce67ca4a619e46544b}
+      \field{sortinit}{A}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Rise of the videogame zinesters: how freaks, normals, amateurs, artists, dreamers, dropouts, queers, housewives, and people like you are taking back an art form}
+      \field{edition}{Seven Stories Press 1st ed.}
+      \field{title}{Rise of the videogame zinesters: how freaks, normals, amateurs, artists, dreamers, dropouts, queers, housewives, and people like you are taking back an art form}
+      \field{year}{2012}
+    \endentry
+    \entry{bissell}{newsarticle}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c3a479b8849c45a4d63f808729063029}{Bissell}{B\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c3a479b8849c45a4d63f808729063029}{Bissell}{B\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {ESPN Internet Ventures}%
+      }
+      \strng{namehash}{c3a479b8849c45a4d63f808729063029}
+      \strng{fullhash}{c3a479b8849c45a4d63f808729063029}
+      \field{sortinit}{B}
+      \field{labelyear}{2013}
+      \field{labelmonth}{09}
+      \field{labelday}{25}
+      \field{labeltitle}{Poison Tree: an open letter to Nico Bellic about 'Grand Theft Auto V'}
+      \field{day}{25}
+      \field{month}{09}
+      \field{newspaper}{Grantland}
+      \field{title}{Poison Tree: an open letter to Nico Bellic about 'Grand Theft Auto V'}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.grantland.com/story/_/id/9719678/tom-bissell-writes-letter-niko-bellic-grand-theft-auto-v
+      \endverb
+    \endentry
+    \entry{medusa}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=58abcb5d6663a687f7993a7e798e7e98}{Cixous}{C\bibinitperiod}{Hélène}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=58abcb5d6663a687f7993a7e798e7e98}{Cixous}{C\bibinitperiod}{Hélène}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{58abcb5d6663a687f7993a7e798e7e98}
+      \strng{fullhash}{58abcb5d6663a687f7993a7e798e7e98}
+      \field{sortinit}{C}
+      \field{labelyear}{1976}
+      \field{labeltitle}{Laugh of the Medusa}
+      \field{journaltitle}{Signs: Journal of Women in Culture and Society}
+      \field{number}{4}
+      \field{title}{Laugh of the Medusa}
+      \field{volume}{1}
+      \field{year}{1976}
+      \field{pages}{875}
+    \endentry
+    \entry{galloway}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=88ca2c2f46311ea11cc7b5b1d095677d}{Galloway}{G\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=88ca2c2f46311ea11cc7b5b1d095677d}{Galloway}{G\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{88ca2c2f46311ea11cc7b5b1d095677d}
+      \strng{fullhash}{88ca2c2f46311ea11cc7b5b1d095677d}
+      \field{sortinit}{G}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Gaming: Essays On Algorithmic Culture (Electronic Mediations)}
+      \field{title}{Gaming: Essays On Algorithmic Culture (Electronic Mediations)}
+      \field{year}{2006}
+    \endentry
+    \entry{mda}{article}{}
+      \name{labelname}{3}{}{%
+        {{uniquename=0,hash=5eeee8f66d452006be5b86b51aed051d}{Hunicke}{H\bibinitperiod}{Robin}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=992dc5b90a2b657dc809457a03a5e723}{LeBlanc}{L\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1d8a43dfdd0afc35a7b19ffb5fabcccd}{Zubek}{Z\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=5eeee8f66d452006be5b86b51aed051d}{Hunicke}{H\bibinitperiod}{Robin}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=992dc5b90a2b657dc809457a03a5e723}{LeBlanc}{L\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=1d8a43dfdd0afc35a7b19ffb5fabcccd}{Zubek}{Z\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0474b82ab00846544b3c591db058a8d7}
+      \strng{fullhash}{8227749b4562a0c12a6a824e13041e1f}
+      \field{sortinit}{H}
+      \field{labelyear}{2004}
+      \field{labeltitle}{MDA: A Formal Approach to Game Design and Game Research}
+      \field{journaltitle}{Rutgers}
+      \field{note}{http://www.cs.northwestern.edu/~hunicke/MDA.pdf}
+      \field{title}{MDA: A Formal Approach to Game Design and Game Research}
+      \field{year}{2004}
+    \endentry
+  \endsortlist
+  \missing{daimio}
+\endrefsection
+\endinput
+

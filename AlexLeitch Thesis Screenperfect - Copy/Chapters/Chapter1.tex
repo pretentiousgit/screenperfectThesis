@@ -1,0 +1,105 @@
+% Chapter 1
+
+\chapter{Introduction: Researching A Better Game Engine} % Main chapter title
+
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 1. \emph{Researching A Better Game Engine}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+This is a thesis about art and technology. 
+
+The arts and the humanities are the technical name for the fields of work that produce both North America’s culture and its record of its culture. We use computers to do the work, the same as people use computers to do most other kinds of well-paid brain work in 2013. Computers are about as far from a straightforward tool as it is possible to be: in 2013, a computer is not so much a hammer as it is an ongoing negotiation between software that works pretty well most of the time and hardware that is generally reliable as long as it is not presently wet.
+
+The use of computers as tools is a specific skill set, which is as unique as the skill set of using a paintbrush. The key element of computer skills is a comfort with curiosity: digital tools change all the time, and many of them are not well written. Almost all take a vast period of time invested in skill acquisition before content - art - can be produced, and this time is expensive. People who have little time cannot afford to acquire the skills to use a new and complex tool. Due to these restrictions, the number of people for whom computer use in and of itself will be a delight is a limited population. This is problematic, because art production is difficult and time-consuming even without the boundaries raised by software challenges. The more limited and specific the skill set required to use contemporary software tools, the more difficult it is to include a diversity of voices in the cultural production of genuinely contemporary work. When artists are excluded from technology, culture splits on lines of privilege. There are artists who make art, and technologists, who make technology, but do not see themselves as particularly responsible for the ideas encoded in their work. 
+
+Technology is not neutral. It is authored, and where there is authorship, there is a responsibility for ideas. When large groups are left out of communication media, particularly those tasked with producing the language with which culture speaks to itself, there comes a disconnect in the public representation of our sense of self. 
+
+Video games are the newest of the cultural production engines. A good game, as described by the MDA (\cite{mda}), first involves engaging mechanics – the loop systems of reward and scoring – then graphics to create a world, then sound to fill out that world. The controls are weighted this way and that, but the most profitable games - referred to as AAA or triple-A properties - are presently power fantasies. There are other fantasies out there than the ones at the end of a gun. The tools have been created to design gun-centric worlds, and therefore, gun-centric worlds are the ones that get built. People who are not interested in games about violence do not have ready access to other metaphors, and this restricts the voices we have allowed to produce new cultural content.
+
+The value of a broad range of voices in any cultural practice should be self-evident, but video games are presently unique in their high-level uniformity. Unlike any other discipline, the basic tools for games tend to be expensive, and the toolsets that exist to generate games support specific mechanics in similar-seeming worlds. This means that art games are unfairly compared to commercial games produced with the same media. The commercial games set the ground of the conversation, which denies the subjectivity of the producer of the second-stage tools. These producers - developers and game designers - are disappeared into the system, their work only revealed by which elements an artist can or cannot subvert. Without cooperative tools, it is challenging to make new things.
+
+For many years, the most important thing about new games was their graphics. We are now topping out the graphics field. New pictures are available, and will always have their audience, but as Galloway has asserted, games are not pictures. They are not films. Games are software that exists when action is taken within their rulesets, and therefore, the newest and most interesting research in games is not how to shoot prettier things, but to find new ways to shoot them. It is not the best graphics that are most important, but the finest actions, the most interesting experience for the investment.
+
+The problem of interesting experiences is not trivial. Video games offer an economically advantageous distraction engine, a way to enact an artificial life during a period of declining general wealth. Allowing a diverse range of voices easy access to portray their own games, their own alternate or idealized modes of being, is a way of making those voices more real, of offering an alternate human experience to the “asshole simulator” (\cite{bissell}) genres manufactured at much higher budgets.
+
+%----------------------------------------------------------------------------------------
+
+\section{Research Question}
+
+My research question is to ask which conditions make software tools more accessible, as versus more limited, to people who are new to making new media art. I am specifically limiting my research to the idea of a game engine. A game engine is a software system that allows content producers to place assets in context with programmed scripts to generate different systems of interaction. My research is in how the use of a radically simple game engine - a piece of software which is fundamentally limited - can enable a polyphony of creative expression by reducing the friction of learning new software tools. 
+
+In this paper, I ask questions of how collaborative work affects artistic production, how much influence a tool can have on an artist's practice, what sort of assumptions are made apparent to producers via the tool, and what the position of a technologist is in engendering this work.
+
+
+%----------------------------------------------------------------------------------------
+
+\section{Initial Approach}
+
+
+\subsection{Collaborative Practice}
+
+Collaborative practice is somewhat difficult, as code practices around collaboration rely on open-source techniques as well as pair programming. Pair programming is a coding practice that involves partnering a more experienced and less experienced coder in order to communicate code experience and improve the legibility of the completed software.
+
+This thesis assumes that the definition of gaming as an art form dependent on action (\cite{galloway}) is accurate, and therefore, after developing an initial round of software, the main body of feedback and development in this software package has been via user collaboration. To that end, I organized a game jam in concert with a local coworking facility, to host an event where volunteers can use the tool to develop their video works. The volunteers can then give feedback to both the software developers and to each other on what is possible with the tool. At that point, I will incorporate their feedback into future versions of the tool, hopefully leading to a stable platform for interactive experience development. This is a dynamic type of user-centered design, relying heavily on version tracking software and rapid updates, in line with Agile development ideals.
+
+The initial software underlying screenPerfect has been developed in concert with an artist who laid out an idea for how a video interaction might work, which has then been created and refined, released to more artists, and then revised again. The hope is that each new version of the tool will generate a useful echo chamber, amplifying new ideas even as it makes advanced technology easily accessible to content producers.
+
+The toolset can then be released and left for artists to use and analyse.
+
+\subsection{Code and Theory}
+
+The initial software of this project was developed as a response to the lack of privacy and control of various shared media sources online. Rather than developing for a mass audience, I began with the idea that this should be developed privately, for small audiences using disconnected technology.
+
+The code of screenPerfect was written in Javascript on the server and client side, using Node.JS. Node is a server environment library and framework that is intended to permit web developers familiar with JS to write their code to the server. During the process of the thesis, the idea of screenPerfect as a game engine was taken up by my industry partners, Bento Miso, who are interested in the idea of new game engines as a use case for their language, Daimio (\cite{daimio}). In the case of ScreenPerfect, I decided to write the initial application in Node.JS and javascript to take advantage of the speed of the Google V8 code engine. When that application was done, I turned it over to Miso, who refactored the code into something that could be attached to the Daimio language system.
+
+The critical theory that underlies this practice is a combination of French poststructuralism - Helene Cixous in particular - and contemporary writing on video games and the history of women in technology. By producing the software and content with the input of a local feminist collective, Dames Making Games, I have grounded the work in a social justice driven practice which encourages women to take part in their own lives by learning how to interact with machines and communicate with the broader world.
+
+\subsection{Game Research}
+
+The Twine engine is a branching narrative engine for authoring text narratives. I have taken the idea of Twine and transformed it to use video and still images to expand the possibilities of an author experience.Twine is affordable and requires very little training to access, but it is also limiting, in that it undermines skillsets in imagemaking which may already be highly realized. Cinematographers making Twine games may find it lacking.
+
+In addition, Twine does not take advantage of the new multi-monitor systems, which are both important and difficult to work with. ScreenPerfect is useful to both people who wish to make straightforward games, and to installers who would prefer to use multiple clients to explore the possibilities of multiple-projection screen surfaces.
+
+\subsection{Cyborgs, Women, Game Design (needs edits and actual arguments)}
+
+My initial approach and research method to this work is based on the Agile Manifesto, a software development methodology that opposes siloed, top-down software development. I have paired Agile development with the work of Helene Cixous, whose “Laugh of the Medusa” provided a template for \textit{écriture féminine}, an argument for women writing of their own experience in order to be made visible.
+
+This work is related to various texts of feminist or woman-oriented critical theory that have appeared in the years since: Haraway’s Cyborg Manifesto, TIQQUN’s Preliminary Materials Towards A Theory of the Young-Girl. These are academic constructions of femininity as it is seen in relation to technology: they are feminist in the formal sense of the word. There are other senses of the term, which I will not be examining within the paper. Rather than expressing this work in context with Cixous as \textit{écriture feminine}, I will be using Cixous as a reference for the idea of the alien perspective as a position of resistance within a means of expression controlled by a neutral-to-hostile majority. 
+
+This approach addresses women as an alien construct to the more conventional world of technology, which has been recently associated with a masculinist performance that is unnecessary for the pure structure of good rules and the development, through that, of good software. This construction is relatively recent, as Nathan Ensmenger presents within his work on the systematic exclusion of women from programming as a trade (\cite{ensmenger}).
+
+Accessibility for artists is a major contemporary concern, related to the development of languages like Processing by Ben Fry and Casey Reas (\cite{processing}), microcontrollers like the Arduino platform by Massimo Banzi &co. (\cite{arduino}), and frameworks like Scratch from the MIT Lifelong Kindergarten Group (\cite{scratch}). 
+
+People who write code to develop an idea are engaging in a conceptual creative practice themselves, and they then display that creative practice through the artists who use their work. Purposefully producing small tools to support creative practice is a different model than that of major software development houses, where the work is designed in isolation, iterated on a strict schedule - 18 months in the case of Adobe \cite{adobe} - and released. There are documented design methods for software that follows this model - I have listed Agile as the most well-known - but for the most part, this is simply considered an interative working practice which aims to a functional, finished result.
+
+Although artists are the central agents of production of the invisible yet tangible value of the culture industry, they are not the prime beneficiaries of the financial system that backs, stores, and distributes the results of that capital. Artists were not always expected to be broke, but they are generally broke now, thanks to the triumph of the ideal of the starving artist \site{starvingartist}. Therefore, software for artists needs to be inexpensive, and set up to be almost trivially easy to use. This reserves the value of scarcity to the \textit{ability} of the artist, rather than applying the majority value to the role of the engineer. This kind of invisibility is the invisibility of good management, of any type of good administration. Like housekeeping, code recedes until something goes wrong.
+
+To test this idea, I have approached people to produce video|games with the screenPerfect software in the context of a voluntary game jam – a type of collaborative space where participants work with digital tools to generate new, raw games in a limited window – and then compiling the results into an arcade machine for presentation. 
+
+%----------------------------------------------------------------------------------------
+
+\section{Structure of the Remainder of this Document}
+
+\subsection{Chapters}
+The remainder of this document is structured as follows. Chapter 2 covers various methods used in my research to examine the conceptual importance of accessible-technology artist tools, including the Agile Manifesto. Chapter 2 also sets out the restrictions and main theoretical texts that underly my premise of what constitutes an accessible tool. It also addresses a list of tools used to produce the thesis proper, including git revisions, LaTeX, and their shortcomings. 
+
+Chapter 3 addresses theoretical documents, and how they relate to the process of crafting solid software from an artistic/conceptual work perspective. This is where I have placed works by Cixous as well as an examination of Galloway's essays on gaming as algorithmic culture. I will also delimit which texts I consider useful for this work, and how to ground a video||game in the broader context of recent Canadian art history.
+
+Chapter 4, Design Research, is the chapter where I work through the process of developing the game engine with reference to the benefits of open, closed, and ideologically-driven software. There is some strategic foresighting here through Doctorow's Pirate Cinema, the text I have used as a How Might We for what a collaborative theatre might be. I have also included reference to the Brechtian active audience, which is useful for gaming. Chapter 4 also contains the bulk of my research on collaborative practice within communities.
+
+Chapter 5, The Trouble With Amateur, addresses some of the questions raised by Galloway in his \textit{Gaming: Essays on a Algorithmic Culture}, which includes an examination of why games built in resistance to gaming tropes are largely unsuccessful and unpopular to play. This chapter is also where I will examine some of the problems of making free content easier to provide to the internet, which includes an economic examination of how the value curve of creative practice goes flat as accessibility increases.
+
+Chapter 6 is my conclusion, a restatement of my arguments, and the source of some optimism.
+
+Chapter 7 is a list of works cited.
+
+\subsection{Appendices}
+Appendix A is my annotated literature review.
+
+Appendix B is a compilaton of github commit comments over the course of the writing of the game, which detail the direction of how someone reasonably confident with computers and programming learns a new language. 
+
+Appendix C is the code record of screenPerfect proper.
+
+Appendix D is a list of the games made to date with screenPerfect and their installation sites, along with links to where they might be found for future installation.

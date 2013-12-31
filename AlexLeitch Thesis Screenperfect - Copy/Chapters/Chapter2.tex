@@ -1,0 +1,97 @@
+% Chapter 2
+
+\chapter{Background} % Main chapter title
+
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 2. \emph{Background}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+% A brief section giving background information may be necessary, especially if your work spans two or more 
+% traditional fields. That means that your readers may not have any experience with some of the material 
+% needed to follow your thesis, so you need to give it to them.
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	Software
+%----------------------------------------------------------------------------------------
+
+\section{Existing Software}
+ScreenPerfect does not exist in a void. Although written fresh in Javascript, it is dependent on many frameworks and libraries in order to work. The code was developed using the Node framework for Javascript on the server, which is supported by Google. It mimics functionality produced by the Dataton Watchout system, which provides simultaneous video windows using a custom, private hardware platform. The software that screenPerfect interacts best with is Google Chrome.
+
+\subsection{Game Engines: What Are They?}
+
+A game engine is a collection of software designed to make it possible for a team of artists, developers, musicians, and producers to work together to produce a complete product. Traditionally, game engines are used to produce 2D or 3D experiences with clear "assets" such as 2D sprites or 3D player character/interaction models, backgrounds, interaction assets - crates, for example - music, and scripts in a programming language to tie all of these together into a play experience.
+
+Some popular professional engines at the time of writing are Unity3D, which features native mobile integration and ease of scripting in both Javascript and C#, Crytek, which comes with many high-end 3D resources preloaded for high definition graphic support, the Unreal Engine, which is quite stable and useful to experienced teams that prefer more control over their work.
+
+There are popular hobby engines that de-emphasise programming as well, such as GameMaker, which is prized for PC compatibility, Game Salad for OSX, and Construct 2, which is PC-only but has a powerful engine to manage game physics and interactions.
+
+These engines all assume a certain type of player interaction: they are designed to enable designers to produce specific types of games, such as a "shooter" or a "platformer", similar in style to the Call of Duty franchise or Nintendo's Mario series. The interactions available are easily understood as a language of action by their players, provided players have previous experience with video game play.
+
+ScreenPerfect is distinct from pre-existing engines. It is a piece of software custom written to encourage artists to use their own skillset in image and video creation to explore what is possible in an interactive experience. Screenperfect has a set of play mechanics that have been pre-written. While they can be \textit{extended} by anyone who knows the \cite{daimio} language, the mechanics are straightforward to use and not designed to be altered by artists. This means that artists have a consistent environment in which to place their work, which will reliably showcase that work without them needing to learn how to program - an entirely new creative skillset - to do so.
+
+\subsection{Twine}
+Twine is the closest game engine to screenPerfect at the time of writing. Twine is a locally-installed hypertext-based branching narrative platform, which produces an interactive narrative that can be accessed through any web browser. It encourages expressive type styling and elements of multimedia, including music, coloured type, and well-designed game screens, but does not require them. Twine does not yet support video narratives, and is not entirely stored online as of yet.
+
+The Twine engine was popularized by indie gaming celebrity Anna Anthropy in her 2012 book Rise of the Videogame Zinesters \cite[2012]{anthropy}. Since then, hundreds of Twines have gone live. 
+
+Twine is most notably popular with the queer indie gaming community. It has been used in wide popular release by Anna Anthropy, Merrit Kopas - author of \textit{Lim}, Porpentine, Zöe Quinn, and games critic Soha El-Sabaawi, among others. 
+
+\section{Multiscreen Video Technology}
+Dual screen technology, or more accurately, multi-screen synchronous web technology, is one of the big new ideas being heavily backed by Google in 2013. As a consequence, its Chrome browser has been designed to support software developed with a specific suite of frameworks, many of which are wholly supported by Google. This is an example of how software is not free: we cannot guarantee \textit{what} is being done with the whole of our software installations, or whether there is a security flaw in a system written to be dependent on development tools from major software houses. 
+
+That being said, Google supports Node and Chrome both, so multi-screen technology using web browsers is accessible to people for no more investment than a new language, for the moment. Google, like many future-facing organizations, has a bad history of dismissing old technologies for the benefit of the new, but Chrome seems stable enough for now. ScreenPerfect relies on Node.JS, which is based on Google's V8 engine, and MongoDB for databasing. In addition, although the engine was originally authored independently using exclusively Javascript, later versions have been reauthored using the \cite{daimio} dataflow language to describe connections between game files. Daimio has been released under the MIT licence by Bento Miso in Toronto.
+
+The architecture of screenPerfect is wholly new, but the concept is based on the Dataton Watchout system, which encourages producers to develop large multi-screen \textit{single} video experiences on custom hardware. Dataton Watchout costs approximately $40,000 per installation, which makes an inexpensive alternative appealling from a creative standpoint. ScreenPerfect permits people to use existing hardware to synch multiple videos to one set of controls. This is also distinct from ChromeCast, which allows people to wirelessly pair a television with a touchscreen for control and consumption of the touchscreen at a larger size. 
+
+Neither of these software packages provide any kind of support for a branching video experience natively, nor do they provide the ability to use existing hardware with 
+same. ScreenPerfect provides this ability, because it has evolved out of the independent games community, rather than from the perspective of people who primarily 
+consume television as a media habit. It is predicated on a comprehension of gaming and interaction that includes the ability to direct one's narrative, where the appeal 
+of media is the appeal of \textit{engaging} with media, rather than simply absorbing what an author|director has to say.
+
+%----------------------------------------------------------------------------------------
+%	Feminist Theory
+%----------------------------------------------------------------------------------------
+
+\section{Theory}
+
+\subsection{Helene Cixous and the \textit{Écriture Féminine}}
+Cixous' \textit{Laugh of the Medusa} predates the computer age, but perfectly and predictably describes the trouble with programming - which is a form of writing - within \textit{Laugh of the Medusa}: 
+
+\begin{quote}
+And why don't you write? Write! Writing is for you, you are for you; your body is yours, take it. I know why you haven't written. (And why I didn't write before the age of twenty-seven.) Because writing is at once too high, too great for you, it's reserved for the great-that is, for "great men"; and it's "silly." Besides, you've written a little, but in secret. And it wasn't good, because it was in secret, and because you punished yourself for writing, because you didn't go all the way; or because you wrote, irresistibly, as when we would masturbate in secret, not to go further, but to attenuate the tension a bit, just enough to take the edge off. And then as soon as we come, we go and make ourselves feel guilty-so as to be forgiven; or to forget, to bury it until the next time. 
+(\cite[p.876-877]{cixous})
+\end{quote}
+
+"Write, let no one hold you back, let nothing stop you: not man; not the imbecilic capitalist machinery, in which publishing houses are the crafty, obsequious relayers of imperatives handed down by an economy that works against us and off our backs; and not yourself."
+(\cite{cixous})
+
+In this passage, Cixous chides her readers for not giving themselves the permission to write freely, or to be creative. French, Cixous worked with Lacanian theory, with many disciplines related to sex, which can be distilled to reproduction if one chooses. I do not so choose: Cixous wrote just as the pill was becoming available. Sex suddenly freed of the commitment of children by the first cyborgs, creativity - the act of creation - can now mean so many different things.
+
+The guilt remains, though. Creative practice is difficult, and every new creative practice - programming, video art, game design - must go through the same flailing critique of its status as art, or as real at all, as the last new thing. The critique then works to isolate new creative workers, making them unsure as to whether what they produce can be considered work at all.
+
+"Today, a software program or platform, once written and deployed, relegates its user to simple read/write tasks, with little use for changing the structure of the platform, and no ability or rights to do so." (\cite{straddler})
+
+"Simultaneously, the coordination of immensely esoteric skillsets are required to design and implement such platforms, consolidating power and capital with a small class of systems builders who may manifest their control in virtually any industry." (\cite{straddler})
+
+"Servers, broadband, hardware… the infrastructure of the digital economy is still closely guarded and accumulated by a shrinking roster of private interests." (\cite{straddler})
+
+
+\subsection{History of Women in Technology}
+
+Ada Lovelace, daughter of Lord Byron, was the first programmer. She was excellent at rules, and beat herself up for it routinely \cite{plant}. The ability to put rules in order, to work backwards and forwards from a desired result all along the path of the machines, is a characteristic much sought in both programmers and game designers. Both roles are responsible for rule systems that will dictate a predictable result. Despite a historical involvement, women have been recently and quite comprehensively written out of technological roles.
+
+The reasons for the write-out are clear. Partly, it is patriarchy. In a straighforward way, ladies may not possess uncomplicated positions of economic advantage within a patriarchy, and it is against the interests of the system to permit a polyphony of input at the rules-setting level. Computers have quickly become a good job with a good chance to better one's life. It is presently popular to assert that in the future, there will be two types of lives:
+\begin{quote}
+"…those who tell computers what to do, and those who’re told by computers what to do." - Marc Andreesen, Andreesen Horrowitz.
+\end{quote}
+
+This seems broadly true, but something about the sentiment rings solutionist. Perhaps it is just that I do not personally like to think of a world where technology, and not humanism, drives society forward. I believe this is a swing state, and I believe it should be set aside, where possible. Anyone can learn to code. Learning to express oneself clearly in a creative medium is something harder.
+
+screenPerfect is a tiny, didactic piece of software that only permits works within a specific framework. Like a gesture drawing, what is drawn is absolutely not implied, only the form. With that being true, it is astonishing how many works from the game jam ended up addressing questions of embodiment and stress situated within the body.
+
+\subsection{Lev Manovich, Alexander Galloway, and Software Takes Command}
+Alongside feminist written history, this thesis falls into the frameworks described by Lev Manovich in his 2013 book Software Takes Command. This book emphasises what Manovich sees as a gap in the academy's examination of \textit{media} as the central component of art and literature, and seeks instead to directly address questions of how \textit{software} can be itself analysed as possessing a direct impact on the systems of production with which it interacts.
+
+I believe Manovich is overly aggressive in discounting the value and input of actual producers - I do not agree that individual forms of media are dead any more than I believe that print is dead - but I do think that his writing is directly related to my central research questions as to what impact a simple software tool might have on artistic prouction.

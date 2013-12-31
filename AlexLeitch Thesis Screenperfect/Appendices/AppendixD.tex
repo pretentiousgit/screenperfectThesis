@@ -1,11 +1,67 @@
 % Appendix Template
 
-\chapter{Software Dependencies, GitHub Records} % Main appendix title
+\chapter{Appendix D: Installing screenPerfect} % Main appendix title
 
 \label{AppendixD} % Change X to a consecutive letter; for referencing this appendix elsewhere, use \ref{AppendixX}
 
-\lhead{Appendix D. \emph{Software Dependencies}} % Change X to a consecutive letter; this is for the header on each page - perhaps a shortened title
+\lhead{Appendix D. \emph{Installing screenPerfect}} % Change X to a consecutive letter; this is for the header on each page - perhaps a shortened title
 
-List of software used to develop screenperfect.
+%----------------------------------------------------------------------------------------
+%	List of Software
+%----------------------------------------------------------------------------------------
+
+\section{screenPerfect Software Dependencies}
+\begin{itemize}
+\item[\tiny{$\blacksquare$}] \textbf{Node.JS} - a software framework for writing javascript on the server
+\item[\tiny{$\blacksquare$}] \textbf{MongoDB} - a lightweight database framework utilizing JSON for file storage
+\item[\tiny{$\blacksquare$}] \textbf{Daimio} - a dataflow language that stores the game-states of screenPerfect
+\item[\tiny{$\blacksquare$}] \textbf{Git/GitHub} - version control software used to store and pull most recent versions of software
+\item[\tiny{$\blacksquare$}] \textbf{screenPerfect} - software for branching narratives in video and image
+\end{itemize}
 
 
+Detailed installation instructions for ScreenPerfect on PC
+
+1. Install node.js
+	http://nodejs.org/ 
+2. Install and run mondoDB following the instructions found below:
+	http://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/
+3. Either download and install Git/GitHub or download a copy of the SP working directory from pretentiousgit/screenperfect-dev, and install in local code directory. This should be somewhere that you are comfortable to find using the command line.
+
+\section{Running screenPerfect from a command line}
+1. From the command prompt, CD to the directory where you placed your copy of the screenPerfect files from web (for example, cd documents\nodejs\screenperfect-dev).
+2. Type node screenperfect at the prompt.
+The prompt should return:
+\begin{lstlisting}
+screenPerfect is listening on port 8888
+\end{lstlisting}
+
+3. Open your browser and head to:
+\begin{lstlisting}
+http://\textit{localhost}:8888/control will bring up a control interface
+http://\textit{localhost}:8888/client will bring up a client screen
+http://\textit{localhost}:8888/edit will bring up an editor, which will be only some use without a desktop.
+\end{lstlisting}
+
+\section{Accessing screenPerfect from a remote client}
+\subsection{On Mac}
+1. On your server machine, open a Terminal window, and enter 'ifconfig' at prompt.
+2. ifconfig returns many results. You are looking for one that says 'inet.' The first ip address after inet is your localhost's dynamic address on your current wiFi network. 
+3. To find screenPerfect, enter this address - for example, (192.168.10.10) - then :8888. http://\textit{192.168.10.10}:8888 should bring up the main screenPerfect game list. 
+
+\begin{lstlisting}
+http://\textit{192.168.10.10}:8888/control will bring up a control interface
+http://\textit{192.168.10.10}:8888/client will bring up a client screen
+http://\textit{192.168.10.10}:8888/edit will bring up an editor, which will be only some use without a desktop.
+\end{lstlisting}
+
+\subsection{On Windows}
+1. Open a CMD window, and enter ipconfig at the prompt.
+2. Take the number next to IPv4, for example, \textit{192.168.10.10}.
+3. Open your browser and enter http://\textit{192.168.10.10}:8888/ to access the main game trees.
+
+\begin{lstlisting}
+http://\textit{192.168.10.10}:8888/control will bring up a control interface
+http://\textit{192.168.10.10}:8888/client will bring up a client screen
+http://\textit{192.168.10.10}:8888/edit will bring up an editor, which will be only some use without a desktop.
+\end{lstlisting}
