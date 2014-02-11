@@ -37,11 +37,25 @@
 \addbibresource{Bibliography.bib}
 % \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers'
 
-
 \usepackage[Bjornstrup]{fncychap}
 %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
 
-\hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\usepackage{listings}
+\usepackage{color}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+
+\lstset{
+ backgroundcolor=\color{mygray},
+ breaklines=true,
+ captionpos=b,
+ keepspaces=true,
+ numbers=left,
+ numbersep=5pt,
+ numberstyle=\tiny\color{mygray}
+ }
+
+\hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+
 \title{\ttitle} % Defines the thesis title - don't touch this
 
 \begin{document}
@@ -153,10 +167,9 @@ Date:\\
 
 \acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
-I wish to express my appreciation of my thesis advisors, Emma Westecott and Simone Jones, without whose generous contribution of time and sensible advice this would be a much weaker paper. I would also like to express gratitude to the Site 3 coLaboratory community, who provided me space to work and a community to work with, and Bento Miso - Dann Toliver, Jennie and Henry Faber expressly - for their technical advice and their help in hosting No Jam 2. I would also like to extend my thanks to Evan of the Digital Futures tech desk for a key tip when I was just starting my research. Hannah Epstein deserves my thanks as well for being a fantastic collaborator.
+I wish to express my appreciation of my thesis advisors, Emma Westecott and Simone Jones, without whose generous contribution of time and sensible advice this would be a much weaker paper. I would also like to express gratitude to the Site 3 coLaboratory community, who provided me space to work and a community to work with, and Bento Miso - Dann Toliver, Cecily Carver, Jennie and Henry Faber expressly - for their technical advice and their help in hosting No Jam 2. I would also like to extend my thanks to Evan of the Digital Futures tech desk for a key tip when I was just starting my research. Hannah Epstein deserves my thanks as well for being a fantastic collaborator.
 
-To my personal support community, many thanks for your patience with me. It's okay, it's done now. 
-Now we can go back to conquering the world.
+To my personal support community, many thanks for your patience with me for the duration of this work.
 }
 \clearpage % Start a new page
 
@@ -262,8 +275,6 @@ Now we can go back to conquering the world.
 \input{Chapters/Chapter4} 
 \input{Chapters/Chapter5} 
 \input{Chapters/Chapter6} 
-\input{Chapters/Chapter7} 
-\input{Chapters/Chapter8} 
 
 
 %----------------------------------------------------------------------------------------

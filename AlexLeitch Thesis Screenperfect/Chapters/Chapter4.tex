@@ -1,166 +1,296 @@
 % Chapter Template
 
-\chapter{Industry Engagement and Design Research: Community Collaboration in Software Development} % Main chapter title
+\chapter{Physical Deployment of Web Applications in Limited Local Space} % Main chapter title
 
 \label{Chapter4} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
-\lhead{Chapter 4. \emph{Industry Engagement and Design Research}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+\lhead{Chapter 4. \emph{Physical Deployment of Web Applications in Limited Local Space}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
-%	Industry Engagement
+%	Deployment
 %----------------------------------------------------------------------------------------
-\section{Industry Engagement}
 
-%-----------------------------------
-%	Miso and Bento Box
-%-----------------------------------
-\subsection{Bento Miso and Bento Box}
-In order to run a game jam, one requires space, and people interested in working on games that are in line with any themes you might want to test. In order to access that space, I worked with the Bento Miso coworking facility here in Toronto.
+One of the earliest problems to come up in developing the screenPerfect sofware has been compromises in how the software is served to users and to artists. The reliance on the internet is difficult, because the internet simply is not always available - it is an unreliable resource that has come to be taken for granted. This is a problem of privacy, partly - anyone can be watched when they're online - but there are also simple installation problems.
 
-Miso is a not-for-profit bricks and mortar site that serves as home for both Bento Box, a local development hub, and the Dames Making Games, a feminist initiative to introduce women to digital game development processes. As a board member of DMG, I have repeatedly witnessed the limitations of extant gamemaking tools. The software has bugs, runs on only a few systems, or relies heavily on metaphors and software constructs that are understood to those who already play a range of commercial digital games, but which are not clear to those of us who are new to gamemaking practice.
+WiFi is taken for granted in most institutions, but the fact is that access to these radios must be regulated so that users can be traced, and so that undesirable resources are not accessed. This limitation means that, for security reasons, it is rare that people can share new devices across industrial networks.
 
-As a not-for-profit, Miso also serves as the hub for a great deal of Toronto's indie - independent - game development community. They offer professional support and development advice, and I felt there was a good match between their professional skillset and my research interests. The DMG traditionally run a jam in November, and felt that screenPerfect - a new software designed to be accessible in a short time frame to people with extant skills - would be a good match for the audience associated with the organization.
+There are various circumstances in which one may wish to deploy a web application that do not include areas where a broadband connection to the larger world may be assumed. These areas include many music and art festivals. Any festival directly descended from the Burning Man network, for example, is unlikely to have a reliable connection to the outside world, the point of the events being to form a Temporary Autonomous Zone \cite{taz} to explore broad ideas of art and culture. These zones may nonetheless benefit from art built to take advantage of contemporary smartphones, or contemporary radio technologies, all of which can be operated without a centralized power grid.
 
-Miso, and Bento Box, offered to help me with coding a more accessible front end to the screenPerfect engine in time for the jam, so that I could get feedback on the system mechanics rather than just the interface.
+There are other challenges to public deployment, such as leaving a valuable production environment out in public, or requiring a technician to look in on specialized equipment. Both of these restrict the venues permitted for public display of work. Also limiting are instances where work should be deployed near people consuming alcohol, which is notoriously bad for electronics.
 
-%-----------------------------------
-%	Dames Making Games
-%-----------------------------------
-\subsection{Dames Making Games and Game Jams}
+This chapter addresses my central idea on how to repair the gap between excellent idea for web-based deployment, and the physical reality of gallery spaces with sharply limited resources available for persistent software deployment.
 
-\begin{quote}
-Dames Making Games (or DMG Toronto) is a non-profit community organization based in Toronto dedicated to supporting dames interested in making, playing, and changing games. In short, we want to build an \textbf{inclusive} and \textbf{engaged} local community of game-makers. Our community isn't women only, but it is women-driven.
-\textit{from the DMG.to website, accessed \cite{dmgto} November 27 2013}
-\end{quote}
+%----------------------------------------------------------------------------------------
+%	Problems
+%----------------------------------------------------------------------------------------
 
-The Dames Making Games are a society within Toronto that work to promote women in video games. Initially funded in part by \textbf{FiG} and part of an SSHRC grant, the DMG are now entirely self-funded. They work by using the game jam method to introduce women and allies to simple game development tools. This provides a straightforward introduction to concepts of computer logic and programming problems for some people, to video game art development for others, and video game sound production for still others. Some develop system mechanics, some design whole levels or game narratives. 
+\section{Problems and Complications in Display}
 
-The point of the DMG is to promote access to this field to people other than the 18-to-35 year old males who form the primary demographic for the video game industry, in the hopes that a diverse population of game makers will produce a diverse population of games. 
+My method for discovering these issues has been to attempt to display variants of screenPerfect in user testing over the course of a year. We have had exhibits in a van, a tent, and repeated installations at various public bar events. These have been dangerous to electronics. As screenPerfect was developed and extended, and especially after an exhibition at the AGO which resulted in bandwidth throttling, the work began to point in a clear direction: screenPerfect needed to be an arcade box, similar to those used for years in fighting games in bars.
 
-%-----------------------------------
-%	What is a Game Jam
-%-----------------------------------
-
-\subsection{Game Jams, A Design Method}
-
-A game jam is a variant on the hackathon, which is a type of prolonged effort at taking an idea from concept to finished product in a limited period of time. They are related to design charettes or \textit{parallel prototyping} (\cite{charette}), a method whereby participants rapidly prototype a design idea over a short, intense period of time. A jam - or hackathon - gives registered participants a common area and space to set up their own supplies, and a theme. The group members come to the event with an idea and possibly some resources - video files, sound capability and so on - and use the jam time to assemble a game.
-
-Generally, a game jam will produce a panoply of small game ideas with fleshed mechanics but simple art and sound design in order to demonstrate a possible path forward for a device or piece of software, which will then be polished at a later date, and presented to the indie community either online or at a social event. Sometimes these works will then go on to be finished commercial products, or intended for further consumption at major conferences such as Indiecade or GDC. These conferences ideally further the careers of the developers by providing access to funding bodies: publishing houses, or in Ontario, the Ontario Media Development Corporation.
-
-Game jams can be time consuming to prepare, as they involve a great deal of communication on the part of the show-runners. In order to run a jam, one must open the application period well enough in advance to ensure a large available population of skilled users who are likely to be interested in producing content with the available tools, or interested in exploring new tools on offer. Typically, jam members have a theme suggested - "Mother May I" or "Snacktember" being a few run in 2013 by the Dames Making Games - and then participants bring their own preferred technology to knock out a fast prototype over a weekend.
-
-\subsection{NoJam 2: Video Video}
-
-The DMG have a great deal of experience running jams, and therefore, I partnered with DMG/Miso to get access to a group of skilled animators, filmmakers, and gamemakers. By partnering with them, I gained ready access to their community population, and they gained access to my software. One of the most common difficulties with game jams is that the short timeframe can cause a lot of frustration to new non-programmers: they spend a lot of time wrestling with tools, rather than generating the content of their games. The DMG would like to make it more straightforward for their membership to generate games and interactive narratives in a short period of time. 
-
-No Jam is a two-week jam scheduled by the DMG in November. In order to prepare screenPerfect for the jam, I handed over the basic engine to Bento Box - the production arm of Miso - who cleaned the interface elements and released a web-based version of the software for users. This was a win for them, as they were able to refactor my local code base to take advantage of a new language they have produced, called Daimio. Daimio, being a dataflow language, is ideal for describing choice patterns as they relate to a database. ScreenPerfect is a good engine match for types of games that rely on interactive choices. 
-
-As a pair, Dann Toliver - architect of Daimio - and I worked together to clean up the javascript elements of screenPerfect for speaking to the Daimio dataflow language. The group then released a refactored version of the code in time for No Jam, so that our participants could get a clean version of the software to work with. This was challenging for me, as it involved a great deal of trust, and moved the software away from how I had initially envisioned the UI. In particular, we needed to scrap an early idea for a branched narrative "tree" display, which was not included, although it had been planned all along.
-
-After we received No Jam applications, we went through to choose participants who seemed interested the theme and the software restrictions, sent out acceptances, ordered food, and generally set the dates. Applicants were provided diaries to record their working process over the course of the week. The first weekend of the jam consisted of workshops from a variety of specialists to provide direction in how to think about the software and the jam process as research. My presentation is included in Appendix C, consisting of how to work with the screenPerfect software, how to think about multi-screen video, and how to think about technology as a form of creative practice which is both limiting and freeing. 
-
-The applicants were then sent home for a week to work on their video projects, and asked to document their ongoing process with one another on a private Google Group. Most participants ignored this request, which left us with relatively little promotional material.
-
-On the actual weekend, we asked that participants arrive with the majority of their video content and design prepared. There were vastly uneven responses to this request, which strongly affected the ability of participants to produce a finished game by the end of the weekend. I interviewed each group early in the process, and then later polled them with informal questions regarding their experience with the software.
-
-The group experience with the software proved interesting. Accomplished filmmakers had a better time with it, but the most suprising response was from young, self-identified gamemakers, who rather than exploring what was possible within the context of the software tools, decided instead to try to use them to reproduce existing game types, many of which were totally incompatible with the software's design. Of particular interest was the group who tried to reproduce a classic Japenese roleplaying game within the context of video: this did not work so well, and they continued to work at it even after it became apparent it was unlikely to go well. The game itself remains unfinished, but deserves mention as the most unique and possibly stubborn effort. Used to working with uncooperative tools, the participants seemed unsure how to cooperate with a tool clearly designed to a single end.
-
-Despite this surprising result, No Jam was a success, with nine groups producing diverse works on ideas such as how to express a practice of mindfulness, how to work with pornography in a way that forces the viewer to interact with what's happening on screen, exploring systematic violence against women, exploring narratives of imprisonment, magic, and in one unique case, permitting a puppet to escape a toy box. 
-
-In setting up No Jam, we did present at least one workshop on the importance of the personal narrative in producing creative work, which may have influenced the results. Game jammers mostly described their interest in producing work that was finished, and one jammer explicitly stated that she was pleased to have had a finished work at the end of the jam, this being an uncommon result for her when she had to learn the usual round of new software each time.
-
-No Jam resulted in at least five "finished" works, which have since been included in several exhibitions around the city, including the December and January Toronto Long Winter series.
-
-
-%-----------------------------------
-%	Software Design for Game Jam
-%-----------------------------------
-
-\section{Software Design}
-\subsection{Interfaces, engines, and interactions}
-
-A software interface is the part of the software that a person interacts with directly \cite{interactiondestext}, where a software engine is the part of the code that detects and defines what a computer can do with that interaction. The engine that I coded responds to interactions sourced from users. Interface interaction is what appears to to define the majority of user experience, but the response of the engine underlying that interface is just as important. A key part of the design of screenPerfect is that it was laid out to handle things like auto-saving invisibly, so that a user's work would not be lost.
-
-The interface of the software is just as important as the engine, however, because a poorly designed interface will confuse a user, thereby rendering the experience of using the engine figuratively opaque. screenPerfect's roots are as a software engine, which takes user interaction and then does things with it. The user interacts with the interface, which speaks to the engine, which then returns values to whichever interface the user has selected.
-
-\begin{figure}[h]
-  \caption{screenPerfect software communication model}
+\begin{figure}[h!]
+  \caption{psXXYborg van installation}
   \centering
-    \includegraphics[width=0.5\textwidth]{SPmodel}
+    \includegraphics[width=0.5\textwidth]{psxxyborgvan}
 \end{figure}
 
-
-\subsection{Initial screenPerfect Engine|Interface Layout}
-In the case of screenPerfect, the interface is laid out in three parts. The first part is the setup screen, which is where game designers load their media (both videos and static files) and lay out the links between those files. This is the essence of a game made in screenPerfect: which choice will a player make to navigate the system as designed by the artist?
-
-The further screens are the client and control screens. screenPerfect supports up to ten client screens and ten control screens, although the interface only exposes a polyphony of client windows, while restricting artists to a single control set for simplicity's sake.
-
-\begin{figure}[h]
-  \caption{screenPerfect initial screen layout. Client, Control, Setup.}
+\begin{figure}[h!]
+  \caption{Street Fighter 2 Cabinet}
   \centering
-    \includegraphics[width=0.5\textwidth]{threeclient}
+    \includegraphics[width=0.5\textwidth]{streetfighter2}
 \end{figure}
 
-\subsection{screenPerfect layout: NoJam}
+Some brainstorming and a very hot summer day resulted in the following scenarios that a reasonable arcade machine would need to address in order to present advanced work to the new, highly exclusive exhibit scenarios.
 
-As the chief author of the screenPerfect software, it is very easy for me to understand where video files should go, and I come to understand how the software works implicitly. This is a common problem in software authorship, much as text requires editing and paintings require critique. I brought the software to Bento Box for refinement for reasons already stated: they needed a tool to express use cases for Daimio, and I needed help designing a UX that was actually useful to users.
+Here are those design constraints.
+\begin{enumerate}
+  \item There is never any external data service available.
+  In the case of environmental exhibits, or site-specific installation, this is due to location. In the case of formal galleries, it is because bandwidth is not free, or locally reliable. An institution may only have 802.1x limited networks, as in the case of OCADu, or they may simply not have the money to supply thousands of gigabytes of data over the course of an exhibit's lifetime. This must be addressed, as a reliance on the outside means that the art exhibit cannot be reliably collected or maintained.
+  \item The exhibit is assumed to be public to anyone, which means that expensive equipment may go missing, or be broken.
+  Art exhibits are often displayed in areas with a large audience walking around, and electronics are both delicate and worth money. Electronics purpose-built for exhibition should be easier to install securely in a given context, and harder to sell for parts. 
+  \item The environment is assumed to be meterologically hostile - hot or cold, wet or very dry, and to be hosting at least one party, such as an art opening, possibly with music.
+  Exhibits outdoors or in new venues, such as Burning Man, are in environments that are terrible for electronics. It is good to put some effort into considering what kinds of devices can survive a rock concert while still displaying the artist's application.
+  \item The exhibition is assumed to be supervised by people technically unqualified to maintain a full computer, such as art curators.
+  Building computer is a specific trade, as is the curation of artwork. They do not necessarily overlap. A new device should be so easy to use, it runs on being plugged in, and can be trusted to start back up again without trouble when something happens to make it turn off. Any new artwork's support materials should reduce, not increase, the burden of displaying that work, or the work may not be collected or displayed simply due to the massive skills gap between technician and curator.
+  \item The emphasis of the work should be on the work's display, rather than on a laptop screen.
+  Audiences can be safely assumed to have seen a computer, or a smartphone, perhaps for many hours in their workday. It is therefore preferable to increase the scarcity value and absorption in the work on display by removing the emphasis from a familiar object, such as a laptop, to one with more aura, which could be almost anything but a screen of the standard sort used for brain work in North America. This will improve the value of the work by granting it an air of the exotic, the specific to a single experience.
+  \item The collectors of the work are assumed to have extremely limited resources for ruggedized workstations, which are costly.
+  Ruggedized workstations, such as would be appropriate for remote environmental display, are costly, because they are designed for \textit{doing} work, rather than \textit{displaying} work. Ruggedization as a design practice stems from both practical considerations, such as bad weather, and a design language derived from military applications. Displaying work using a ruggedized machine brings in both a question of financial access, and an implied language of force which may not be appropriate to the work on display. It is therefore best to separate the specific necessity of waterproofing, dustproofing, impact resistance and heat control from the ideas visible in the typical ruggedized case.
+  \item Any data carriage for external connection - wiFi - is assumed to be overloaded by default.
+  Art exhibits generally have at least one well-attended party associated with their opening, at which the gallery connection to wiFi is very limited. WiFi is understood to be the "free" access to the internet. For the purposes of this work, it is simply a radio technology. Because the main radio will be overwhelmed by many connections to the outside world, it is best to set up your own network, or captive portal, to serve the information you need served locally, rather than relying on a common carrier for the inside and outside world.
+\end{enumerate}
 
-The final layout of screenPerfect is much cleaner than the one with which I had been working. Rather than hidden tabs, everything is laid out clearly, and allows users to see where their files are going. It is open-sourced, and available on GitHub for evolution by advanced users - the DMG has already forked a version, iV (\cite{iv}), for further development.
+These are all very real constraints that heavily impact the collectibility and display of new media art, most of which is simply difficult to get out the door. We use computers for work and play, but we still separate our lives into periods when we pursue one or the other, and we still have boundaries between our personal and public lives. To use the same machines to display art as we do to \textit{build} the work is to reduce the work from something approachable to any other tab in a computer. New media works especially must be seen within their exhibition context to be understood.
 
-What follows are screencaptures of the pre-fork game jam variant of screenPerfect.
+Julia Kristeva addresses this in her essay "Powers of Horror," where she confronts the issue of liminality, and how it holds people's attention
 
-\begin{figure}[h]
-  \caption{screenPerfect NoJam screen layout. Client, Control, Setup.}
+%-----------------------------------
+%  Subnod.es, Eyebeam.
+%-----------------------------------
+\section{Subnod.es and Public Private Space}
+
+This project has a precursor using similar technology built at Eyebeam in New York in 2013. Subnod.es uses a captive portal similar to my own, based on the inexpensive Raspberry Pi framework, to display a chat client to only the local environment. The differences are substantial, although mainly located within the code. Subnod.es relies on an external DNS being made available via the actual subnod.es software, and depends on a different collection of software to serve the portal proper. It is also built such that those library dependencies are inseparable from the main project \cite{subnodes}. 
+
+The chief concern of subnod.es I have not yet mentioned: subnod.es was built as a response to concerns about communications privacy in North America under the NSA. Specifically, the author is concerned that people behave differently when they are watched, a subset of the concerns generally associated with panoptica and totalitarianism. While I have not specifically structured Captive Art Portal to address these concerns, it \textit{has} been built to be largely private. It serves an application to a limited selection of a public space. 
+
+The assumption of the Captive Portal Art Machine is that galleries have limited resources, but that people who go to art galleries almost certainly have access to a smart phone, which is a form of private space. Smart phones are people's own homes, and are built to assume that they will stay with their owners at all times. This means that to install an \textit{app} is to ask a lot of a viewer: specifically, it is to ask someone to bring an application into their private space without getting to sample it first. To contrast, serving that same application on the \textit{broad} internet is to entirely delimit the context the art may be experienced within, which reduces its scarcity value to almost nothing while simultaneously removing the curator's ability to set the context of an exhibition experience. This means that it's unlikely an artist can be compensated in any conventional sense, despite their large audience, and also means that the curation of the exhibit is no different than the "curation" found on Tumblr. Neither of these are fantastic outcomes.
+
+A better outcome is to make a limited public space available in a private context, and this is what we are doing when we ask that people open their phones and look at a website. The Internet is, famously, the new public space. By presenting a web application using public technology within the exclusive context of the gallery - or desert, or forest - we take control again over how our art is presented, and from there, how it can be consumed. A gallery or exhibit space can be set up very specifically for the benefit of an audience in a way that the internet in general cannot be, and web technologies are uniform and affordable in the way that more custom projection design software is not.
+
+This sense of limited private space is key to the code-switching that human communication relies on. We are not the same people in public as we are in private, and we are again different people when we are in different publics, work to the street to school to the gallery. Technology that sensitively addresses these different code contexts seems likely to benefit its authors and its users both.
+
+
+\section{Materials and Supplies}
+
+This entire build is predicated on a Raspberry Pi running a custom distribution of Debian linux.
+\begin{description}
+\item [Raspberry Pi] \hfill \\
+	The Raspberry Pi is a full linux computer the size of a large credit card. They run Debian linux off of a common SD card.
+\item [32Gb SD Card for Raspberry Pi] \hfill \\
+	This is where we place the operating system and software for the Pi.
+\item [USB wiFi dongle] \hfill \\
+	Edimax-based wiFi USB dongle, for serving wiFi hotspot on the Pi.
+\item [USB flash memory] \hfill \\
+	For transferring or storing complete programs authored on external systems.
+\item [Keyboard and Mouse] \hfill \\
+	For initial computer setup.
+\item [Ethernet Cable] \hfill \\
+	Standard cat5 ethernet cable for programming remote.
+\item [HDMI TV and cable] \hfill \\
+	Used as a monitor for the Raspberry Pi.
+\item [Micro USB and power supply] \hfill \\
+	Power for the pi.
+\item [Mac or PC computer with USB ports, ethernet port, SD Card reader] \hfill \\
+	Required for raspberry pi setup.
+\end{description}
+
+\section{Background for Linux Commands}
+
+\texttt{sudo} is Linux for Do It Now.
+
+\texttt{apt-get} is an inherited "package manager" from Debian linux. "Dependencies" are the software your software requires to run, Debian uses \texttt{apt-get} to manage them.
+
+Things that follow \texttt{sudo} are commands.
+
+\section{Setting Up Your Raspberry Pi}
+\subsection{Windows 7 SD Card setup and first boot}
+This section is written for a Windows 7 environment, and is based on the common tutorial at \texttt{http://learn.adafruit.com/adafruit-raspberry-pi-lesson-1-preparing-and-sd-card-for-your-raspberry-pi/}. 
+
+\begin{enumerate}
+\item Connect your main computer to the internet.
+\item Download the most recent Raspbian distribution image from \texttt{http://www.raspberrypi.org/downloads}.
+\item Download Win32DiskImager from the greater internet. This is preferable because it allows you to write image backups to your harddrive.
+\item Using Win32DiskImager, write your Raspbian distro to your SD card on your main computer.
+\item Eject the microSD card and stick it into your RasPi.
+\item Plug in your keyboard, and plug a mouse into your keyboard.
+\item Plug in your HDMI cable and monitor. Turn them on.
+\item Plug in the MicroUSB cable for power to your RasPi.
+\end{enumerate}
+
+\subsection{Configuring Raspbian}
+
+Once the RasPi is turning on, it needs to be set up to include all of its software. Turn the Pi on, and wait until the blue configuration screen comes up.
+
+\begin{figure}[h!]
+  \caption{Early RasPi Configuration Screen}
   \centering
-    \includegraphics[width=0.5\textwidth]{threeclientNoJam}
+    \includegraphics[width=0.5\textwidth]{raspi-config_expand_1.png}
 \end{figure}
 
-%----------------------------------------------------------------------------------------
-%	Design Research
-%----------------------------------------------------------------------------------------
-\section{Design Research: What Goes Into Starting A Software Project}
+\begin{enumerate}
+\item \texttt{expand_rootfs} Expand the boot system so that you will not run out of onboard memory for software.
+\item \texttt{memory_split} Reduce the GPU to minimum, because we will be using the raspi as a headless server from the command line.
+\item \texttt{change_pass} Change the password so that your raspi will be less easy to hack.
+\item \texttt{ssh} Enable SSH so that the pi will be accessible from an external computer.
+\end{enumerate}
 
-\subsection{Artist Collaboration}
+When done, select \texttt{finish} to exit. 
 
-Beginning development from a first position within the arts is unusual, even for an Agile workflow, but in the case of this software, it has been wholly driven by artistic collaboration. I firmly believe that simple tools to relieve the friction points of the artistic process will lead to better art which is more widely available. This is to say, although the developer is themselves a creative who will decide \textit{how} to solve problems, the problems to solve may be better handled by an outside party. This is down to an issue of demand. 
+Type \texttt{sudo reboot} to restart the raspi.
 
-In order for software to exist, and to be seen to exist, it requires an interaction. Unlike a hammer, which takes up space on a shelf, software is essentially a text document until it is used. As \citeauthor{galloway}says, a game is defined by action \citeyear{galloway}. \cite{galloway}
+\section{Software Setup for External WiFi Access}
 
-%----------------------------------------------------------------------------------------
-%	Agile Methodology
-%----------------------------------------------------------------------------------------
+A wiFi antennae can be used for one purpose at a time: it can either be used to access the external internet, for acquiring software to install into the raspi, or it can be used for serving a hotspot. It cannot do both at the same time. To load the pi up requires external access, so we will be loading that first. You must configure your wiFi before plugging in your wiFi antenna.
 
-\section{Development Methods}
-\subsection{Agile}
-The Agile methodology is based on a manifesto, as is so much else of this work. Agile is a response to previous software design practices, called "Waterfall," where software frameworks are laid out and heavily documented in advance of production. Waterfall methods are popular in major software companies, which rely on extensive documentation to communicate between business units. They emphasize planning over software production or delivery deadlines. 
+In Linux, nothing will warn you if you mistype a folder name, say, adding an "s" to "network" to make it "networks." If you would like to confirm your folder name is correct, try typing "ls /etc/" to list the contents of that directory. Network is a default folder, and Interfaces is already present at first boot, so you can make sure your things are all there before you really get started.
 
-Agile, described in 2001 by a group of software developers, reflects a less top-down approach to the software development practice. Rather than pre-planning every element of software, screenPerfect was designed by discussion with key stakeholders as to how it should come together, and what the final product of the development process should be. This is a hacker-oriented means of development, reflecting Plant's statement that reverse engineering - "starting at the end, and then engaging in a process that simultaneously dismantles the route back to the start" is how hackers work \cite{plant}. Agile, released four years after Plant's assertion, engages the process of iterative development via reverse engineering in a more formal sense. Agile specifically emphasizes \textbf{individuals and interactions} over processes and tools, \textbf{working software} over comprehensive documentation, \textbf{customer collaboration} over contract negotiation, and \textbf{responding to change} over following a plan. 
+The way to tell you have done something wrong is if you type the below command and an empty new file opens. You are editing a file here, not creating one.
 
-In the case of my development process, this worked as follows: The initial project was laid out by Hannah Epstein, who described how the game processes for psXXYborg should work using a series of YouTube videos linked through their annotation technique. In development conversations, it became clear that Youtube, in addition to having many distracting advertisements, also did not have a great way to make annotation invisible, and was very slow to load. This is a problem with reliance on external networks: they cannot be as fast as locally served files. Hannah specifically emphasized speed, smooth loading, and using video based in static rather than streaming or live files. These needed to be served within a closed environment to an attentive audience.
+At your console prompt, type the following: 
+\begin{lstlisting}
+sudo nano /etc/network/interfaces
+\end{lstlisting}
 
-From that point, I began to research languages that emphasized speed over structure. Scripting languages, without strong classes or inheritance, are especially good at this type of development work. I reached out to other developers and asked how they would solve this problem, and they came back to me with a variety of answers - some used PHP, some used Python, all of them relied on JS for their front end. In researching different ways to solve the basic problem - passing a variable back and forth through wireless technology to select two on-screen videos at almost the same time - I discovered the Node framework. I explained how this would work - minimum installation time and expense, reliance on a straightforward machine installation on-site - and got approval from my partners.
+This opens a text editor. Enter the following into it.
 
-At that point, I went home and wrote a server using Express.JS, socket.io, and node to write an application intended for the Safari browser, in line with my partner's habit of exporting video in the restricted H.264 format. Due to conflicts relating to codec patenting, one of the many secret things that underly the "free" internet, Safari supports H.264 where Chrome does not. Chrome supports Webm via the V8 engine, the same engine that supports the Node framework. Webm is also a more compact video format, which results in smaller file sizes and lower bandwidth costs, which eventually affects both load time and playback lag on client machines. 
+\begin{lstlisting}
+auto lo
 
-Having worked extensively to serve H.264 video and discovered that loading many videos in H.264 will quickly overload the Node-native server, I reencoded the video works into the Webm format and converted my development process to pursue the Chrome browser. This also made psXXYborg available on mobile browsers on the Android platform, which is advantageous, as Android is much more readily available to low or no-budget projects than Apple devices, even old ones.
+iface lo inet loopback
+iface eth0 inet dhcp
 
-Throughout this process, I would meet with Hannah, who would provide me with updated feature requests. This is normal for the agile process, which places an emphasis on completing software delivery by deadlines, rather than on documentation and a firm attachment to original plans. 
+allow-hotplug wlan0
+auto wlan0
 
-In order to keep track of all of the changes to the software, I used the GitHub source control system. GitHub allows users to store and update their code base while keeping track of changes in what are called "commits." Other GitHub users can then "fork" or copy a specific version of the existing codebase, and from there make their own changes. A "fork" is considered a new project. A "branch" is a "fork" within a project that contains changes not yet passed to the "master" branch. My GitHub commit log for the screenPerfect fork of psXXYborg can be seen in Appendix C, which documents the changes made over months - bug fixes, design shifts, changes in the layout of the program, and new ideas for the setup and control files, including the late inclusion of how branching narrative would actually work without a database.
+iface wlan0 inet dhcp
+wpa-ssid "network name, commonly called an ssid, goes here"
+wpa-psk "password"
+\end{lstlisting}
 
-Overall, Agile worked for this process by allowing me to respond to user requests for code changes and information rather than forcing me to work to a standard pre-set from above. A Waterfall process would have discouraged me from even attempting to take on the work. By working in small steps back from a pre-set destination with total freedom as to how the code actually came together, Agile allowed me to demonstrate different working parts of the software as they came together. The documentation for the project is tied into the code commits, and inseparable from the actual written code within its archive.
+Then type CTRL-X and Y to save your file.
 
-\subsection{GitHub and Open Source Software}
-The development of screenPerfect is dependent on a variety of external technologies. Although relatives and derivatives of Google's V8 system are foremost among these, there is also a dependence on the licencing and mindset of the open-source movement, and the GitHub software repository system.
+\begin{lstlisting}
+sudo halt
+\end{lstlisting}
 
-Open source software is not the same as free software, as provided by structures such as the GNU General Public Licence . Open source is the peer reviewing system of software. What open source means is that even if a given piece of software compiles to a single program which can then be distributed for use on the desktop - as screenPerfect does not - the code that goes into the executable file is freely available on the internet, to be changed, supported, and developed by the population of software workers who exist in the broader world. These developers may work on closed or open source projects in their usual working time. They may be very skilled or quite new to development work. What matters is that the software's code is then shared publicly, where it can be reviewed and compiled and extended and changed by anyone at all.
+Plug in your wifi antennae, pull your raspi's power cable, and plug it back in. This should make the raspi's antennae turn blue as it turns on. This little blue LED will frequently be the only way to tell something is going correctly or incorrectly, so it is an excellent tell that your machine is running. 
 
-The intent of open source is that anyone may learn from such freely-shared information, and anyone may contribute to the collective knowledge base. In this, GitHub is not unlike JSTOR. The stark difference is that GitHub is costly to the user who is sharing information, rather than to the user who is seeking information. A public GitHub account costs nothing, a private one with a limit on projects is less than $10CAD per month, and any public projects can be found online by anyone. This is useful for reference, as one can quickly find the solution to many coding problems for the cost of looking them up, and an internet connection on which to do so.
+\begin{figure}[h!]
+  \caption{Raspberry Pi with functioning wiFi antenna}
+  \centering
+    \includegraphics[width=0.5\textwidth]{raspi_with_wiFi_on}
+\end{figure}
 
-There are some obvious problems with open source. One of the clearest is that with all that intellectual property out there for free, it is a challenge to make any money on an open project. The other is that there is no way to guarantee quality: one takes what one can get, although it is assumed that contributions to projects are made in good faith, and major project contributions are checked by trusted individuals before they are published. For example, the Mozilla project relies on contributors whose code is applied to the codebase after approval by certified reviewers \cite[URL]{mozillacontribute}. 
+If all went well, you've now connected to your own supply of wireless internet. This will not work if you are using an 802.1x network, such as those within OCADu. On your own home network, however, type:
 
-\subsection{Licencing}
-One of the ways these problems are dealt with is through licencing. The Creative Commons at creativecommons.org expresses their mission as follows: "Creative Commons develops, supports, and stewards legal and technical infrastructure that maximizes digital creativity, sharing, and innovation." It is therefore an appropriate open standard licence for \textit{creative practice}. A preferred licence for software development is the MIT Licence, which is closer to the Gnu Public Licence, but does not preclude making money from one's open source work.
+\begin{lstlisting}
+sudo apt-get upgrade; sudo apt-get update
+\end{lstlisting}
 
-\subsection{Science Fiction Inputs}
-My own idea for how this project would work is taken from Cory Doctorow's \textit{Pirate Cinema}, which features a scene wherein characters climb trees, and using pico projectors already built into their phones, assemble a movie theatre from nothing more than sheets and ropes in the trees. I felt this sort of mesh-networked sharing is much more likely than a continued reliance on the surveilled internet for sharing copyrighted and copyrighted-material derived works. Since I could not find a system that would permit this type of sharing on the internet, I felt that this project would provide a good chance to build one.
+This will upgrade your rasppi to whatever the latest agreed-upon package lists are, then update those packages to their most recent approved version.
+
+\section{Installing Node.JS}
+\subsection{Why Node?}
+I've chosen to install Node because it is the software framework I selected to run the new game engine built in Part 1 of this thesis. Node is a new framework designed to get Javascript running on a server. There are advantages and disadvantages to this approach. The advantages are that JavaScript is a beautiful, minimal language that is relatively easy to learn. The disadvantages are that there is a heavy public bias against JS due to its years as a client-only language designed to manipulate what are known as Document Object Model (DOM) elements in-browser.
+
+The brilliance of Node is that it replaces the need for a specific input-output window, replacing that definition requirement with any internet browser. Node, backed by Google's V8 engine, currently works best on Chrome, but it can interact with any browser.
+
+Node is therefore easy to use, and easy to program for from the perspective of a mainly web based development chain. 
+
+\subsection{Installation Instructions for Node.JS}
+Create a directory for Node to live in by typing the following at prompt.
+\begin{lstlisting}
+sudo mkdir /opt/node
+\end{lstlisting}
+
+Acquire the node "tarball" - compressed framework files - via the internet.
+
+\begin{lstlisting}
+wget http://nodejs.org/dist/v0.10.2/node-v0.10.2-linux-arm-pi.tar.gz
+\end{lstlisting}
+
+Unzip (desticky from tarball) it:
+\begin{lstlisting}
+tar xvzf node-v0.10.2-linux-arm-pi.tar.gz
+\end{lstlisting}
+
+Copy the contents of the newly unzipped folder and paste them to your new directory. This leaves a copy of the tar and a copy of the unzipped tar at their original locations. You can probably remove them using sudo rm when you're sure everything is where it should be.
+
+\begin{lstlisting}
+sudo cp -r node-v0.10.2-linux-arm-pi/* /opt/node
+\end{lstlisting}
+
+Edit - or create - a .bash_profile file, which is a type of script that runs when you turn on the pi. In this case, it runs and tells Node that it exists on your computer, so that typing node runthisprogram will do something. What is a .bash_profile?
+
+From your root directory, to open a new nano text file:
+\begin{lstlisting}
+sudo nano .bash_profile 
+\end{lstlisting}
+
+Then add the following and save it to your new .bash_profile file...
+
+\begin{lstlisting}
+PATH=$PATH:/opt/node/bin 
+export PATH
+\end{lstlisting}
+
+Control-X, Y to save it.
+
+Node lives in the \texttt{/opt/node} directory you created above. This adds the commands "node" and "npm" to what are called "environment variables." If you are curious, and god knows you must be to play with a raspi, you can type \texttt{ls /opt/node/bin} and see the little programs sitting there in their bin.
+
+\section{Testing Node}
+Node will need to be able to fetch its own packages separately from the raspi from the internet in order to run some of the monitoring software I've chosen to use. Particularly, you will need the \texttt{forever} package.
+
+\subsection{Selecting Monitoring Software}
+\texttt{forever} has ultimately been the software I've decided on to monitor and run screenPerfect, because it is a node-native package that keeps things running even when they crash. There are other software packages used for broader deployment, such as Monit, which installs to your Debian parcel rather than to Node. Monit typically runs with what is called an HTTP Proxy, which can be written directly in Node or installed independently. In a full deployment build, Monit and HAProxy would be preferable to Node alone, because this follows the best practice of separating out different programming elements from one another in production. Monit and HAProxy can also deploy applications above and beyond Node itself, which is preferable for things written in Python, for example. 
+
+For this example, though, \texttt{forever} works well. It provides monitoring to tell us what the application is doing, and automatically restarts node applications when they crash. Were I deploying this such that it could keep an eye on the internet, which I am not, I would also include \texttt{nodemon}, as is recommended by the Subnod.es project. \texttt{nodemon} monitors your development code and pushes changes from a central server to your deployment automatically.
+
+That is outside the scope of this paper at present. 
+
+\subsection{Installation of Node Modules}
+To install a node package - or "module" - you type 
+
+\begin{lstlisting}
+npm install PACKAGENAME
+\end{lstlisting}
+
+To install one globally, type
+\begin{lstlisting}
+npm install PACKAGENAME -g
+\end{lstlisting}
+
+
+To absolutely force install:
+\begin{lstlisting}
+sudo su
+PATH=/opt/node/bin/:$PATH
+npm install PACKAGENAME -g
+exit
+\end{lstlisting}
+
+To install \texttt{forever} and \texttt{nodemon}
+\begin{lstlisting}
+npm install forever -g
+npm install nodemon -g
+\end{lstlisting}
+
+To run \texttt{forever} and \texttt{nodemon} together....
+\begin{lstlisting}
+forever start /usr/local/bin/nodemon /path/to/YOURAPP.js
+\end{lstlisting}
+
+\subsection{Troubleshooting NPM installations}
+When I tried to install \texttt{forever} the first five times, it timed out, gave me a 404 error repeatedly, and declared I had insufficient permissions to do a global install. This is where computer science faith, confidence, and patience come in. When the install did not work for half an hour, I took a break, came back, and discovered that it installed the next day.
+
+This process is heavily dependent on a massive network of computers and other people. In development, it is quite likely things beyond one's own control are going to go wrong. Going for a break will help you keep patient.

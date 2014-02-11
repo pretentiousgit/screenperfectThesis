@@ -41,6 +41,29 @@
       \field{title}{Rise of the videogame zinesters: how freaks, normals, amateurs, artists, dreamers, dropouts, queers, housewives, and people like you are taking back an art form}
       \field{year}{2012}
     \endentry
+    \entry{mozillacontribute}{newsarticle}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=82225a3207f65f60feed80dc24cf4878}{bbondy@mozilla.com}{b\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=82225a3207f65f60feed80dc24cf4878}{bbondy@mozilla.com}{b\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{82225a3207f65f60feed80dc24cf4878}
+      \strng{fullhash}{82225a3207f65f60feed80dc24cf4878}
+      \field{sortinit}{b}
+      \field{labelyear}{2013}
+      \field{labelmonth}{11}
+      \field{labelday}{29}
+      \field{labeltitle}{Contributing to the Mozilla codebase}
+      \field{day}{29}
+      \field{month}{11}
+      \field{newspaper}{Mozilla}
+      \field{title}{Contributing to the Mozilla codebase}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://developer.mozilla.org/en/docs/Introduction
+      \endverb
+    \endentry
     \entry{bissell}{newsarticle}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=c3a479b8849c45a4d63f808729063029}{Bissell}{B\bibinitperiod}{Tom}{T\bibinitperiod}{}{}{}{}}%
@@ -67,7 +90,25 @@
       \verb http://www.grantland.com/story/_/id/9719678/tom-bissell-writes-letter-niko-bellic-grand-theft-auto-v
       \endverb
     \endentry
-    \entry{medusa}{article}{}
+    \entry{iv}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=ca0033a8f028c9153e5c6db536ec1645}{Carver}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{C.\bibnamedelimi &\bibnamedelima Faber}{C\bibinitperiod\bibinitdelim &\bibinitperiod\bibinitdelim F\bibinitperiod}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ca0033a8f028c9153e5c6db536ec1645}{Carver}{C\bibinitperiod}{J.}{J\bibinitperiod}{}{}{C.\bibnamedelimi &\bibnamedelima Faber}{C\bibinitperiod\bibinitdelim &\bibinitperiod\bibinitdelim F\bibinitperiod}}%
+      }
+      \strng{namehash}{ca0033a8f028c9153e5c6db536ec1645}
+      \strng{fullhash}{ca0033a8f028c9153e5c6db536ec1645}
+      \field{sortinit}{C}
+      \field{labelyear}{2014}
+      \field{labeltitle}{iV}
+      \field{title}{iV}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://github.com/jennie/iV
+      \endverb
+    \endentry
+    \entry{cixous}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=58abcb5d6663a687f7993a7e798e7e98}{Cixous}{C\bibinitperiod}{Hélène}{H\bibinitperiod}{}{}{}{}}%
       }
@@ -85,6 +126,55 @@
       \field{volume}{1}
       \field{year}{1976}
       \field{pages}{875}
+      \verb{url}
+      \verb http://www.dwrl.utexas.edu/~davis/crs/e321/Cixous-Laugh.pdf
+      \endverb
+    \endentry
+    \entry{ensmenger}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=0c1c8e134a17596472b67823d2d386c7}{Ensmenger}{E\bibinitperiod}{Nathan}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=0c1c8e134a17596472b67823d2d386c7}{Ensmenger}{E\bibinitperiod}{Nathan}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=20adcd35d54dcbcdf802b4a195e8926e}{Thomas\bibnamedelimb J.\bibnamedelimi Misa}{T\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}{Edited}{E\bibinitperiod}{by}{b\bibinitperiod}{}{}}%
+      }
+      \list{organization}{1}{%
+        {the IEEE Computer Society}%
+      }
+      \strng{namehash}{0c1c8e134a17596472b67823d2d386c7}
+      \strng{fullhash}{0c1c8e134a17596472b67823d2d386c7}
+      \field{sortinit}{E}
+      \field{labelyear}{2010}
+      \field{labeltitle}{Making Programming Masculine}
+      \field{booktitle}{Gender Codes: Why Women Are Leaving Computing}
+      \field{title}{Making Programming Masculine}
+      \field{year}{2010}
+      \field{pages}{115\bibrangedash 141}
+    \endentry
+    \entry{daimio}{newsarticle}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c0756936c96b3ff9cfcec2ad444d3759}{Faber}{F\bibinitperiod}{Jennie}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c0756936c96b3ff9cfcec2ad444d3759}{Faber}{F\bibinitperiod}{Jennie}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c0756936c96b3ff9cfcec2ad444d3759}
+      \strng{fullhash}{c0756936c96b3ff9cfcec2ad444d3759}
+      \field{sortinit}{F}
+      \field{labelyear}{2013}
+      \field{labelmonth}{11}
+      \field{labelday}{23}
+      \field{labeltitle}{iV}
+      \field{day}{23}
+      \field{month}{11}
+      \field{newspaper}{GitHub}
+      \field{title}{iV}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://github.com/jennie/iV
+      \endverb
     \endentry
     \entry{galloway}{book}{}
       \name{labelname}{1}{}{%
@@ -107,29 +197,145 @@
       \field{title}{Gaming: Essays On Algorithmic Culture (Electronic Mediations)}
       \field{year}{2006}
     \endentry
-    \entry{mda}{article}{}
-      \name{labelname}{3}{}{%
-        {{uniquename=0,hash=5eeee8f66d452006be5b86b51aed051d}{Hunicke}{H\bibinitperiod}{Robin}{R\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=992dc5b90a2b657dc809457a03a5e723}{LeBlanc}{L\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=1d8a43dfdd0afc35a7b19ffb5fabcccd}{Zubek}{Z\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+    \entry{glanville}{unpublished}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=3f6992345aebe4ca4d0bc70ca8b0ed9f}{Glanville}{G\bibinitperiod}{Ranulph}{R\bibinitperiod}{}{}{}{}}%
       }
-      \name{author}{3}{}{%
-        {{uniquename=0,hash=5eeee8f66d452006be5b86b51aed051d}{Hunicke}{H\bibinitperiod}{Robin}{R\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=992dc5b90a2b657dc809457a03a5e723}{LeBlanc}{L\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
-        {{uniquename=0,hash=1d8a43dfdd0afc35a7b19ffb5fabcccd}{Zubek}{Z\bibinitperiod}{Robert}{R\bibinitperiod}{}{}{}{}}%
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3f6992345aebe4ca4d0bc70ca8b0ed9f}{Glanville}{G\bibinitperiod}{Ranulph}{R\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{0474b82ab00846544b3c591db058a8d7}
-      \strng{fullhash}{8227749b4562a0c12a6a824e13041e1f}
-      \field{sortinit}{H}
-      \field{labelyear}{2004}
-      \field{labeltitle}{MDA: A Formal Approach to Game Design and Game Research}
-      \field{journaltitle}{Rutgers}
-      \field{note}{http://www.cs.northwestern.edu/~hunicke/MDA.pdf}
-      \field{title}{MDA: A Formal Approach to Game Design and Game Research}
-      \field{year}{2004}
+      \strng{namehash}{3f6992345aebe4ca4d0bc70ca8b0ed9f}
+      \strng{fullhash}{3f6992345aebe4ca4d0bc70ca8b0ed9f}
+      \field{sortinit}{G}
+      \field{labelyear}{2014}
+      \field{labelmonth}{01}
+      \field{labeltitle}{Cybernetics}
+      \field{month}{01}
+      \field{note}{Lecture at OCADu}
+      \field{title}{Cybernetics}
+      \field{year}{2014}
+    \endentry
+    \entry{twine}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=bc0b558e6e43a10b0be7ea71b1a473c8}{Klimas}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bc0b558e6e43a10b0be7ea71b1a473c8}{Klimas}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bc0b558e6e43a10b0be7ea71b1a473c8}
+      \strng{fullhash}{bc0b558e6e43a10b0be7ea71b1a473c8}
+      \field{sortinit}{K}
+      \field{labelyear}{2009}
+      \field{labeltitle}{Twine}
+      \field{title}{Twine}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://www.twinery.org
+      \endverb
+    \endentry
+    \entry{charette}{incollection}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=f63ab52bbb207a2ce342b66b9ce970f2}{Martin}{M\bibinitperiod}{Bella}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=f63ab52bbb207a2ce342b66b9ce970f2}{Martin}{M\bibinitperiod}{Bella}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f63ab52bbb207a2ce342b66b9ce970f2}{Martin}{M\bibinitperiod}{Bella}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Beverly, Ma.}%
+      }
+      \list{organization}{1}{%
+        {Rockport Publishers}%
+      }
+      \strng{namehash}{f63ab52bbb207a2ce342b66b9ce970f2}
+      \strng{fullhash}{f63ab52bbb207a2ce342b66b9ce970f2}
+      \field{sortinit}{M}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Design Charettes}
+      \field{booktitle}{Universal methods of design : 100 ways to research complex problems, develop innovative ideas, and design effective solutions}
+      \field{title}{Design Charettes}
+      \field{year}{2012}
+      \field{pages}{58\bibrangedash 59}
+    \endentry
+    \entry{norman}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=c64c2a2e6b8d777b2f131deba107c777}{Norman}{N\bibinitperiod}{Donald\bibnamedelima A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c64c2a2e6b8d777b2f131deba107c777}{Norman}{N\bibinitperiod}{Donald\bibnamedelima A.}{D\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Basic Books}%
+      }
+      \strng{namehash}{c64c2a2e6b8d777b2f131deba107c777}
+      \strng{fullhash}{c64c2a2e6b8d777b2f131deba107c777}
+      \field{sortinit}{N}
+      \field{labelyear}{2002}
+      \field{labeltitle}{The Design of Everyday Things}
+      \field{title}{The Design of Everyday Things}
+      \field{year}{2002}
+    \endentry
+    \entry{straddler}{newsarticle}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6c6ecad0c60110041c5e75ae6f1eec5e}{Pepi}{P\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6c6ecad0c60110041c5e75ae6f1eec5e}{Pepi}{P\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {The Straddler}%
+      }
+      \strng{namehash}{6c6ecad0c60110041c5e75ae6f1eec5e}
+      \strng{fullhash}{6c6ecad0c60110041c5e75ae6f1eec5e}
+      \field{sortinit}{P}
+      \field{labelyear}{2013}
+      \field{labeltitle}{Digital Proletariat: The Spectacle of the “Internet” and Labor's Dispossession}
+      \field{title}{Digital Proletariat: The Spectacle of the “Internet” and Labor's Dispossession}
+      \field{year}{2013}
+      \verb{url}
+      \verb http://www.thestraddler.com/201311/piece7.php
+      \endverb
+    \endentry
+    \entry{plant}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=2e322d847b142b5268c01442a87db073}{Plant}{P\bibinitperiod}{Sadie}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2e322d847b142b5268c01442a87db073}{Plant}{P\bibinitperiod}{Sadie}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Fourth Estate Ltd}%
+      }
+      \strng{namehash}{2e322d847b142b5268c01442a87db073}
+      \strng{fullhash}{2e322d847b142b5268c01442a87db073}
+      \field{sortinit}{P}
+      \field{labelyear}{1997}
+      \field{labeltitle}{Zeros + Ones: Digital Women and Technoculture}
+      \field{title}{Zeros + Ones: Digital Women and Technoculture}
+      \field{year}{1997}
     \endentry
   \endsortlist
-  \missing{daimio}
+  \missing{scratch}
+  \missing{arstechnicadrm}
+  \missing{interactiondestext}
+  \missing{LISA notes}
+  \missing{subnodes}
+  \missing{adobe}
+  \missing{taz}
+  \missing{arduino}
+  \missing{nintendosales}
+  \missing{processing}
 \endrefsection
 \endinput
 
