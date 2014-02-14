@@ -138,10 +138,10 @@ Once the RasPi is turning on, it needs to be set up to include all of its softwa
 \end{figure}
 
 \begin{enumerate}
-\item \texttt{expand_rootfs} Expand the boot system so that you will not run out of onboard memory for software.
-\item \texttt{memory_split} Reduce the GPU to minimum, because we will be using the raspi as a headless server from the command line.
-\item \texttt{change_pass} Change the password so that your raspi will be less easy to hack.
-\item \texttt{ssh} Enable SSH so that the pi will be accessible from an external computer.
+\item \textit{expand\_rootfs} Expand the boot system so that you will not run out of onboard memory for software.
+\item \textit{memory\_split} Reduce the GPU to minimum, because we will be using the raspi as a headless server from the command line.
+\item \textit{change\_pass} Change the password so that your raspi will be less easy to hack.
+\item \textit{ssh} Enable SSH so that the pi will be accessible from an external computer.
 \end{enumerate}
 
 When done, select \texttt{finish} to exit. 
@@ -294,3 +294,238 @@ forever start /usr/local/bin/nodemon /path/to/YOURAPP.js
 When I tried to install \texttt{forever} the first five times, it timed out, gave me a 404 error repeatedly, and declared I had insufficient permissions to do a global install. This is where computer science faith, confidence, and patience come in. When the install did not work for half an hour, I took a break, came back, and discovered that it installed the next day.
 
 This process is heavily dependent on a massive network of computers and other people. In development, it is quite likely things beyond one's own control are going to go wrong. Going for a break will help you keep patient.
+
+\section{SSH via Direct Ethernet Connection and WiFi Internet Access}
+Eventually, you will need both of the powered USB slots on the raspi for a USB key and for your wiFi. In addition, the raspi doesn't have the power to drive a monitor and consistently serve wiFi out of its USB ports. To get around this, it is most convenient to be able to SSH in to your device. Although it appears to be best practice to use the wpa_supplicant file to store how you wish your raspi to connect to the internet, I have had limited success with it, likely because I am not configuring a static IP for my raspi properly.
+
+My \texttt{/etc/network/interfaces} file looks like this:
+\begin{lstlisting}
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+address [MY MAIN TERMINAL'S ETHERNET IP PLUS ONE]
+
+auto wlan0
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+     wpa-ssid "network name here"
+     wpa-psk "dubiously secure password"
+\end{lstlisting}
+ 
+
+\begin{lstlisting}
+sudo nano /etc/default/ifplugd
+
+### MANY TALK, HOW COMMENT, SUCH WARNING ###
+INTERFACES="eth0"
+HOTPLUG_INTERFACES="eth0"
+ARGS="-q -f -u0 -d10 -w -I"
+
+SUSPEND_ACTION="stop"
+\end{lstlisting}
+
+This is an edit of the existing bits, and I can't tell if it will break everything long-term.
+Here is what your startup script should read. This ensures that your wiFi antenna turns on, which is likely not something it was doing when you plugged in your ethernet directly.
+
+\begin{lstlisting}
+sudo nano /etc/rc.local
+#!/bin/sh -e
+
+# Print the IP address
+_IP=$(hostname -I) || true
+if [ "$_IP" ]; then
+  printf "My IP address is %s\n" "$_IP"
+fi
+
+# Disable the ifplugd eth0
+sudo ifplugd eth0 --kill
+sudo ifup wlan0
+
+exit 0
+\end{lstlisting}
+
+CTRL-X and Y to save, then \textttt{sudo reboot} open a terminal on your main laptop. On your laptop, at the prompt, enter:
+\begin{lstlisting}
+ssh pi@[the static ip address you entered under eth0 static above]
+\end{lstlisting}
+
+Your \texttt{pi@[static ip]} should appear in your terminal window, which means you can now talk to raspi.
+Per usual, to ensure your wifi is still working properly, try a \texttt{sudo apt-get update} or \texttt{ping google.com}, both should return you data.
+
+\section{Backing Up Your RasPi}
+
+Now that everything has been configured for the first steps, type \texttt{sudo halt}, and when your raspi turns off, remove the SD card from it. Place the SD card back in your main computer and reboot Win32DiskImager.
+
+Create a new file folder somewhere within your Documents folder. I called mine Raspberry Pi Backups.
+
+In the Write From section of the application, select your SD card, which is probably called boot. In the Write To section, select your new folder. 
+
+Write a copy of the kernel image from the boot card to the new backup directory. Then safely eject your SD Card and re-insert it in the RasPi. It is best practice to form these occasional backups as you proceed through set up. Many of these steps can cause your raspi distro to break badly. A backup will save a great deal of time when the inevitable happens.
+
+\section{Mount Your USB Flash Memory Stick To Your RasPi}
+
+\subsection{Configuring Your Mount Drive}
+This bears some thinking about, because the \texttt{/media/} folder is for media, and you are instead choosing to run a program off of the drive. Subnod.es suggests making it your \texttt{www} drive, for world wide web. I picked \texttt{/mnt/}.
+
+Find your USB memory by listing the the things plugged into dev:
+\begin{lstlisting}
+sudo ls /dev/sd*
+\end{lstlisting}
+
+If you've been following along, yours is almost certainly named "/dev/sda1".
+
+So make a directory for it to be addressed at:
+\begin{lstlisting}
+sudo mkdir /mnt/USBSTICKNAME;
+\end{lstlisting}
+
+Then mount it to that directory
+\begin{lstlisting}
+sudo mount -t vfat -o uid=pi,gid=pi /dev/sda1 /mnt/USBSTICKNAME/
+sudo reboot
+\end{lstlisting}
+
+Rebooting will restart the raspi but also close your SSH session. Watch the lights on the raspi board until they're stable again, about two minutes, then:
+\begin{lstlisting}
+ssh pi@[static ip]
+\end{lstlisting}
+
+Oh look. Your USB drive does not automatically mount at boot. Problem.
+
+\subsection{How to Boot Mount External Memory}
+
+Find out the actual name of your external memory card:
+\begin{lstlisting}
+ls -l /dev/disk/by-uuid
+\end{lstlisting}
+
+Write down the UUID of your USB stick.
+
+This is the most manual way to run this operation, and there is software that handles automatic drive mounting. It is called \texttt{usbmount} and was discarded during this process because it ended up being more convenient to rely on my Node application being loaded directly onto the SD card, rather than from boot.
+
+\begin{lstlisting}
+sudo chmod 775 /mnt/USBSTICKNAME
+sudo sp /etc/fstab /etc/fstab.bak
+sudo nano /etc/fstab
+\end{lstlisting}
+
+Add the following to \texttt{/etct/fstab}
+\begin{lstlisting}
+UUID=YOURUUID /mnt/USBSTICKNAME vfat rw,defaults 0 0
+\end{lstlisting}
+
+CTRL-X, Y to save, then
+\begin{lstlisting}
+sudo reboot
+ls /mnt/USBSTICKNAME
+\end{lstlisting}
+
+This command should display the contents of your USB key when you go looking for it.
+
+At this point, I have taken a copy of my Node application and moved it to the SD card in a separate directory. Although I have optimistically tried to make this a headless - no keyboard or monitor - box, realistically, lots can go wrong with the SSHing process. You will probably eventually want a keyboard, and it is _much_ easier to store your access point as a single image per card, much like any other video game.
+
+To store your games locally, rather than in the USB stick:
+\begin{lstlisting}
+sudo cp -r /mnt/USBSTICKNAME /home/pi/YOURDIRECTORYNAME
+\end{lstlisting}
+
+\section{Set Up a wiFi Hotspot}
+To get started, you will need some more software.
+
+\begin{lstlisting}
+sudo apt-get install hostapd dnsmasq
+\end{lstlisting}
+
+When everything is done installing, you will be converting your \texttt{/etc/network/interfaces} file to serve a hotspot, rather than connect to the internet. 
+
+Here is what my final \texttt{/etc/network/interfaces} file looks like:
+
+\begin{lstlisting}
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+     address 169.254.222.xx #xx is a stand-in for an actual address, not included.
+
+allow hotplug wlan0
+
+## wlan internet connect settings are commented out for easy swap.
+#auto wlan0
+#iface wlan0 inet dhcp
+#     wpa-ssid "network name"
+#     wpa-psk "network password"
+
+iface wlan0 inet static
+     address 192.168.42.1 #42 is a joke about Douglas Adams, in honour of my thesis advisor.
+     netmask 255.255.255.0
+
+\end{lstlisting}
+
+\section{Configuring HostAPD}
+\textt{hostapd} is the software that provides the access point using your raspi. It can be tricky, and in order to make it work, it needs to be compiled for one's specific model of wiFi antennae. For the purposes of this paper, we are using an antenna sold and supported by Adafruit. The appropriate compile of the hostapd software is included in the supplementary files to this paper, but can also be found at http://www.adafruit.com/downloads/adafruit_hostapd.zip.
+
+To install a valid copy of hostapd:
+\begin{lstlisting}
+wget http://www.adafruit.com/downloads/adafruit_hostapd.zip 
+unzip adafruit_hostapd.zip 
+sudo mv /usr/sbin/hostapd /usr/sbin/hostapd.ORIG 
+sudo mv hostapd /usr/sbin
+sudo chmod 755 /usr/sbin/hostapd
+\end{lstlisting}
+ 
+Now set up a daemon - a piece of automatic system software - to run the hostapd configuration file on boot.
+\begin{lstlisting}
+sudo nano /etc/default/hostapd
+\end{lstlisting}
+Uncomment (remove the hash mark in front of) \texttt{#DAEMON_CONF=""} and replace that line with \texttt{DAEMON_CONF="/etc/hostapd/hostapd.conf}.
+Then type CTRL-X and Y to save your file.
+
+My hostapd file is listed below.
+
+\begin{lstlisting}
+sudo nano /etc/hostapd/hostapd.conf
+
+interface=wlan0
+driver=rtl871xdrv
+ssid=piebox
+hw_mode=g
+channel=6
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_passphrase=berrybox
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=TKIP
+rsn_pairwise=CCMP
+
+\end{lstlisting}
+
+
+\section{Configuring DNS access via \texttt{dnsmasq}}
+
+Configuring \textt{dnsmasq} is straightforward. The installation package comes with an extensive config file, which lives at \texttt{/etc/dnsmasq.conf}, and includes all of the options necessary to turn on a DNS routing service.
+
+To configure your dnsmasq installation, enter \texttt{sudo nano /etc/dnsmasq.conf} and then add the following lines to the top of the configuration file. The configuration file contains all these values commented out already, and may be worth a separate read.
+
+\begin{lstlisting}
+interface=wlan0
+dhcp-range=192.168.42.2, 192.168.42.50,255.255.255.0,12h
+address=/#/192.168.42.1 #redirect all DNS requests to 192.168.42.1
+server=/screenperfect/192.168.42.1#3003
+address=/apple.com/0.0.0.0
+\end{lstlisting}
+
+What the above does is tell the raspi to listen on the wlan0 interface, to the dhcp range between 192.168.42.2 and 42.50, for twelve hours per time a client connects to the wiFi point. In addition, the portal is supposed to redirect all DNS requests - things like "google.com" - to the Pi's main address, which is - as we can see in \texttt{/etc/network/interfaces} - 192.168.42.1, and from there to the port 3003, on which my particular Node application listens.
+
+In addition, the portal serves a spoof address to apple.com, which helps us to pop up the appropriate page on the captive portal when it is turned on. 
+
+At this point, reboot the raspi by typing \texttt{sudo reboot} and everything should come up properly and turn on appropriately.
+
+\subsection{IP Addresses}
+The trickiest part of this particular operation is the various IP addresses. IP addresses are raw internet magic. They are how we phone the internet, and how we talk to things once all the radios are tuned in, and they are admirable. From Wikipedia....
+
+\section{Setting Up init.d to Run \texttt{forever} as a Boot Script}

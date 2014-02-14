@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 FEB 2014 10:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  11 FEB 2014 18:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,7 +955,11 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 44.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/underscore/underscore.sty
+Package: underscore 2006/09/13
+LaTeX Info: Redefining \_ on input line 42.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 58.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -979,22 +983,22 @@ File: english.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
 (./AlexLeitchScreenPerfect.aux)
 \openout1 = `AlexLeitchScreenPerfect.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1023,7 +1027,7 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count319
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 62.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1032,9 +1036,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 (./AlexLeitchScreenPerfect.out) (./AlexLeitchScreenPerfect.out)
 \@outlinefile=\write4
@@ -1120,13 +1124,13 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 47.
-Package biblatex Info: Reference segment=0 on input line 47.
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
+Package biblatex Info: Reference section=0 on input line 62.
+Package biblatex Info: Reference segment=0 on input line 62.
+LaTeX Font Info:    Try loading font information for U+msa on input line 101.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 101.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1139,7 +1143,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  Declaration of Authorship
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
  []
 
@@ -1348,7 +1352,1016 @@ I could not locate the file with any of these extensions:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[31] [32] [33] [34]) (./Chapters/Chapter5.tex [35] [36]
+[31] [32] [33] [34]
+Overfull \hbox (206.36655pt too wide) in paragraph at lines 117--118
+\OT1/cmr/m/n/10.95 torial at \OT1/cmtt/m/n/10.95 http://learn.adafruit.com/adaf
+ruit-raspberry-pi-lesson-1-preparing-and-sd-card-for-your-raspberry-pi/\OT1/cmr
+/m/n/10.95 . 
+ []
+
+
+Overfull \hbox (105.1747pt too wide) in paragraph at lines 121--122
+[]\OT1/cmr/m/n/10.95 Download the most re-cent Rasp-bian dis-tri-bu-tion im-age
+ from \OT1/cmtt/m/n/10.95 http://www.raspberrypi.org/downloads\OT1/cmr/m/n/10.9
+5 . 
+ []
+
+[35]
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.137 ...0.5\textwidth]{raspi-config_expand_1.png}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.137 ...0.5\textwidth]{raspi-config_expand_1.png}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.137 ...0.5\textwidth]{raspi-config_expand_1.png}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.137 ...0.5\textwidth]{raspi-config_expand_1.png}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+LaTeX Warning: File `raspi-config_expand_1.png' not found on input line 137.
+
+
+! Package pdftex.def Error: File `raspi-config\unhbox \voidb@x \penalty \@M \hs
+kip \z@skip \global \let \OT1\textunderscore \unhbox \voidb@x \kern .06em\vbox 
+{\hrule width.3em}\OT1\textunderscore \discretionary {-}{}{}\penalty \@M \hskip
+ \z@skip expand\unhbox \voidb@x \penalty \@M \hskip \z@skip \global \let \OT1\t
+extunderscore \unhbox \voidb@x \kern .06em\vbox {\hrule width.3em}\OT1\textunde
+rscore \discretionary {-}{}{}\penalty \@M \hskip \z@skip 1.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 ...0.5\textwidth]{raspi-config_expand_1.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.141 \item \textit{expand\_rootfs}
+                                    Expand the boot system so that you will ...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.142 \item \textit{memory\_split}
+                                   Reduce the GPU to minimum, because we wil...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.143 \item \textit{change\_pass}
+                                  Change the password so that your raspi wil...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[36]
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+! LaTeX Error: File `raspi_with_wiFi_on' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.191 ...[width=0.5\textwidth]{raspi_with_wiFi_on}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[37] [38]
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.233 Edit - or create - a .bash_
+                                 profile file, which is a type of script tha...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.233 ...ogram will do something. What is a .bash_
+                                                  profile?
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.240 ... following and save it to your new .bash_
+                                                  profile file...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[39] [40]
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.299 ...pears to be best practice to use the wpa_
+                                                  supplicant file to store h...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+[41]
+! Undefined control sequence.
+l.349 CTRL-X and Y to save, then \textttt
+                                         {sudo reboot} open a terminal on yo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[42] [43]
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.427 ...y eventually want a keyboard, and it is _
+                                                  much_ easier to store your...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.427 ...ntually want a keyboard, and it is _much_
+                                                   easier to store your acce...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (10.85338pt too wide) in paragraph at lines 441--442
+[]\OT1/cmr/m/n/10.95 When everything is done in-stalling, you will be con-vert-
+ing your \OT1/cmtt/m/n/10.95 /etc/network/interfaces
+ []
+
+[44]
+! Undefined control sequence.
+l.468 \textt
+            {hostapd} is the software that provides the access point using y...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
+l.468 ...tp://www.adafruit.com/downloads/adafruit_
+                                                  hostapd.zip.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+Overfull \hbox (24.17752pt too wide) in paragraph at lines 468--469
+\OT1/cmr/m/n/10.95 ary files to this pa-per, but can also be found at http://ww
+w.adafruit.com/downloads/adafruit-
+ []
+
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   D
+l.483 ...ark in front of) \texttt{#DAEMON_CONF=""}
+                                                   and replace that line wit...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \reserved@b.
+<to be read again> 
+                   }
+l.483 ...ark in front of) \texttt{#DAEMON_CONF=""}
+                                                   and replace that line wit...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in horizontal mode.
+<recently read> ##
+                  
+l.483 ...ark in front of) \texttt{#DAEMON_CONF=""}
+                                                   and replace that line wit...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+[45]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 508.
+
+! Undefined control sequence.
+l.510 Configuring \textt
+                        {dnsmasq} is straightforward. The installation packa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (./Chapters/Chapter5.tex [46]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Conclusion
@@ -1358,9 +2371,9 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 4--4
 [][][][][][][][][]  
  []
 
-[37
+[47
 
-] [38]) (./Chapters/Chapter6.tex [39]
+] [48]) (./Chapters/Chapter6.tex [49]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Endnotes, References, Works Cited
@@ -1388,7 +2401,7 @@ Overfull \hbox (30.59528pt too wide) in paragraph at lines 16--22
 i, http://www.el-sabaawi.com/ 
  []
 
-) (./Appendices/AppendixA.tex [40
+) (./Appendices/AppendixA.tex [50
 
 ]
 Appendix A.
@@ -1406,10 +2419,10 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
- [41
+ [51
 
 ])
-(./Appendices/AppendixB.tex [42]
+(./Appendices/AppendixB.tex [52]
 Appendix B.
 ------------------------------------------------------------------------------
  B Annotated Literature Review
@@ -1425,7 +2438,7 @@ Overfull \hbox (54.79686pt too wide) in paragraph at lines 20--21
 sion. http://thenewinquiry.com/essays/cool-
  []
 
-[43
+[53
 
 ]
 ! Misplaced alignment tab character &.
@@ -1464,36 +2477,21 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[44] [45]
+[54] [55]
 Overfull \hbox (2.05441pt too wide) in paragraph at lines 62--65
 \OT1/cmr/m/n/10.95 Re-la-tions. Re-trieved April 12, 2013, from http://text-rel
 ations.blogspot.ca/2013/03/the-
  []
 
-[46]
-! Missing $ inserted.
-<inserted text> 
-                $
+[56]
+! Missing number, treated as zero.
+<to be read again> 
+                   \discretionary 
 l.77 ...ame Research. sakai.rutgers.edu—hunicke_
                                                   2004.pdf
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.79 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (685.74654pt too wide) in paragraph at lines 77--79
-\OT1/cmr/m/n/10.95 and Game Re-search. sakai.rutgers.edu|hunicke$[]004\OML/cmm/
-m/it/10.95 :pdfMoreongamedesigntechniquesforthetechnicalportionsofthepaper:Desc
-ribesmethodswhichwillneedtobeaddressedaspartoftheAgile=HowDidIMakeThisGamemetho
-dology:$ 
- []
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
 
 
 Overfull \hbox (7.86404pt too wide) in paragraph at lines 80--82
@@ -1501,13 +2499,13 @@ Overfull \hbox (7.86404pt too wide) in paragraph at lines 80--82
 readings/kristevaHorrifying
  []
 
-[47]
+[57]
 Overfull \hbox (8.90822pt too wide) in paragraph at lines 98--102
 \OT1/cmr/m/n/10.95 http://www.washingtoncitypaper.com/articles/43235/our-band-c
 ould-be-your-band-how-
  []
 
-[48]
+[58]
 ! Misplaced alignment tab character &.
 l.114 Reines, A., &
                     TIQQUN. (2012). Preliminary materials for a theory of th...
@@ -1528,7 +2526,7 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[49]) (./Appendices/AppendixC.tex [50]
+[59]) (./Appendices/AppendixC.tex [60]
 Appendix C.
 ------------------------------------------------------------------------------
  C Game Jam Documentation
@@ -1542,9 +2540,9 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 13.
 
-[51
+[61
 
-]) (./Appendices/AppendixD.tex [52]
+]) (./Appendices/AppendixD.tex [62]
 Appendix D.
 ------------------------------------------------------------------------------
  D Appendix D: Installing screenPerfect
@@ -1578,32 +2576,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[53
+[63
 
 ]
-Overfull \hbox (128.23901pt too wide) in paragraph at lines 43--44
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-] 
- []
-
-
-Overfull \hbox (148.63947pt too wide) in paragraph at lines 55--56
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
 Overfull \hbox (28.20769pt too wide) in paragraph at lines 59--62
 \OT1/cmr/m/n/10.95 IPv4, for ex-ample, \OT1/cmr/m/it/10.95 192.168.10.10\OT1/cm
 r/m/n/10.95 . 3. Open your browser and enter http://\OT1/cmr/m/it/10.95 192.168
 .10.10\OT1/cmr/m/n/10.95 :8888/
  []
 
-
-Overfull \hbox (148.63947pt too wide) in paragraph at lines 66--67
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (./Appendices/AppendixE.tex [54]
+) (./Appendices/AppendixE.tex [64]
 Appendix E.
 ------------------------------------------------------------------------------
  E Transcriptions of Public Talks
@@ -1613,16 +2595,52 @@ Overfull \hbox (10.0pt too wide) in paragraph at lines 3--3
 [][][][][][][][][]  
  []
 
-[55
+[65
 
-] [56] [57]) [58]
+] [66] [67]) [68]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.312 
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.312 
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.312 
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.312 
+      
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
 ! Misplaced alignment tab character &.
 <argument> C.\bibnamedelimi &
                              \bibnamedelima Faber
-l.297 
+l.312 
       
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1631,30 +2649,30 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[59
+[69
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
- [60]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+ [70]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
  (./AlexLeitchScreenPerfect.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
-(rerunfilecheck)             Checksum: 7BF9DF9DC25F9140F1186C9A990CF949;16890.
+(rerunfilecheck)             Checksum: E39AE0DFB747C9FAC55F0E05B9A469A4;21191.
 Package logreq Info: Writing requests to 'AlexLeitchScreenPerfect.run.xml'.
 \openout1 = `AlexLeitchScreenPerfect.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 19706 strings out of 493315
- 295541 string characters out of 6137904
- 745557 words of memory out of 5000000
- 22646 multiletter control sequences out of 15000+600000
- 16321 words of font info for 57 fonts, out of 8000000 for 9000
+ 19941 strings out of 493315
+ 298726 string characters out of 6137904
+ 793773 words of memory out of 5000000
+ 22675 multiletter control sequences out of 15000+600000
+ 16490 words of font info for 58 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,12n,48p,1299b,1930s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1662,24 +2680,24 @@ exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/te
-xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
-ve/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
-/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-3/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/tex
+xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2013/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2013/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2013/te
 xmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (68 pages, 386487 bytes).
+Output written on AlexLeitchScreenPerfect.pdf (78 pages, 428321 bytes).
 PDF statistics:
- 870 PDF objects out of 1000 (max. 8388607)
- 774 compressed objects within 8 object streams
- 186 named destinations out of 1000 (max. 500000)
- 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1218 PDF objects out of 1440 (max. 8388607)
+ 1108 compressed objects within 12 object streams
+ 385 named destinations out of 1000 (max. 500000)
+ 745 words of extra memory for PDF output out of 10000 (max. 10000000)
 

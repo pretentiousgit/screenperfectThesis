@@ -102,62 +102,98 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Background for Linux Commands}{35}{section.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Problems with CYOA as a format}{35}{subsection.62}
+\contentsline {section}{\numberline {4.5}Setting Up Your Raspberry Pi}{35}{section.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Avocational Work versus Professionalisation}{35}{subsection.63}
+\contentsline {subsection}{\numberline {4.5.1}Windows 7 SD Card setup and first boot}{35}{subsection.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Good Branching is Expensive and Difficult}{36}{section.64}
+\contentsline {subsection}{\numberline {4.5.2}Configuring Raspbian}{36}{subsection.72}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.65}
+\contentsline {section}{\numberline {4.6}Software Setup for External WiFi Access}{36}{section.78}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Conclusion}{37}{section.66}
+\contentsline {section}{\numberline {4.7}Installing Node.JS}{38}{section.98}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Endnotes, References, Works Cited}{40}{chapter.67}
+\contentsline {subsection}{\numberline {4.7.1}Why Node?}{38}{subsection.99}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Works Cited}{40}{section.68}
+\contentsline {subsection}{\numberline {4.7.2}Installation Instructions for Node.JS}{38}{subsection.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1.1}Software}{40}{subsection.69}
+\contentsline {section}{\numberline {4.8}Testing Node}{39}{section.114}
 \defcounter {refsection}{0}\relax 
-\vspace {2em}
+\contentsline {subsection}{\numberline {4.8.1}Selecting Monitoring Software}{39}{subsection.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Agile Manifesto}{41}{chapter.70}
+\contentsline {subsection}{\numberline {4.8.2}Installation of Node Modules}{40}{subsection.116}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Agile Manifesto}{41}{section.71}
+\contentsline {subsection}{\numberline {4.8.3}Troubleshooting NPM installations}{40}{subsection.131}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.1.1}What Is Agile?}{41}{subsection.72}
+\contentsline {section}{\numberline {4.9}SSH via Direct Ethernet Connection and WiFi Internet Access}{41}{section.132}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Annotated Literature Review}{43}{chapter.73}
+\contentsline {section}{\numberline {4.10}Backing Up Your RasPi}{42}{section.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Literature Review}{43}{section.74}
+\contentsline {section}{\numberline {4.11}Mount Your USB Flash Memory Stick To Your RasPi}{43}{section.173}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Game Jam Documentation}{51}{chapter.75}
+\contentsline {subsection}{\numberline {4.11.1}Configuring Your Mount Drive}{43}{subsection.174}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.0.1}Questions To Ask Game Jammers}{51}{subsection.76}
+\contentsline {subsection}{\numberline {4.11.2}How to Boot Mount External Memory}{43}{subsection.184}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.0.2}Games List}{51}{subsection.77}
+\contentsline {section}{\numberline {4.12}Set Up a wiFi Hotspot}{44}{section.198}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.0.3}Bug Discovery}{51}{subsection.78}
+\contentsline {section}{\numberline {4.13}Configuring HostAPD}{45}{section.221}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.0.4}Features Requested by Game Jammers}{52}{subsection.79}
+\contentsline {section}{\numberline {4.14}Configuring DNS access via \texttt {dnsmasq}}{46}{section.247}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.0.5}Notes from committed jammers about screenPerfect}{52}{subsection.80}
+\contentsline {subsection}{\numberline {4.14.1}IP Addresses}{46}{subsection.254}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Appendix D: Installing screenPerfect}{53}{chapter.81}
+\contentsline {section}{\numberline {4.15}Setting Up init.d to Run \texttt {forever} as a Boot Script}{46}{section.255}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}screenPerfect Software Dependencies}{53}{section.82}
+\contentsline {chapter}{\numberline {5}Conclusion}{47}{chapter.256}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Running screenPerfect from a command line}{53}{section.83}
+\contentsline {section}{\numberline {5.1}Conclusion}{47}{section.257}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Accessing screenPerfect from a remote client}{54}{section.90}
+\contentsline {chapter}{\numberline {6}Endnotes, References, Works Cited}{50}{chapter.258}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.1}On Mac}{54}{subsection.91}
+\contentsline {section}{\numberline {6.1}Works Cited}{50}{section.259}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.2}On Windows}{54}{subsection.96}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Transcriptions of Public Talks}{55}{chapter.101}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.1}Transcript of PsXXYborg presentation, August 29, 2013}{55}{section.102}
+\contentsline {subsection}{\numberline {6.1.1}Software}{50}{subsection.260}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{59}{dummy.103}
+\contentsline {chapter}{\numberline {A}Agile Manifesto}{51}{chapter.261}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Agile Manifesto}{51}{section.262}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}What Is Agile?}{51}{subsection.263}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Annotated Literature Review}{53}{chapter.264}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Literature Review}{53}{section.265}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Game Jam Documentation}{61}{chapter.266}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.1}Questions To Ask Game Jammers}{61}{subsection.267}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.2}Games List}{61}{subsection.268}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.3}Bug Discovery}{61}{subsection.269}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.4}Features Requested by Game Jammers}{62}{subsection.270}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C.0.5}Notes from committed jammers about screenPerfect}{62}{subsection.271}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Appendix D: Installing screenPerfect}{63}{chapter.272}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.1}screenPerfect Software Dependencies}{63}{section.273}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.2}Running screenPerfect from a command line}{63}{section.274}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {D.3}Accessing screenPerfect from a remote client}{64}{section.281}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.3.1}On Mac}{64}{subsection.282}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {D.3.2}On Windows}{64}{subsection.287}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {E}Transcriptions of Public Talks}{65}{chapter.292}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {E.1}Transcript of PsXXYborg presentation, August 29, 2013}{65}{section.293}
+\defcounter {refsection}{0}\relax 
+\vspace {2em}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{69}{dummy.294}
