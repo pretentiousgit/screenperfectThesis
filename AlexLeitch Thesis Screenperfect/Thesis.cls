@@ -48,10 +48,10 @@
 \newcommand\Declaration[1]{
 \btypeout{Declaration of Authorship}
 \addtotoc{Declaration of Authorship}
-\thispagestyle{plain}
+\thispagestyle{fancy}
 \null\vfil
 %\vskip 60\p@
-\begin{center}{\huge\bf Declaration of Authorship\par}\end{center}
+\begin{center}{\huge \textit{Declaration of Authorship} \par}\end{center}
 %\vskip 60\p@
 {\normalsize #1}
 \vfil\vfil\null
@@ -64,7 +64,7 @@
   July\or August\or September\or October\or November\or December\fi
   \space \number\year}
 \usepackage{setspace}
-\onehalfspacing
+\doublespacing
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{2.0ex plus0.5ex minus0.2ex}
 \usepackage{vmargin}
@@ -74,7 +74,7 @@
 %----------------------------------------------------------------------------------------
 %	MARGINS
 %----------------------------------------------------------------------------------------
-\setmarginsrb  { 1.5in}  % left margin
+\setmarginsrb  { 1.0in}  % left margin
                         { 0.6in}  % top margin
                         { 1.0in}  % right margin
                         { 0.8in}  % bottom margin
@@ -159,6 +159,7 @@
 }
 \newcommand*{\supervisor}[1]{\def\supname{#1}}
 \newcommand*{\thesistitle}[1]{\def\ttitle{#1}}
+\newcommand*{\thesistitlenobreak}[1]{\def\ttitlenb{#1}}
 \newcommand*{\examiner}[1]{\def\examname{#1}}
 \newcommand*{\degree}[1]{\def\degreename{#1}}
 \newcommand*{\authors}[1]{\def\authornames{#1}}
@@ -182,13 +183,15 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{screenPerfect: the importance of accessible technology for artistic use.} % Your thesis title - this is used in the title and abstract
+\thesistitle{Captive Portal Art Machine:\\ the importance of accessible technology for artistic use.} 
+\thesistitlenobreak{Captive Portal Art Machine: the importance of accessible technology for artistic use.} 
+% Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
 \supervisor{Dr. Emma \textsc{Westecott}} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   
 \examiner{} % Your examiner's name - this is not currently used anywhere in the template, cite it with \examname if you want it
 %-------------------------------------------------   
-\degree{Masters of Design} % Your degree name - this is currently used in the title page and abstract
+\degree{Master of Design} % Your degree name - this is currently used in the title page and abstract
 %-------------------------------------------------   
 \authors{Alex \textsc{Leitch}} % Your name - this is used in the title page and abstract
 %-------------------------------------------------   
@@ -292,24 +295,18 @@
 \newenvironment{abstract}
 {
   \btypeout{Abstract Page}
-  \thispagestyle{empty}
-  \null\vfil
-  \begin{center}
-    \setlength{\parskip}{0pt}
-    {\normalsize \UNIVNAME \par} % University name in capitals
-    \bigskip
-    {\huge{\textit{Abstract}} \par}
-    \bigskip
-    {\normalsize \facname \par} % Faculty name
-    {\normalsize \deptname \par} % Department name
-    \bigskip
-    {\normalsize \degreename\par} % Degree name
-    \bigskip
-    {\normalsize\bf \@title \par} % Thesis title
-    \medskip
-    {\normalsize by \authornames \par} % Author name
-    \bigskip
+  \thispagestyle{fancy}
+  \begin{center}{\huge \textit{Abstract} \par}
+  \rule[1em]{25em}{0.5pt}
   \end{center}
+
+  %\null\vfil
+    {\univname \newline} % University name in capitals
+    {\degreename \newline}% Degree name
+    {Digital Futures \newline}% Department name  
+    {\bf \ttitle \newline} % Thesis title
+    {by \authornames \newline} % Author name
+    {\today \newline}
 }
 %----------------------------------------------------------------------------------------
 {
@@ -381,11 +378,12 @@
 \newcommand\listofsymbols[2]{
 \btypeout{\listsymbolname}
 \addtotoc{\listsymbolname}
-    \chapter*{\listsymbolname
-      \@mkboth{
-          \MakeUppercase\listsymbolname}{\MakeUppercase\listsymbolname}}
+\thispagestyle{fancy}
+\begin{center}{\huge \textit{Abbreviations} \par \bigskip}
+\rule[1em]{25em}{0.5pt}
+\end{center}
 \begin{longtable}[c]{#1}#2\end{longtable}\par
-    \cleardoublepage
+\cleardoublepage
 }
 \newcommand\listconstants{Physical Constants}
 \usepackage{longtable}
@@ -412,15 +410,15 @@
 \newcommand\acknowledgements[1]{
 \btypeout{Acknowledgements}
 \addtotoc{Acknowledgements}
-\thispagestyle{plain}
-\begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+\thispagestyle{fancy}
+\begin{center}{\huge \textit{Acknowledgements} \par}\rule[1em]{25em}{0.5pt}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 
 }
 \newcommand\dedicatory[1]{
 \btypeout{Dedicatory}
-\thispagestyle{plain}
+\thispagestyle{fancy}
 \null\vfil
 \vskip 60\p@
 \begin{center}{\Large \sl #1}\end{center}

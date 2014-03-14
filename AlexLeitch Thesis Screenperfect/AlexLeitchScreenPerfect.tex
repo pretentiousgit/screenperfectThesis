@@ -25,20 +25,33 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt, a4paper, oneside]{Thesis} % Paper size, default font size and one-sided paper
+\pdfoutput 1 %pdf
+\documentclass[11pt, letterpaper, oneside]{Thesis} % Paper size, default font size and one-sided paper
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
 \usepackage[british]{babel}
 \usepackage{csquotes}
+\usepackage[utf8]{inputenc}
 \usepackage[style=apa,backend=biber]{biblatex}
+
 \DeclareLanguageMapping{british}{british-apa}
+
+% define undefined utf-8 characters, such as nbsp
+\DeclareUnicodeCharacter{00A0}{ }
+
 
 \addbibresource{Bibliography.bib}
 % \usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers'
 
-\usepackage[Bjornstrup]{fncychap}
+% Add in REB approval page at the end
+\usepackage{pdfpages}
+
+
+\usepackage[Bjarne]{fncychap}
 %Options: Sonny, Lenny, Glenn, Conny, Rejne, Bjarne, Bjornstrup
+
+\usepackage{url}
 
 \usepackage{listings}
 \usepackage{color}
@@ -55,15 +68,45 @@
  numberstyle=\tiny\color{mygray}
  }
 
-\hypersetup{urlcolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\usepackage{wrapfig}
 
 \title{\ttitle} % Defines the thesis title - don't touch this
+
+
+% Table of Contents Formatting
+
+\usepackage{titletoc}
+\usepackage{tocloft}
+\usepackage[nottoc]{tocbibind}
+\usepackage{afterpage}
+
+% Change the name of the ToC
+\AtBeginDocument{%
+	\renewcommand\contentsname{Table of Contents}
+}
+
+% Headings for every page of ToC, LoF and Lot
+\newcommand\tocheading{\par\bigskip\MakeUppercase{\chaptername}\hfill Page\par}
+\newcommand\lofheading{\par\bigskip\figurename\hfill Page\par}
+\newcommand\lotheading{\par\bigskip\MakeUppercase{\tablename}\hfill Page\par}
+
+% Centering titles for the ToC, Lof and Lot
+\renewcommand{\cfttoctitlefont}{\hfill\normalfont\MakeUppercase}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand{\cftloftitlefont}{\hfill\normalfont\MakeUppercase}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\normalfont\MakeUppercase}
+\renewcommand{\cftafterlottitle}{\hfill}
+\tocloftpagestyle{fancy}
+
+\hypersetup{urlcolor=black,linkcolor=black,citecolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
+\raggedbottom
 
 \begin{document}
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
 
-\setstretch{1.3} % Line spacing of 1.3
+\setstretch{1.5} % Line spacing of 1.3
 
 % Define the page headers using the FancyHdr package and set up for one-sided printing
 \fancyhead{} % Clears all page headers and footers
@@ -85,38 +128,36 @@
 %----------------------------------------------------------------------------------------
 
 \begin{titlepage}
-\begin{center}
-
-\textsc{\LARGE \univname}\\[1.5cm] % University name
-
 \HRule \\[0.4cm] % Horizontal line
-{\huge \bfseries \ttitle}\\[0.4cm] % Thesis title
-\HRule \\[1.5cm] % Horizontal line
- 
+{\large \bfseries \ttitle}\\[0.4cm] % Thesis title
+\HRule \\[8.5cm] % Horizontal line
+
 \begin{minipage}{0.4\textwidth}
 \begin{flushleft} \large
 \emph{Author:}\\
 \href{http://www.alexleitch.com}{\authornames} % Author name - remove the \href bracket to remove the link
 \end{flushleft}
 \end{minipage}
+
 \begin{minipage}{0.4\textwidth}
-\begin{flushright} \large
+\begin{flushleft} \large
 \emph{Supervisor:} \\
-\href{https://twitter.com/emmawestecott}{\supname} % Supervisor name - remove the \href bracket to remove the link  
-\end{flushright}
-\end{minipage}\\[3cm]
+\href{https://twitter.com/emmawestecott}{\supname} % Supervisor name - remove the \href bracket to remove the link 
+\end{flushleft}
+\end{minipage}\\[0.5cm]
  
-\large \textit{A thesis submitted in fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
-\textit{in}\\[0.4cm]
-\deptname\\[0.4cm] % Research group name and department name
-\textit{in the Faculty of Design}\\[0.4cm]
-{\large \today}\\[4cm] % Date
+\large \textit{A thesis submitted in partial fulfilment of the requirements\\ for the degree of \degreename}\\% University requirement text
+\textit{in Digital Futures}\\ % Research group name and department name
+\textit{in the Faculty of Design of OCAD University}\\
+\textit{April 10, 2014}\\ % Date
 %\includegraphics{Logo} % University/department logo - uncomment to place it
- 
-\vfill
-\end{center}
+% \ccLogo Alex Leitch 2014
+
+ \includegraphics[scale=0.8]{cc-sa-by.png}\\
+ This work is licensed under a Creative Commons\newline Attribution-ShareAlike 4.0 International License.
 
 \end{titlepage}
+\setcounter{page}{2}
 
 %----------------------------------------------------------------------------------------
 %	DECLARATION PAGE
@@ -150,21 +191,25 @@ Date:\\
 
 %----------------------------------------------------------------------------------------
 %	ABSTRACT PAGE
-%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------fancy
 
 \addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
 
-%\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+%\abstract % Add a gap in the Contents, for aesthetics
+\begin{abstract}{\addtocontents{toc}{\vspace{1.5em}}}
 
 %The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots}
+This thesis consists of technical design project to, on one hand, make it easier for video artists to assemble web-based dual-screen branched narratives, and then to install and display them consistently in environments without consistent access to the internet. The project examines what it means for technology to be accessible, and how that accessible technology is commodified in support of the arts. 
 
+The installation of works based on the technology took place during a two-year period between 2013 and 2014 in a variety of exhibition contexts. This essay consists of technical details of installation as well as conceptual supports for what accessibility means, from a feminist and game-art perspective.
+\end{abstract}
 \clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
 
-\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+\setstretch{1.5} % Reset the line-spacing to 1.3 for body text (if it has changed)
 
 \acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
 
@@ -182,24 +227,23 @@ To my personal support community, many thanks for your patience with me for the 
 
 \setstretch{1.3} % Return the line spacing back to 1.3
 
-\pagestyle{empty} % Page style needs to be empty for this page
+%\pagestyle{empty} % Page style needs to be empty for this page
 
-\dedicatory{For Adina.\ldots} % Dedication text
+\dedicatory{For Adina\ldots} % Dedication text
 
-\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
-
-
+\clearpage
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
 
-\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+ % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
 
-\lhead{\emph{Contents}} % Set the left side page header to "Contents"
 \tableofcontents % Write out the Table of Contents
 
-%\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
-%\listoffigures % Write out the List of Figures
+\clearpage
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
 
 %\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
 %\listoftables % Write out the List of Tables
@@ -210,10 +254,10 @@ To my personal support community, many thanks for your patience with me for the 
 %----------------------------------------------------------------------------------------
 
 \clearpage % Start a new page
-
+% \thispagestyle{fancy}
 \setstretch{1.3} % Set the line spacing to 1.5, this makes the following tables easier to read
 
-\lhead{\emph{Abbreviations and Definitions}} % Set the left side page header to "Abbreviations"
+%\lhead{\emph{Abbreviations and Definitions}} % Set the left side page header to "Abbreviations"
 \listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
 {
 \textbf{CYOA} & \textbf{C}hoose \textbf{Y}our \textbf{O}wn \textbf{A}dventure \\
@@ -254,7 +298,7 @@ To my personal support community, many thanks for your patience with me for the 
 % {
 % Framework: a universal, reusable software platform to develop applications, products and solutions.
 
-% Library:  a collection of implementations of behavior, written in terms of a language, that has a well-defined interface by which the behavior is invoked.
+% Library: a collection of implementations of behavior, written in terms of a language, that has a well-defined interface by which the behavior is invoked.
 
 % Platform: the combination of operating system and software frameworks that allows a given piece of software or application to run.
 % }
@@ -264,7 +308,6 @@ To my personal support community, many thanks for your patience with me for the 
 %----------------------------------------------------------------------------------------
 
 \mainmatter % Begin numeric (1,2,3...) page numbering
-
 \pagestyle{fancy} % Return the page headers back to the "fancy" style
 
 % Include the chapters of the thesis as separate files from the Chapters folder
@@ -275,7 +318,6 @@ To my personal support community, many thanks for your patience with me for the 
 \input{Chapters/Chapter3}
 \input{Chapters/Chapter4} 
 \input{Chapters/Chapter5} 
-\input{Chapters/Chapter6} 
 
 
 %----------------------------------------------------------------------------------------
@@ -293,21 +335,37 @@ To my personal support community, many thanks for your patience with me for the 
 \input{Appendices/AppendixB}
 \input{Appendices/AppendixC}
 \input{Appendices/AppendixD}
-\input{Appendices/AppendixE}
-
-
+\clearpage
+\includegraphics[scale=0.82]{WestecottLeitchapproval.pdf}
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
 \backmatter
 
 %----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
+%	REFERENCES
 %----------------------------------------------------------------------------------------
 
+\label{References}
+
+\lhead{\emph{References}} % Change the page header to say "References"
+\defbibnote{note}{A list of works cited within this text.}
+\printbibliography[title={References},prenote=note]
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
 \label{Bibliography}
+\nocite{dunneraby,homans}
 
 \lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+\defbibnote{note}{A reading list of relevant works consumed during the production of this text, in whole or in part.}
+\defbibfilter{papers}{
+ type=article or
+ type=book or
+ type=online or
+ type=incollection
+}
+\printbibliography[title={Bibliography},prenote=note,filter=papers]
 
- \printbibliography
 
-\end{document}  
+\end{document} 

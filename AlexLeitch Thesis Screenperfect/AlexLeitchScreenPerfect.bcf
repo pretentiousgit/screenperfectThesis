@@ -2067,43 +2067,81 @@
     <bcf:datasource type="file" datatype="bibtex">Bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">glanville</bcf:citekey>
-    <bcf:citekey order="2">arstechnicadrm</bcf:citekey>
-    <bcf:citekey order="3">bissell</bcf:citekey>
-    <bcf:citekey order="4">plant</bcf:citekey>
-    <bcf:citekey order="5">galloway</bcf:citekey>
-    <bcf:citekey order="6">daimio</bcf:citekey>
-    <bcf:citekey order="7">nintendosales</bcf:citekey>
-    <bcf:citekey order="8">norman</bcf:citekey>
-    <bcf:citekey order="9">ensmenger</bcf:citekey>
-    <bcf:citekey order="10">processing</bcf:citekey>
-    <bcf:citekey order="11">arduino</bcf:citekey>
-    <bcf:citekey order="12">scratch</bcf:citekey>
-    <bcf:citekey order="13">adobe</bcf:citekey>
-    <bcf:citekey order="14">daimio</bcf:citekey>
-    <bcf:citekey order="15">anthropy</bcf:citekey>
-    <bcf:citekey order="16">daimio</bcf:citekey>
-    <bcf:citekey order="17">cixous</bcf:citekey>
-    <bcf:citekey order="18">cixous</bcf:citekey>
-    <bcf:citekey order="19">straddler</bcf:citekey>
-    <bcf:citekey order="20">straddler</bcf:citekey>
-    <bcf:citekey order="21">straddler</bcf:citekey>
-    <bcf:citekey order="22">plant</bcf:citekey>
-    <bcf:citekey order="23">interactiondestext</bcf:citekey>
-    <bcf:citekey order="24">daimio</bcf:citekey>
-    <bcf:citekey order="25">galloway</bcf:citekey>
-    <bcf:citekey order="26">galloway</bcf:citekey>
-    <bcf:citekey order="27">galloway</bcf:citekey>
-    <bcf:citekey order="28">plant</bcf:citekey>
-    <bcf:citekey order="29">mozillacontribute</bcf:citekey>
-    <bcf:citekey order="30">charette</bcf:citekey>
-    <bcf:citekey order="31">iv</bcf:citekey>
-    <bcf:citekey order="32">twine</bcf:citekey>
-    <bcf:citekey order="33">taz</bcf:citekey>
-    <bcf:citekey order="34">subnodes</bcf:citekey>
-    <bcf:citekey order="35">cixous</bcf:citekey>
-    <bcf:citekey order="36">LISA notes</bcf:citekey>
+    <bcf:citekey order="1">norman</bcf:citekey>
+    <bcf:citekey order="2">glanville</bcf:citekey>
+    <bcf:citekey order="3">glanville</bcf:citekey>
+    <bcf:citekey order="4">lifeofpi</bcf:citekey>
+    <bcf:citekey order="5">dickenscastillo</bcf:citekey>
+    <bcf:citekey order="6">houseofcards</bcf:citekey>
+    <bcf:citekey order="7">benjamin</bcf:citekey>
+    <bcf:citekey order="8">ebert1</bcf:citekey>
+    <bcf:citekey order="9">ebert2</bcf:citekey>
+    <bcf:citekey order="10">saintsrow</bcf:citekey>
+    <bcf:citekey order="11">fullbrightco</bcf:citekey>
+    <bcf:citekey order="12">lisanotes</bcf:citekey>
+    <bcf:citekey order="13">twitchplayspokemon</bcf:citekey>
+    <bcf:citekey order="14">guardiangchq</bcf:citekey>
+    <bcf:citekey order="15">viceukraine</bcf:citekey>
+    <bcf:citekey order="16">mosaic</bcf:citekey>
+    <bcf:citekey order="17">bissell</bcf:citekey>
+    <bcf:citekey order="18">psxxyborg</bcf:citekey>
+    <bcf:citekey order="19">daimio</bcf:citekey>
+    <bcf:citekey order="20">norman</bcf:citekey>
+    <bcf:citekey order="21">spaceteam</bcf:citekey>
+    <bcf:citekey order="22">cixous</bcf:citekey>
+    <bcf:citekey order="23">tiqqun</bcf:citekey>
+    <bcf:citekey order="24">ensmenger</bcf:citekey>
+    <bcf:citekey order="25">anthropy</bcf:citekey>
+    <bcf:citekey order="26">cixous</bcf:citekey>
+    <bcf:citekey order="27">plant</bcf:citekey>
+    <bcf:citekey order="28">agile</bcf:citekey>
+    <bcf:citekey order="29">plant</bcf:citekey>
+    <bcf:citekey order="30">agile</bcf:citekey>
+    <bcf:citekey order="31">doctorow</bcf:citekey>
+    <bcf:citekey order="32">martin</bcf:citekey>
+    <bcf:citekey order="33">igda</bcf:citekey>
+    <bcf:citekey order="34">esa</bcf:citekey>
+    <bcf:citekey order="35">klimas</bcf:citekey>
+    <bcf:citekey order="36">cixous</bcf:citekey>
+    <bcf:citekey order="37">dunneraby</bcf:citekey>
+    <bcf:citekey order="38">homans</bcf:citekey>
   </bcf:section>
+  <bcf:sortlist section="0" type="entry" label="apa">
+  <bcf:sorting>
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">writer</bcf:sortitem>
+      <bcf:sortitem order="6">director</bcf:sortitem>
+      <bcf:sortitem order="7">producer</bcf:sortitem>
+      <bcf:sortitem order="8">execproducer</bcf:sortitem>
+      <bcf:sortitem order="9">origauthor</bcf:sortitem>
+      <bcf:sortitem order="10">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="11">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+      <bcf:sortitem order="3">pubstate</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
+      <bcf:sortitem order="2">0000</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sorting>
+  </bcf:sortlist>
   <bcf:sortlist section="0" type="entry" label="apa">
   <bcf:sorting>
     <bcf:sort order="1">

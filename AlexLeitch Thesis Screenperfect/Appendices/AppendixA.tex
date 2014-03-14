@@ -1,34 +1,117 @@
 % Appendix A
+\setstretch{1}
+\chapter{screenPerfect Installation Guide} % Main appendix title
 
-\chapter{Agile Manifesto} % Main appendix title
+\label{AppendixA} % Change X to a consecutive letter; for referencing this appendix elsewhere, use \ref{AppendixX}
 
-\label{AppendixA} % For referencing this appendix elsewhere, use \ref{AppendixA}
+\section{screenPerfect Code and Documentation}
+The code of screenPerfect is located on the DVD included in this volume, and at \url{http://www.github.com/pretentiousgit/screenperfect-dev}. This DVD includes five games produced for the screenPerfect Engine: PornGame, psXXYborg, OM, Grimoire, and Cyborg Goddess.
 
-\lhead{Appendix A. \emph{Agile Manifesto}} % This is for the header on each page - perhaps a shortened title
+\section{Device List}
 
-\section{Agile Manifesto}
+\begin{enumerate}
+\item{Large powerbar with surge protection and power supply cable}
+\item{Server with Node.JS installed}
+\item{Projector or monitor}
+\item{Portable wireless hotspot}
+\item{Touchscreen device with browser software}
+\item{Optional: Speakers with subwoofer}
+\item{keyboard}
+\item{mouse}
+\item{power supply}
+\item{hdmi or vga cables as appropriate}
+\end{enumerate}
 
-Manifesto for Agile Software Development
+\section{Software List}
+\begin{enumerate}
+\item{Google Chrome (preferred), on all devices likely to play.}
+\item{screenPerfect will also run on Safari, but there are issues due to Google’s refusal to support the MP4/h.264 video codec (large, but good quality) and Apple’s similar refusal to support V8/webM (small, better, owned by Google).}
+\item{NodeJS installed on screenPerfect’s host computer.}
+\item{git installed on screenPerfect’s host computer.}
+\item{Miro VideoConverter on a mac system}
+\end{enumerate}
 
-We are uncovering better ways of developing software by doing it and helping others do it.
-Through this work we have come to value:
+\section{Installation and Site Construction}
+
+\subsection{Before Leaving For Site}
+\begin{enumerate}
+\item{Ensure NodeJS is installed and functional on main server.}
+\item{Install latest repository of screenPerfect from GitHub.}
+\item{Ensure all video files are present and accounted for in all appropriate formats.}
+	\begin{enumerate}
+		\item{webM}
+		\item{MP4}
+	\end{enumerate}
+\item{Find surface to project on.}
+\item{Lay out power cable and power bar.}
+	\begin{enumerate}
+		\item{power to wireless hotspot}
+		\item{power to main server}
+		\item{power to projector}
+		\item{power to support tablet interface}
+		\item{power to speakers}
+		\item{monitor/projector}
+		\item{keyboard}
+		\item{mouse}
+	\end{enumerate}
+\item{Connect devices to their relevant power supplies.}
+\item{Plug in green jack of speakers to headphone jack of main server.}
+\item{Turn on all devices.}
+\item{Turn off all mobile data for wireless hotspot device. If necessary, remove SIM.}
+\item{Turn on wireless hotspot.}
+\item{Turn on your main server.}
+\item{Connect to your wireless hotspot.}
+\item{Open Terminal (Mac), navigate to screenPerfect’s home directory, turn on screenPerfect}
+	\begin{enumerate}
+	\item{Navigate to the game folder you wish to run by typing "cd" and then the directory path at the prompt.}
+	\item{type node screenPerfect, press enter.}
+	\item{You will see a message saying “screenPerfect listening on port 3003”.}
+	\end{enumerate}
+\item{Open a new tab in Terminal (command-T)}
+\item{Type ifconfig to get the IP address of your wireless hotspot.}
+\begin{enumerate}
+\item{look for the value called "inet" - it will be a \url{192.168.x.x} address if you are attached to the hotspot, and (probably) \url{10.x.x.x} if you’re attached to a wider network.}
+\end{enumerate}
+\item{On the Server, Open Chrome and navigate to \url{http://0.0.0.0:3003/client}}
+\item{Open Terminal, and in the tab where you typed “node screenPerfect”  there will be a stream of messages about a heatbeat.}
+\item{There should also be a video playing in your browser now.}
+\item{On the Tablet Device, open Chrome. Replace the below values with the ip address located in step 14a}
+\begin{enumerate}
+\item{\url{http://x.x.x.x:3003/control}}
+\end{enumerate}
+\item{If all goes well, the “Start” button will appear onscreen on your tablet.}
+\item{Touch the start button, and the projected video will change.}
+\end{enumerate}
+
+\section{Troubleshooting}
+
+\subsection{On Start, Google Chrome Cannot Find Control Screen}
+
+\begin{enumerate}
+	\item{Check that the Tablet is on the wireless network provided by the hotspot.}
+	\item{If not, repair the hotspot by disabling it, reenabling it, and reconnecting both the server and the tablet to the same network.}
+\end{enumerate}
+
+\subsection{The Control Device is frozen, or the videos are not changing.} 
+
+Just about anything else, really, including the above.
+\begin{enumerate}
+	\item{Open the Terminal.}
+	\item{Check the heartbeat stream for an error such as “Abort Trap,” “Bus Trap,” or “stream error in pipe.”}
+	\begin{enumerate}
+	\item{All of these are normal. They are a result of someone tapping the screen quickly enough to overwhelm the server.}
+	\end{enumerate}
+	\item{type node screenPerfect and press enter to restart the application.}
+	\item{Refresh the tablet browser and press the start graphic to make sure the video is being served.}
+	\item{Refresh the server browser to ensure everything is passed correctly.}
+\end{enumerate}
+
+\section{Tidbits and Tech Notes}
+
 \begin{itemize}
-\item[\tiny{$\blacksquare$}]  Individuals and interactions over processes and tools
-\item[\tiny{$\blacksquare$}]  Working software over comprehensive documentation
-\item[\tiny{$\blacksquare$}]  Customer collaboration over contract negotiation
-\item[\tiny{$\blacksquare$}]  Responding to change over following a plan
+	\item{People with little technical experience will sometimes have trouble determining if they have actually touched/interacted with the app appropriately. Some may accidentally exit the application on the tablet, and may be unsure of how to re-enter the experience.}
+	\item{screenPerfect is most rewarding when played in isolated concentration somewhere quiet. It is challenging to concentrate on the video enough to get full effect if people are distracted.} 
+	\item{screenPerfect crashes approximately once per three hours of play time, more in high temperatures.}
+	\item{screenPerfect games work best in Android, as Android supports the webM/V8 codec. Apple devices require mp4s, which are approximately 4x the size.}
+	\item{screenPerfect was developed in JavaScript using ExpressJS for NodeJS. screenPerfect was developed on a MacBook Pro for use with Chrome, but will function almost as well with Safari.}
 \end{itemize}
-
-That is, while there is value in the items on the right, we value the items on the left more.
-© 2001, agilemanifesto.com
-
-\subsection{What Is Agile?}
-* Put in what is pair programming as well.
-
-Agile is an ideal based on a manifesto released at the turn of the century. It is not specific enough to serve as a development framework, but instead serves to structure a way of thinking about software development in collaboration between developers and their user population. The original Agile Manifesto was released in 2001, and has a vast number of signatories to date. 
-
-Agile is intended to address the gap between planned software, which is typically fixed at release, and reality, which is that software breaks routinely and needs regular maintenance and iterative upgrades. The manifesto suggests that developers should focus on results over process, software that works over software that’s well-documented, collaboration over contract specifics, and responsiveness to change over following a specific plan.
-
-Agile has proven useful for this project because its emphasis on responsiveness and deliverables has ensured that the working software of screenPerfect can move forward to permit more games to be made, rather than locking the software to a concern for itself as an object. This is a valuable way to move through a development process which spares us from needing to commit to a given method, and instead emphasizes results from practice.
-
-This practice must be documented, which is where the code-commit process appears. Agile deprivileges documentation for itself, preferring to include the necessary as the code itself is logged. Therefore, I have chosen to use the Git toolset to retain my version control on both this document itself and the code developed to run the main game engine.

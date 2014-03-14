@@ -1,0 +1,507 @@
+
+\lhead{Appendix A. \emph{Code of screenPerfect}}
+
+screenPerfect requires an installation of Node.JS on the operating system of its main computer to run.
+These files can also be found at https://github.com/pretentiousgit/screenperfect-dev
+
+\section{screenPerfect File Structure}
+Home Folder
+--- /node_modules
+--- /public
+------ /css
+--------- style.css
+------ /js
+--------- client.js
+--------- control.js
+--------- jquery-1.9.1.js
+--------- script.js
+------ /tmp
+--------- gamedata.json
+------ /video
+--------- [media files for games]
+client.ejs
+control.ejs
+layout.ejs
+package.json
+screenperfect.js
+
+\section{screenperfect.js}
+\begin{lstlisting}
+var express = require('express'),
+    sio = require('socket.io'),
+    path = require('path'),
+    wrench = require('wrench'),
+    exec = require('child_process').exec,
+    util = require('util'),
+    Files = {}, _hopper, fs = require('fs'),
+    eavesdropper = 0,
+    json, app = express.createServer();
+require('sugar')
+
+//express setup
+app.configure(function () {
+    app.set('views', __dirname);
+    app.set('view engine', 'ejs');
+    app.use(express.bodyParser());
+    app.use(express.logger('\033[90m:date :method :url :response-time\\ms\033[0m \033[31m:referrer \033[0m'));
+    app.use(express.methodOverride());
+    app.use(app.router);
+    app.use(express.errorHandler({
+        dumpExceptions: true,
+        showStack: true
+    }));
+    app.use(express.static(__dirname + '/public'));
+});
+
+
+// load and pass JSON to front end to load the videos properly
+var gamedata = require(__dirname + '/public/tmp/gamedata.json');
+app.locals.gamefile = JSON.stringify(gamedata);
+
+
+app.get('/', function (req, res, next) {
+    res.locals.gamedata = req.gamedata
+    res.render('control');
+});
+
+app.get('/control', function (req, res, next) {
+    res.render('control');
+});
+
+app.get('/setup', function (req, res, next) {
+    res.render('setup');
+});
+
+app.get('/client', function (req, res, next) {
+    res.render('client');
+});
+
+//socket stuff
+var io = sio.listen(app),
+    control = false,
+    listener; 
+
+//start server
+app.listen(3003, function () {
+    var addr = app.address();
+    console.log('screenPerfect says hello');
+    console.log('   app is listening on\033[31m http://' + addr.address + ':' + addr.port +'\033[0m');
+});
+
+function handler(req, res) {
+    fs.readFile(__dirname + '/index.html',
+        function (err, data) {
+            if (err) {
+                res.writeHead(500);
+                return res.end('Error loading index.html');
+            }
+            res.writeHead(200);
+            res.end(data);
+        });
+}
+
+io.sockets.on('connection', function (socket) { 
+    //send various events to connected sockets
+        
+        socket.on('control event', function (e) {
+            socket.broadcast.emit('control event', e);
+            console.log('control event ' + e);
+            _hopper = e;
+            return false;
+        });
+
+        socket.on('setup event', function (e) {
+            socket.broadcast.emit('setup event', e);
+            console.log(e);
+
+            var nameOfFile = e[0]; // this needs to be stringified and parsed to get appropriate file id
+            fs.writeFile('tmp/' + nameOfFile + ".json", JSON.stringify(e), function (err) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log(nameOfFile + " Divlist was saved!");
+                }
+            });
+        });
+
+    socket.on('listener', function (listener, e) {
+      eavesdropper++;
+      console.log('eavesdropper '+ eavesdropper+' connected, _hopper is '+ _hopper);
+      socket.broadcast.emit('announcement', 'eavesdropper '+ eavesdropper+' connected, _hopper is '+ _hopper);
+    });
+
+        socket.on('role', function (role, func) {
+            console.log('socket assuming role ' + role); 
+            if (control){
+              func(true);
+            }
+      else {
+                control = socket.control = true;
+                socket.broadcast.emit('announcement', 'control connected');
+                func(false);
+            }
+            
+        });
+
+        //if the control disconnects then tell the clients.
+        socket.on('disconnect', function () {
+            if (!socket.control) { 
+                socket.broadcast.emit('announcement', 'eavesdropper has disconnected');
+                return};
+            control = false;
+            socket.broadcast.emit('announcement', 'control disconnected');
+        });
+});
+\end{lslisting}
+
+\section{client.ejs - client browser template}
+
+\textbf{Client Template}
+\begin{lslisting}
+<script src="/js/client.js"></script>
+<% 
+  var gamedata = JSON.parse(app.locals.gamefile);
+  var datasize = Object.keys(gamedata).length;
+%>
+<div id='videobox'>
+  
+<% 
+  var st = gamedata[0].urls.client;
+  var ex = st.substr((~-st.lastIndexOf(".") >>> 0) + 2);
+  if (ex=='webm'||ex=='mp4') {
+      %>
+        <video class="visible fullscreen" ext="<%- ex %>" id="<%- gamedata[0].urls.index %>" loop="true" autoplay="true" /><source src="<%- gamedata[0].urls.client %>" type="video/<%- ex %>" codecs="vp8, vorbis" />Your browser does not support the video tag.</video><br />
+      <%
+        }
+        else{
+        %>
+        <img class="visible fullscreen" ext="<%- ex %>" id="<%- gamedata[0].urls.index %>" src="<%- gamedata[0].urls.client %>" />
+     <%
+  }
+  
+  for(var i=1;i<datasize;i++){ 
+    var str = gamedata[i].urls.client;
+    var ext = str.substr((~-str.lastIndexOf(".") >>> 0) + 2);
+
+    if (ext=='webm'||ext=='mp4') {
+      %>
+        <video class="hidden fullscreen" id="<%- gamedata[i].urls.index %>" loop="true" /><source src="<%- gamedata[i].urls.client %>" type="video/<%- ext %>" codecs="vp8, vorbis" />Your browser does not support the video tag.</video><br />
+      <%
+        }
+        else{
+        %>
+        <img class="hidden fullscreen" id="<%- gamedata[i].urls.index %>" src="<%- gamedata[i].urls.client %>" />
+        <%
+        }     
+  }
+
+%>
+</div>
+\end{lslisting}
+
+\textbf{Client Template JS}
+\begin{lslisting}
+socket.on('connect', function(e) {
+  //on connection, tell the server what kind of client you are. This is a listener.
+  socket.emit('listener', function (error) {
+    if (!error) return;
+    socket.disconnect();
+    $('#connection').trigger('disconnected');
+    message('Server thinks only one listener can be connected'); // debug message
+  });
+});
+
+socket.on('control event', function(e) {
+  // connection passes server's current video number to listener clients
+  if (e){ // needs to be adjusted slightly, does not detect if video is 1
+    video_play(e);
+    console.log(e);
+  }
+
+});
+
+function video_play(to_id){
+  var cur = document.getElementsByClassName('visible')[0];
+  var cur_id= cur.id;
+  var nxt = document.getElementById(to_id);
+  var cur_byId=document.getElementById(cur_id);
+  
+  console.log(cur+' this is cur within video_swap');
+  console.log(to_id+' play this');
+  console.log(cur_id+' now stopped ');
+
+  if(to_id!=cur_id){
+    nxt.classList.remove('hidden'); 
+    nxt.classList.add('visible');
+
+    cur.classList.add('hidden');
+    cur.classList.remove('visible'); // for use with selectors
+
+    if(nxt.nodeName=='VIDEO'){
+      nxt.play();
+    }
+    if(cur_byId.nodeName=='VIDEO'){
+      cur_byId.pause();
+    }
+  }
+};
+\end{lslisting}
+
+
+\section{Control.ejs - Control Template}
+\textbf{Control Template}
+\begin{lslisting}
+<script>
+// Socket connects
+socket.on('connect', function () {
+  socket.emit('role', 'control', function (error) {
+    if (!error) return;
+      socket.disconnect();
+      $('#connection').trigger('disconnected');
+      message('There is already a control connected');
+    });
+});
+
+//load first round of control spots
+  load_spots(0);
+
+
+// Load second round of control spots
+$(document).on('click', '.send-video', function(e){
+  var nxtVid = $(this).attr('nextvid');
+  console.log(nxtVid);
+  
+  video_play(nxtVid);
+
+  //wipe the current control spots out
+  $('#controlSpots').html('');
+  
+  //get the next set of spots
+  load_spots(nxtVid);
+  
+  //tell the ether what to get next
+  message('emitted \'' + nxtVid + '\'');
+    socket.emit('control event', nxtVid);
+
+  return false;
+});     
+// end dynamics
+
+// function list
+function load_spots(spots){
+  var skeleton
+  $.getJSON('/tmp/gamedata.JSON', function(data){
+    $.each( data[spots].exits, function( key, val){
+       $.each(val, function(ind,obj){
+         skeleton = $('<a class="send-video" style="">&nbsp;</a>');
+            $(skeleton).attr('nextvid', data[spots].exits[key].room);
+            $(skeleton).css('top', data[spots].exits[key].top );
+            $(skeleton).css('left', data[spots].exits[key].left );
+            $(skeleton).css('width', data[spots].exits[key].width );
+            $(skeleton).css('height', data[spots].exits[key].height );
+            $(skeleton).css('position','absolute');
+            $(skeleton).css('z-index','1');
+            $(skeleton).css('background', 'transparent' );
+            $(skeleton).css('display', 'block' );
+      })
+      // load skeleton into controlspots once for each exit key
+      $('#controlSpots').append(skeleton);      
+    })
+  })
+}
+
+function video_play(to_id){
+  var cur = document.getElementsByClassName('visible')[0];
+  var cur_id= cur.getAttribute('id');
+  var nxt = document.getElementById(to_id);
+  
+  console.log(cur_id +' this is cur within video_swap');
+  console.log(to_id+' play this');
+  console.log(cur_id+' now stopped ');
+
+  
+    nxt.classList.remove('hidden'); 
+    nxt.classList.add('visible');
+
+    cur.classList.add('hidden');
+    cur.classList.remove('visible'); // for use with selectors
+
+    if(nxt.nodeName=='VIDEO'){
+      nxt.play();
+    }
+    if(cur.nodeName=='VIDEO'){
+      cur.pause();
+    }
+  
+};
+
+</script>
+
+<div id='controlSpots'>
+</div>
+<% 
+  var gamedata = JSON.parse(app.locals.gamefile);
+  var datasize = Object.keys(gamedata).length;
+%>
+<div id='videobox'>
+  
+<% 
+  var st = gamedata[0].urls.control;
+  var ex = st.substr((~-st.lastIndexOf(".") >>> 0) + 2);
+  if (ex=='webm'||ex=='mp4') {
+      %>
+        <video class="visible fullscreen" id="<%- gamedata[0].urls.index %>" loop="true" /><source src="<%- gamedata[0].urls.control %>" type="video/<%- ex %>" codecs="vp8, vorbis" />Your browser does not support the video tag.</video><br />
+      <%
+        }
+        else{
+        %>
+        <img class="visible fullscreen" id="<%- gamedata[0].urls.index %>" src="<%- gamedata[0].urls.control %>" />
+     <%
+  }
+  
+  for(var i=1;i<datasize;i++){ 
+    var str = gamedata[i].urls.control;
+    var ext = str.substr((~-str.lastIndexOf(".") >>> 0) + 2);
+
+    if (ext=='webm'||ext=='mp4') {
+      %>
+        <video class="hidden fullscreen" id="<%- gamedata[i].urls.index %>" loop="true" /><source src="<%- gamedata[i].urls.control %>" type="video/<%- ext %>" codecs="vp8, vorbis" />Your browser does not support the video tag.</video><br />
+      <%
+        }
+        else{
+        %>
+        <img class="hidden fullscreen" id="<%- gamedata[i].urls.index %>" src="<%- gamedata[i].urls.control %>" />
+        <%
+        }     
+  }
+
+%>
+</div>
+\end{lslisting}
+
+\textbf{Control Script}
+\begin{lslisting}
+socket.on('connect', function () {
+  socket.emit('role', 'control', function (error) {
+    if (!error) return;
+      socket.disconnect();
+      $('#connection').trigger('disconnected');
+      message('There is already a control connected');
+    });
+});
+
+$(document).on('click', '.send-video', function(e){
+  var nxtVid = parseInt($(this).attr('nextVid'));
+  video_play(nxtVid);
+
+  $('#controlSpots').html('');
+  $.getJSON('/tmp/'+nxtVid+'.json', function(data){
+    $.each(data.spots, function(i,obj){
+      console.log(obj);     
+        var skeleton = $('<a class="send-video">&nbsp;</a>');
+                $(skeleton).attr('nextvid', obj.link);
+                $(skeleton).attr('style', obj.css);
+           $("#controlSpots").append(skeleton);
+    })
+  });
+
+  message('emitted \'' + nxtVid + '\'');
+    socket.emit('control event', nxtVid);
+
+  return false;
+});     
+
+
+function video_play(to_id){
+  var cur = document.getElementsByClassName('visible')[0];
+  var cur_id= cur.id;
+  var nxt = document.getElementById(to_id);
+  var cur_byId=document.getElementById(cur_id);
+  
+  console.log(cur+' this is cur within video_swap');
+  console.log(to_id+' play this');
+  console.log(cur_id+' now stopped ');
+
+  if(to_id!=cur_id){
+    nxt.classList.remove('hidden'); 
+    nxt.classList.add('visible');
+
+    cur.classList.add('hidden');
+    cur.classList.remove('visible'); // for use with selectors
+
+    if(nxt.nodeName=='VIDEO'){
+      nxt.play();
+    }
+    if(cur_byId.nodeName=='VIDEO'){
+      cur_byId.pause();
+    }
+  }
+};
+\end{lslisting}
+
+\section{Socket Passage Script}
+\begin{lslisting}
+var socket = io.connect();
+
+//simple bindings for standard socket.io events
+socket.on('connect', function() {
+  $('#connection').trigger('connected');
+});
+
+socket.on('reconnecting', function() {
+  $('#connection').trigger('reconnecting');
+});
+
+socket.on('reconnect', function () {
+  $('#connection').trigger('connected');
+});
+
+socket.on('error', function () {
+  $('#connection').trigger('disconnected');
+});
+
+//dom stuff for triggered events
+$('#connection').on('connected', function() {
+  message('connected')
+}).on('reconnecting', function() {
+  message('reconnected')
+}).on('disconnected', function() {
+  message('disconnected')
+});
+
+//on an announcement prepend a new event
+socket.on('announcement', function (msg) {
+  message(msg);
+});
+
+//log messages to the console
+var message = function message(msg, level) {
+  console.log(msg);
+};
+\end{lslisting}
+
+\section{Main Page Layout HTML}
+\begin{lslisting}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>screenperfect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+  <script src="/socket.io/socket.io.js"></script> 
+    
+  <script src="/js/jquery-1.9.1.js"></script>
+    <script src="/js/jquery-ui.min.js"></script>
+    <script src="/js/script.js"></script>
+  
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    <%- body %>
+  </body>
+</html>
+\end{lslisting}
