@@ -3676,7 +3676,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
 l.61 ... a group of software developers \parencite
-                                                  {agile}. By using an Agile...
+                                                  {Agile}. By using an Agile...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -4303,7 +4303,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 l.61 ...to change over following a plan \parencite
-                                                  {agile}.
+                                                  {Agile}.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7192,7 +7192,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.75 O
-      verall, agile worked for this process by allowing a response to user r...
+      verall, Agile worked for this process by allowing a response to user r...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
