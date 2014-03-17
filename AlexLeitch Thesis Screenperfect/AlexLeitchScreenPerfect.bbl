@@ -71,6 +71,27 @@
       \field{title}{Rise of the videogame zinesters: how freaks, normals, amateurs, artists, dreamers, dropouts, queers, housewives, and people like you are taking back an art form}
       \field{year}{2012}
     \endentry
+    \entry{baskerville}{article}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=a64c1c77b732ff022a35719c08ad266c}{Baskerville}{B\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=a64c1c77b732ff022a35719c08ad266c}{Baskerville}{B\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {University of Toronto Press}%
+      }
+      \strng{namehash}{a64c1c77b732ff022a35719c08ad266c}
+      \strng{fullhash}{a64c1c77b732ff022a35719c08ad266c}
+      \field{sortinit}{B}
+      \field{labelyear}{1999}
+      \field{labeltitle}{Women and Investment in Late-Nineteenth-Century Urban Canada: Victoria and Hamilton, 1880-1901}
+      \field{journaltitle}{Canadian Historical Review}
+      \field{title}{Women and Investment in Late-Nineteenth-Century Urban Canada: Victoria and Hamilton, 1880-1901}
+      \field{volume}{80}
+      \field{year}{1999}
+      \field{pages}{2}
+    \endentry
     \entry{benjamin}{article}{}
       \name{labelname}{2}{}{%
         {{uniquename=0,hash=b5d39b16d16760e0e4573a45fc6f9f97}{Benjamin}{B\bibinitperiod}{Walter}{W\bibinitperiod}{}{}{}{}}%
@@ -322,6 +343,27 @@
       \field{howpublished}{video game}
       \field{title}{psXXYborg}
       \field{year}{2013}
+    \endentry
+    \entry{galloway}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=88ca2c2f46311ea11cc7b5b1d095677d}{Galloway}{G\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=88ca2c2f46311ea11cc7b5b1d095677d}{Galloway}{G\bibinitperiod}{Alexander}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis}%
+      }
+      \list{publisher}{1}{%
+        {University of Minnesota Press}%
+      }
+      \strng{namehash}{88ca2c2f46311ea11cc7b5b1d095677d}
+      \strng{fullhash}{88ca2c2f46311ea11cc7b5b1d095677d}
+      \field{sortinit}{G}
+      \field{labelyear}{2006}
+      \field{labeltitle}{Gaming: Essays On Algorithmic Culture (Electronic Mediations)}
+      \field{title}{Gaming: Essays On Algorithmic Culture (Electronic Mediations)}
+      \field{year}{2006}
     \endentry
     \entry{glanville}{unpublished}{}
       \name{labelname}{1}{}{%
@@ -596,6 +638,20 @@
       \verb http://archives.igda.org/diversity/IGDA_DeveloperDemographics_Oct05.pdf
       \endverb
     \endentry
+    \entry{laserdiscarcade}{misc}{}
+      \field{sortinit}{o}
+      \field{labelyear}{2014}
+      \field{labelmonth}{03}
+      \field{labelday}{14}
+      \field{labeltitle}{LASERDISC ARCADE PROJECT AKA CLASSIC FMV GAMES 2.0}
+      \field{day}{14}
+      \field{month}{03}
+      \field{title}{LASERDISC ARCADE PROJECT AKA CLASSIC FMV GAMES 2.0}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://www.youtube.com/playlist?list=PL80FE4E85EF2A41EB
+      \endverb
+    \endentry
     \entry{twitchplayspokemon}{online}{}
       \field{sortinit}{o}
       \field{labelyear}{2014}
@@ -668,6 +724,34 @@
       \field{title}{Zeros + Ones: Digital Women and Technoculture}
       \field{year}{1997}
     \endentry
+    \entry{newdomestic}{online}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=b6b4266b47dd90564e6c6a11a848edb1}{Schulte}{S\bibinitperiod}{Brigid}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b6b4266b47dd90564e6c6a11a848edb1}{Schulte}{S\bibinitperiod}{Brigid}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {The Washington Post}%
+      }
+      \strng{namehash}{b6b4266b47dd90564e6c6a11a848edb1}
+      \strng{fullhash}{b6b4266b47dd90564e6c6a11a848edb1}
+      \field{sortinit}{S}
+      \field{labelyear}{2014}
+      \field{labelmonth}{03}
+      \field{labelday}{14}
+      \field{labeltitle}{The New Domesticity vs. ambition}
+      \field{day}{14}
+      \field{month}{03}
+      \field{title}{The New Domesticity vs. ambition}
+      \field{urlday}{22}
+      \field{urlmonth}{07}
+      \field{urlyear}{2013}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.washingtonpost.com/blogs/she-the-people/wp/2013/07/22/the-new-domesticity-vs-ambition/
+      \endverb
+    \endentry
     \entry{spaceteam}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=b8fd0e762ba44c1f9d33d599319dbe3d}{Smith}{S\bibinitperiod}{Henry}{H\bibinitperiod}{}{}{}{}}%
@@ -692,6 +776,28 @@
       \verb http://www.sleepingbeastgames.com/spaceteam/
       \endverb
     \endentry
+    \entry{summerfield}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=97252b164c8c9f2f36b30b6212da5f44}{Summerfield}{S\bibinitperiod}{Penny}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=97252b164c8c9f2f36b30b6212da5f44}{Summerfield}{S\bibinitperiod}{Penny}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York:USA}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{97252b164c8c9f2f36b30b6212da5f44}
+      \strng{fullhash}{97252b164c8c9f2f36b30b6212da5f44}
+      \field{sortinit}{S}
+      \field{labelyear}{1984}
+      \field{labeltitle}{Women Workers in the Second World War}
+      \field{subtitle}{Production and Patriarchy in Conflict}
+      \field{title}{Women Workers in the Second World War}
+      \field{year}{1984}
+    \endentry
     \entry{tiqqun}{book}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=17716fbcaedfe4961fb0ae2bafb33a9e}{TIQQUN}{T\bibinitperiod}{}{}{}{}{}{}}%
@@ -712,6 +818,27 @@
       \field{labeltitle}{Preliminary Materials Towards A Theory of the Young-Girl}
       \field{title}{Preliminary Materials Towards A Theory of the Young-Girl}
       \field{year}{1999}
+    \endentry
+    \entry{encyclopediavideogame}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=077cb5b69153572f96984cc0f083f2bb}{Wolf}{W\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=077cb5b69153572f96984cc0f083f2bb}{Wolf}{W\bibinitperiod}{Marc}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Santa Barbara: USA}%
+      }
+      \list{publisher}{1}{%
+        {ABC-CLIO}%
+      }
+      \strng{namehash}{077cb5b69153572f96984cc0f083f2bb}
+      \strng{fullhash}{077cb5b69153572f96984cc0f083f2bb}
+      \field{sortinit}{W}
+      \field{labelyear}{2012}
+      \field{labeltitle}{Encyclopedia of Video Games: The Culture, Technology, and Art of Gaming}
+      \field{title}{Encyclopedia of Video Games: The Culture, Technology, and Art of Gaming}
+      \field{year}{2012}
     \endentry
   \endsortlist
 \endrefsection
