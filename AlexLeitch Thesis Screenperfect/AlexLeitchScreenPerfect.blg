@@ -1,14 +1,14 @@
 [0] Config.pm:387> INFO - This is Biber 1.6
-[0] Config.pm:390> INFO - Logfile is 'AlexLeitchScreenPerfect.blg'
-[101] biber-darwin:218> INFO - === Mon Mar 17, 2014, 15:45:06
-[101] Biber.pm:325> INFO - Reading 'AlexLeitchScreenPerfect.bcf'
-[182] Biber.pm:623> INFO - Found 38 citekeys in bib section 0
-[194] Biber.pm:2995> INFO - Processing section 0
-[207] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
-[209] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
-[211] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
-[671] Biber.pm:2881> INFO - Overriding locale 'en_US.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[672] Biber.pm:2887> INFO - Sorting 'entry' list 'apa' keys
-[672] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_US.UTF-8'
-[1143] bbl.pm:472> INFO - Writing 'AlexLeitchScreenPerfect.bbl' with encoding 'UTF-8'
-[1151] bbl.pm:545> INFO - Output to AlexLeitchScreenPerfect.bbl
+[1] Config.pm:390> INFO - Logfile is 'AlexLeitchScreenPerfect.blg'
+[97] biber-darwin:218> INFO - === Tue Mar 18, 2014, 11:34:39
+[98] Biber.pm:325> INFO - Reading 'AlexLeitchScreenPerfect.bcf'
+[170] Biber.pm:623> INFO - Found 39 citekeys in bib section 0
+[181] Biber.pm:2995> INFO - Processing section 0
+[194] Biber.pm:3129> INFO - Looking for bibtex format file 'Bibliography.bib' for section 0
+[196] bibtex.pm:898> INFO - Decoding LaTeX character macros into UTF-8
+[198] bibtex.pm:775> INFO - Found BibTeX data source 'Bibliography.bib'
+[537] Biber.pm:2881> INFO - Overriding locale 'en_CA.UTF-8' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[537] Biber.pm:2887> INFO - Sorting 'entry' list 'apa' keys
+[537] Biber.pm:2891> INFO - No sort tailoring available for locale 'en_CA.UTF-8'
+[959] bbl.pm:472> INFO - Writing 'AlexLeitchScreenPerfect.bbl' with encoding 'UTF-8'
+[963] bbl.pm:545> INFO - Output to AlexLeitchScreenPerfect.bbl

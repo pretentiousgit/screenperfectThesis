@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  17 MAR 2014 17:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 MAR 2014 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1182,7 +1182,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--155
 
  []
 
-<Pictures/cc-sa-by.png, id=355, 88.33pt x 31.11626pt>
+<Pictures/cc-sa-by.png, id=359, 88.33pt x 31.11626pt>
 File: Pictures/cc-sa-by.png Graphic file (type png)
 
 <use Pictures/cc-sa-by.png>
@@ -1250,14 +1250,14 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
-<Pictures/gamecart.jpg, id=614, 984.67876pt x 738.76pt>
+<Pictures/gamecart.jpg, id=621, 984.67876pt x 738.76pt>
 File: Pictures/gamecart.jpg Graphic file (type jpg)
 
 <use Pictures/gamecart.jpg>
 Package pdftex.def Info: Pictures/gamecart.jpg used on input line 80.
 (pdftex.def)             Requested size: 226.80403pt x 170.15921pt.
  [12 <./Pictures/gamecart.jpg>]
-<Pictures/Seizuredome2.jpg, id=619, 2055.68pt x 1541.76pt>
+<Pictures/Seizuredome2.jpg, id=626, 2055.68pt x 1541.76pt>
 File: Pictures/Seizuredome2.jpg Graphic file (type jpg)
 
 <use Pictures/Seizuredome2.jpg>
@@ -1271,120 +1271,126 @@ Chapter 2.
 ------------------------------------------------------------------------------
 [22
 
-] [23] [24] [25]) (./Chapters/Chapter3.tex [26]
+] [23] [24] [25] [26]) (./Chapters/Chapter3.tex [27]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Software Design, Industry Engagement, and Hardware Design
 ------------------------------------------------------------------------------
-[27
+[28
 
-] <Pictures/spCodeFlow.jpg, id=714, 547.5657pt x 612.3678pt>
+] <Pictures/spCodeFlow.jpg, id=728, 547.5657pt x 612.3678pt>
 File: Pictures/spCodeFlow.jpg Graphic file (type jpg)
 
 <use Pictures/spCodeFlow.jpg>
 Package pdftex.def Info: Pictures/spCodeFlow.jpg used on input line 22.
 (pdftex.def)             Requested size: 453.60808pt x 507.28401pt.
- [28 <./Pictures/spCodeFlow.jpg>] [29]
-<Pictures/editSoftAssetTab.png, id=723, 1203.49625pt x 644.4075pt>
+ [29 <./Pictures/spCodeFlow.jpg>] [30]
+<Pictures/editSoftAssetTab.png, id=737, 1203.49625pt x 644.4075pt>
 File: Pictures/editSoftAssetTab.png Graphic file (type png)
 
 <use Pictures/editSoftAssetTab.png>
 Package pdftex.def Info: Pictures/editSoftAssetTab.png used on input line 40.
 (pdftex.def)             Requested size: 453.60808pt x 242.88132pt.
 
-<Pictures/editSoftExitTab.png, id=724, 1212.53pt x 654.445pt>
+<Pictures/editSoftExitTab.png, id=738, 1212.53pt x 654.445pt>
 File: Pictures/editSoftExitTab.png Graphic file (type png)
 
 <use Pictures/editSoftExitTab.png>
 Package pdftex.def Info: Pictures/editSoftExitTab.png used on input line 46.
 (pdftex.def)             Requested size: 453.60808pt x 244.82709pt.
- [30 <./Pictures/editSoftAssetTab.png> <./Pictures/editSoftExitTab.png>] [31] [
-32] [33] [34] [35] [36] [37] [38] [39]
-[40] [41] <Pictures/twineNodeTree.png, id=791, 762.85pt x 577.15625pt>
+ [31 <./Pictures/editSoftAssetTab.png> <./Pictures/editSoftExitTab.png>] [32] [
+33] [34] [35] [36] [37] [38] [39] [40]
+[41] [42] <Pictures/twineNodeTree.png, id=805, 762.85pt x 577.15625pt>
 File: Pictures/twineNodeTree.png Graphic file (type png)
 
 <use Pictures/twineNodeTree.png>
 Package pdftex.def Info: Pictures/twineNodeTree.png used on input line 132.
 (pdftex.def)             Requested size: 453.60808pt x 343.18765pt.
- [42 <./Pictures/twineNodeTree.png>] [43])
-(./Chapters/Chapter4.tex [44]
+ [43 <./Pictures/twineNodeTree.png>] [44])
+(./Chapters/Chapter4.tex [45]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Hardware Deployment in Limited Local Space
 ------------------------------------------------------------------------------
-<Pictures/psXXYborgVan3.jpg, id=804, 642.4pt x 481.8pt>
+<Pictures/psXXYborgVan3.jpg, id=819, 642.4pt x 481.8pt>
 File: Pictures/psXXYborgVan3.jpg Graphic file (type jpg)
 
 <use Pictures/psXXYborgVan3.jpg>
 Package pdftex.def Info: Pictures/psXXYborgVan3.jpg used on input line 12.
 (pdftex.def)             Requested size: 453.60808pt x 340.21306pt.
 
-<Pictures/psXXYborgInterior.jpg, id=805, 642.4pt x 481.8pt>
+<Pictures/psXXYborgInterior.jpg, id=820, 642.4pt x 481.8pt>
 File: Pictures/psXXYborgInterior.jpg Graphic file (type jpg)
 
 <use Pictures/psXXYborgInterior.jpg>
 Package pdftex.def Info: Pictures/psXXYborgInterior.jpg used on input line 18.
 (pdftex.def)             Requested size: 453.60808pt x 340.21306pt.
- [45
+ [46
 
  <./Pictures/psXXYborgVan3.jpg>]
-[46 <./Pictures/psXXYborgInterior.jpg>] [47]
-<Pictures/psXXYborgTent.jpg, id=820, 1951.29pt x 2601.72pt>
+[47 <./Pictures/psXXYborgInterior.jpg>] [48]
+<Pictures/psXXYborgTent.jpg, id=834, 1951.29pt x 2601.72pt>
 File: Pictures/psXXYborgTent.jpg Graphic file (type jpg)
 
 <use Pictures/psXXYborgTent.jpg>
 Package pdftex.def Info: Pictures/psXXYborgTent.jpg used on input line 32.
 (pdftex.def)             Requested size: 317.52426pt x 423.35013pt.
- [48 <./Pictures/psXXYborgTent.jpg>]
-<Pictures/psXXYborgTentPlay.jpg, id=825, 2457.18pt x 3276.24pt>
+ [49 <./Pictures/psXXYborgTent.jpg>]
+<Pictures/psXXYborgTentPlay.jpg, id=839, 2457.18pt x 3276.24pt>
 File: Pictures/psXXYborgTentPlay.jpg Graphic file (type jpg)
 
 <use Pictures/psXXYborgTentPlay.jpg>
 Package pdftex.def Info: Pictures/psXXYborgTentPlay.jpg used on input line 39.
 (pdftex.def)             Requested size: 317.52426pt x 423.32661pt.
- [49
+ [50
 
  <./Pictures/psXXYborgTentPlay.jpg>]
-<Pictures/psXXYborgBox.png, id=830, 1620.0525pt x 918.43124pt>
+<Pictures/psXXYborgBox.png, id=844, 1620.0525pt x 918.43124pt>
 File: Pictures/psXXYborgBox.png Graphic file (type png)
 
 <use Pictures/psXXYborgBox.png>
 Package pdftex.def Info: Pictures/psXXYborgBox.png used on input line 46.
 (pdftex.def)             Requested size: 453.60808pt x 257.159pt.
 
-<Pictures/projectionBox.png, id=831, 621.32124pt x 464.73625pt>
+<Pictures/projectionBox.png, id=845, 621.32124pt x 464.73625pt>
 File: Pictures/projectionBox.png Graphic file (type png)
 
 <use Pictures/projectionBox.png>
 Package pdftex.def Info: Pictures/projectionBox.png used on input line 51.
 (pdftex.def)             Requested size: 453.60808pt x 339.29008pt.
- [50
+ [51
 
- <./Pictures/psXXYborgBox.png>] [51 <./Pictures/projectionBox.png>] [52
+ <./Pictures/psXXYborgBox.png>] [52 <./Pictures/projectionBox.png>] [53
 
-] [53] [54] [55]
+] [54] [55] [56]
 File: Pictures/Seizuredome2.jpg Graphic file (type jpg)
  <use Pictures/Seizuredome2.jpg>
 Package pdftex.def Info: Pictures/Seizuredome2.jpg used on input line 91.
 (pdftex.def)             Requested size: 453.60808pt x 340.19983pt.
 
-[56] [57
+[57] [58
 
-] [58] [59]) (./Chapters/Chapter5.tex [60]
+] [59] [60]) (./Chapters/Chapter5.tex [61]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Conclusion
 ------------------------------------------------------------------------------
-[61
+[62
 
-] [62]) (./Appendices/AppendixA.tex [63]
+] [63] [64] <Pictures/DEIMayViz.png, id=918, 149.358pt x 199.2243pt>
+File: Pictures/DEIMayViz.png Graphic file (type png)
+
+<use Pictures/DEIMayViz.png>
+Package pdftex.def Info: Pictures/DEIMayViz.png used on input line 34.
+(pdftex.def)             Requested size: 362.88783pt x 484.08809pt.
+) (./Appendices/AppendixA.tex [65 <./Pictures/DEIMayViz.png>] [66]
 Appendix A.
 ------------------------------------------------------------------------------
  A screenPerfect Installation Guide
 ------------------------------------------------------------------------------
-[64
+[67
 
-] [65] [66]
+] [68] [69]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
 
  (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
@@ -1393,7 +1399,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
 )
-(./Appendices/AppendixB.tex [67]
+(./Appendices/AppendixB.tex [70]
 Appendix B.
 ------------------------------------------------------------------------------
  B Annotated Literature Review
@@ -1404,66 +1410,66 @@ Overfull \hbox (48.69328pt too wide) in paragraph at lines 17--19
 ://medium.com/weird-future/2acc5ba75929
  []
 
-[68
+[71
 
-] [69] [70]
+] [72] [73]
 Overfull \hbox (112.40622pt too wide) in paragraph at lines 94--98
 \OT1/cmr/m/n/10.95 Arts, News, Food and Liv-ing. Re-trieved April 22, 2013, fro
 m http://www.washingtoncitypaper.com/articles/43235/our-
  []
 
-[71]
+[74]
 Overfull \hbox (43.73555pt too wide) in paragraph at lines 104--106
 []\OT1/cmr/m/n/10.95 One Laptop per Child. (n.d.). One Laptop per Child. Re-tri
 eved July 3, 2013, from http://one.laptop.org/
  []
 
-[72]) (./Appendices/AppendixC.tex [73]
+[75]) (./Appendices/AppendixC.tex [76]
 Appendix C.
 ------------------------------------------------------------------------------
  C Game Jam Documentation
 ------------------------------------------------------------------------------
-[74
+[77
 
-]) (./Appendices/AppendixD.tex [75]
+]) (./Appendices/AppendixD.tex [78]
 Appendix D.
 ------------------------------------------------------------------------------
  D Raspberry Pi Setup Documentation
 ------------------------------------------------------------------------------
-[76
+[79
 
-] [77]
+] [80]
 Overfull \hbox (65.27048pt too wide) in paragraph at lines 99--100
 \OT1/cmr/m/n/10.95 verse.com user DrewTM. It is Thing #114244 and can be found 
 at ht-tps://www.thingiverse.com/thing:114244. 
  []
 
-[78] <Pictures/raspiWiFi.jpg, id=1066, 2812.5075pt x 1860.9525pt>
+[81] <Pictures/raspiWiFi.jpg, id=1090, 2812.5075pt x 1860.9525pt>
 File: Pictures/raspiWiFi.jpg Graphic file (type jpg)
 
 <use Pictures/raspiWiFi.jpg>
 Package pdftex.def Info: Pictures/raspiWiFi.jpg used on input line 105.
 (pdftex.def)             Requested size: 226.80403pt x 150.04347pt.
 
-<Pictures/raspiCase.jpg, id=1067, 4015.0pt x 2433.09pt>
+<Pictures/raspiCase.jpg, id=1091, 4015.0pt x 2433.09pt>
 File: Pictures/raspiCase.jpg Graphic file (type jpg)
 
 <use Pictures/raspiCase.jpg>
 Package pdftex.def Info: Pictures/raspiCase.jpg used on input line 111.
 (pdftex.def)             Requested size: 226.80403pt x 137.44014pt.
- [79 <./Pictures/raspiWiFi.jpg> <./Pictures/raspiCase.jpg>] [80] [81] [82] [83]
- [84] [85]
+ [82 <./Pictures/raspiWiFi.jpg> <./Pictures/raspiCase.jpg>] [83] [84] [85] [86]
+ [87] [88]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 429.
-) (./Appendices/AppendixE.tex [86]
-[87]
+) (./Appendices/AppendixE.tex [89]
+[90]
 Appendix E.
 ------------------------------------------------------------------------------
  E Appendix E: MIT Licence and Research Ethics Approval
 ------------------------------------------------------------------------------
-[88
+[91
 
-]) [89] <WestecottLeitchapproval.pdf, id=1259, 614.295pt x 794.97pt>
+]) [92] <WestecottLeitchapproval.pdf, id=1282, 614.295pt x 794.97pt>
 File: WestecottLeitchapproval.pdf Graphic file (type pdf)
 
 <use WestecottLeitchapproval.pdf>
@@ -1474,7 +1480,7 @@ Overfull \hbox (50.11708pt too wide) in paragraph at lines 339--340
 [][] 
  []
 
-[90
+[93
 
  <./WestecottLeitchapproval.pdf>]
 ------------------------------------------------------------------------------
@@ -1492,7 +1498,7 @@ Overfull \hbox (17.30365pt too wide) in paragraph at lines 353--353
 d from [][]$www . rogerebert . com / rogers-[]journal /
  []
 
-[91
+[94
 
 
 ]
@@ -1514,7 +1520,7 @@ he-[]people / wp / 2013 / 07 / 22 / the-[]new-[]domesticity-[]vs-[]ambition/$[]
 [] 
  []
 
-[92]
+[95]
 Overfull \hbox (18.09447pt too wide) in paragraph at lines 369--369
 [][]\OT1/cmr/m/n/10.95 Ebert, R. (2005). Vide games can never be art. Re-trieve
 d from [][]$www . rogerebert . com / rogers-[]journal /
@@ -1526,7 +1532,7 @@ Overfull \hbox (17.30365pt too wide) in paragraph at lines 369--369
 d from [][]$www . rogerebert . com / rogers-[]journal /
  []
 
-[93
+[96
 
 ]
 Overfull \hbox (44.06091pt too wide) in paragraph at lines 369--369
@@ -1548,24 +1554,24 @@ he-[]people / wp / 2013 / 07 / 22 / the-[]new-[]domesticity-[]vs-[]ambition/$[]
  []
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
-[94]
+[97]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
  (./AlexLeitchScreenPerfect.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
-(rerunfilecheck)             Checksum: D6D9ECB233884DE3D2B8E269FC0EEB8E;19348.
+(rerunfilecheck)             Checksum: DD67BF072D6EE24C428F1F4DFC0B2C2E;19621.
 Package logreq Info: Writing requests to 'AlexLeitchScreenPerfect.run.xml'.
 \openout1 = `AlexLeitchScreenPerfect.run.xml'.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
  ) 
 Here is how much of TeX's memory you used:
- 21752 strings out of 493315
- 325234 string characters out of 6137904
- 828137 words of memory out of 5000000
- 24366 multiletter control sequences out of 15000+600000
+ 21770 strings out of 493315
+ 325520 string characters out of 6137904
+ 828178 words of memory out of 5000000
+ 24377 multiletter control sequences out of 15000+600000
  13550 words of font info for 51 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,12n,57p,1740b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1584,10 +1590,10 @@ exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (104 pages, 8235524 bytes).
+Output written on AlexLeitchScreenPerfect.pdf (107 pages, 8508417 bytes).
 PDF statistics:
- 1497 PDF objects out of 1728 (max. 8388607)
- 1341 compressed objects within 14 object streams
- 481 named destinations out of 1000 (max. 500000)
- 777 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1521 PDF objects out of 1728 (max. 8388607)
+ 1361 compressed objects within 14 object streams
+ 487 named destinations out of 1000 (max. 500000)
+ 790 words of extra memory for PDF output out of 10000 (max. 10000000)
 

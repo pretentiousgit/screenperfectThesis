@@ -46,143 +46,145 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Theory and Politics}{24}{section.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Software Design, Industry Engagement, and Hardware Design}{27}{chapter.23}
+\contentsline {section}{\numberline {2.3}Cixous, Embodiment, and the Game Jam}{26}{section.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Software Design}{27}{section.24}
+\contentsline {chapter}{\numberline {3}Software Design, Industry Engagement, and Hardware Design}{28}{chapter.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}screenPerfect Engine|Interface Layout}{29}{subsection.26}
+\contentsline {section}{\numberline {3.1}Software Design}{28}{section.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Design Research}{31}{section.29}
+\contentsline {subsection}{\numberline {3.1.1}screenPerfect Engine|Interface Layout}{30}{subsection.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Artist Collaboration}{31}{subsection.30}
+\contentsline {section}{\numberline {3.2}Design Research}{32}{section.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Development Methods}{31}{section.31}
+\contentsline {subsection}{\numberline {3.2.1}Artist Collaboration}{32}{subsection.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1} Agile Development with an Artist Partner}{31}{subsection.32}
+\contentsline {section}{\numberline {3.3}Development Methods}{32}{section.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}GitHub and Open Source Software}{34}{subsection.33}
+\contentsline {subsection}{\numberline {3.3.1} Agile Development with an Artist Partner}{32}{subsection.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Licencing}{35}{subsection.34}
+\contentsline {subsection}{\numberline {3.3.2}GitHub and Open Source Software}{35}{subsection.34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.4}Science Fiction Inputs}{35}{subsection.35}
+\contentsline {subsection}{\numberline {3.3.3}Licencing}{36}{subsection.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Industry Engagement}{36}{section.36}
+\contentsline {subsection}{\numberline {3.3.4}Science Fiction Inputs}{36}{subsection.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Game Jams, A Design Method}{36}{subsection.37}
+\contentsline {section}{\numberline {3.4}Industry Engagement}{37}{section.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Dames Making Games and Game Jams}{37}{subsection.38}
+\contentsline {subsection}{\numberline {3.4.1}Game Jams, A Design Method}{37}{subsection.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Bento Miso and Bento Box}{38}{subsection.39}
+\contentsline {subsection}{\numberline {3.4.2}Dames Making Games and Game Jams}{38}{subsection.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}NoJam 2: Video Video}{39}{subsection.40}
+\contentsline {subsection}{\numberline {3.4.3}Bento Miso and Bento Box}{39}{subsection.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Hardware Deployment in Limited Local Space}{45}{chapter.42}
+\contentsline {subsection}{\numberline {3.4.4}NoJam 2: Video Video}{40}{subsection.41}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Public Installations}{46}{section.45}
+\contentsline {chapter}{\numberline {4}Hardware Deployment in Limited Local Space}{46}{chapter.43}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Hardware Design}{52}{section.50}
+\contentsline {section}{\numberline {4.1}Public Installations}{47}{section.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Physical Deployment on the Raspberry Pi}{55}{section.51}
+\contentsline {section}{\numberline {4.2}Hardware Design}{53}{section.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Problems and Complications in Display}{57}{subsection.53}
+\contentsline {section}{\numberline {4.3}Physical Deployment on the Raspberry Pi}{56}{section.52}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Subnod.es and Public Private Space}{58}{subsection.61}
+\contentsline {subsection}{\numberline {4.3.1}Problems and Complications in Display}{58}{subsection.54}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Distribution of Work}{59}{section.62}
+\contentsline {subsection}{\numberline {4.3.2}Subnod.es and Public Private Space}{59}{subsection.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{61}{chapter.63}
+\contentsline {section}{\numberline {4.4}Distribution of Work}{60}{section.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Conclusion}{61}{section.64}
+\contentsline {chapter}{\numberline {5}Conclusion}{62}{chapter.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Conclusion}{62}{section.65}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}screenPerfect Installation Guide}{64}{chapter.65}
+\contentsline {chapter}{\numberline {A}screenPerfect Installation Guide}{67}{chapter.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}screenPerfect Code and Documentation}{64}{section.66}
+\contentsline {section}{\numberline {A.1}screenPerfect Code and Documentation}{67}{section.68}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Device List}{64}{section.67}
+\contentsline {section}{\numberline {A.2}Device List}{67}{section.69}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Software\IeC { }List}{65}{section.78}
+\contentsline {section}{\numberline {A.3}Software\IeC { }List}{68}{section.80}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Installation\IeC { }and Site Construction}{65}{section.84}
+\contentsline {section}{\numberline {A.4}Installation\IeC { }and Site Construction}{68}{section.86}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.4.1}Before\IeC { }Leaving\IeC { }For Site}{65}{subsection.85}
+\contentsline {subsection}{\numberline {A.4.1}Before\IeC { }Leaving\IeC { }For Site}{68}{subsection.87}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Troubleshooting}{66}{section.122}
+\contentsline {section}{\numberline {A.5}Troubleshooting}{69}{section.124}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.1}On\IeC { }Start,\IeC { }Google\IeC { }Chrome\IeC { }Cannot\IeC { }Find Control Screen}{66}{subsection.123}
+\contentsline {subsection}{\numberline {A.5.1}On\IeC { }Start,\IeC { }Google\IeC { }Chrome\IeC { }Cannot\IeC { }Find Control Screen}{69}{subsection.125}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.5.2}The\IeC { }Control\IeC { }Device\IeC { }is\IeC { }frozen,\IeC { }or\IeC { }the\IeC { }videos\IeC { }are\IeC { }not\IeC { }changing.}{66}{subsection.126}
+\contentsline {subsection}{\numberline {A.5.2}The\IeC { }Control\IeC { }Device\IeC { }is\IeC { }frozen,\IeC { }or\IeC { }the\IeC { }videos\IeC { }are\IeC { }not\IeC { }changing.}{69}{subsection.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Tidbits\IeC { }and Tech Notes}{67}{section.133}
+\contentsline {section}{\numberline {A.6}Tidbits\IeC { }and Tech Notes}{70}{section.135}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Annotated Literature Review}{68}{chapter.134}
+\contentsline {chapter}{\numberline {B}Annotated Literature Review}{71}{chapter.136}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Literature Review}{68}{section.135}
+\contentsline {section}{\numberline {B.1}Literature Review}{71}{section.137}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Game Jam Documentation}{74}{chapter.136}
+\contentsline {chapter}{\numberline {C}Game Jam Documentation}{77}{chapter.138}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.1}Interview Files}{74}{section.137}
+\contentsline {section}{\numberline {C.1}Interview Files}{77}{section.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {C.2}Questions To Ask Game Jammers}{74}{section.138}
+\contentsline {section}{\numberline {C.2}Questions To Ask Game Jammers}{77}{section.140}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.1}Games List}{74}{subsection.139}
+\contentsline {subsection}{\numberline {C.2.1}Games List}{77}{subsection.141}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.2}Bug Discovery}{75}{subsection.140}
+\contentsline {subsection}{\numberline {C.2.2}Bug Discovery}{78}{subsection.142}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.3}Features Requested by Game Jammers}{75}{subsection.141}
+\contentsline {subsection}{\numberline {C.2.3}Features Requested by Game Jammers}{78}{subsection.143}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C.2.4}Notes from committed jammers about screenPerfect}{75}{subsection.142}
+\contentsline {subsection}{\numberline {C.2.4}Notes from committed jammers about screenPerfect}{78}{subsection.144}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Raspberry Pi Setup Documentation}{76}{chapter.143}
+\contentsline {chapter}{\numberline {D}Raspberry Pi Setup Documentation}{79}{chapter.145}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Materials and Supplies}{76}{section.144}
+\contentsline {section}{\numberline {D.1}Materials and Supplies}{79}{section.146}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Background for Linux Commands}{76}{section.145}
+\contentsline {section}{\numberline {D.2}Background for Linux Commands}{79}{section.147}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.3}Setting Up The Raspberry Pi}{76}{section.146}
+\contentsline {section}{\numberline {D.3}Setting Up The Raspberry Pi}{79}{section.148}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.1}Windows 7 SD Card setup and first boot}{76}{subsection.147}
+\contentsline {subsection}{\numberline {D.3.1}Windows 7 SD Card setup and first boot}{79}{subsection.149}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.3.2}Configuring Raspbian}{77}{subsection.156}
+\contentsline {subsection}{\numberline {D.3.2}Configuring Raspbian}{80}{subsection.158}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.4}Software Setup for External WiFi Access}{77}{section.161}
+\contentsline {section}{\numberline {D.4}Software Setup for External WiFi Access}{80}{section.163}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.5}Installing Node.JS}{80}{section.182}
+\contentsline {section}{\numberline {D.5}Installing Node.JS}{83}{section.184}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.1}Why Node?}{80}{subsection.183}
+\contentsline {subsection}{\numberline {D.5.1}Why Node?}{83}{subsection.185}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.5.2}Installation Instructions for Node.JS}{80}{subsection.184}
+\contentsline {subsection}{\numberline {D.5.2}Installation Instructions for Node.JS}{83}{subsection.186}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.6}Testing Node}{81}{section.198}
+\contentsline {section}{\numberline {D.6}Testing Node}{84}{section.200}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.6.1}Selecting Monitoring Software}{81}{subsection.199}
+\contentsline {subsection}{\numberline {D.6.1}Selecting Monitoring Software}{84}{subsection.201}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.6.2}Installation of Node Modules}{81}{subsection.200}
+\contentsline {subsection}{\numberline {D.6.2}Installation of Node Modules}{84}{subsection.202}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.6.3}Troubleshooting NPM installations}{82}{subsection.215}
+\contentsline {subsection}{\numberline {D.6.3}Troubleshooting NPM installations}{85}{subsection.217}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.7}SSH via Direct Ethernet Connection\\ and WiFi Internet Access}{82}{section.216}
+\contentsline {section}{\numberline {D.7}SSH via Direct Ethernet Connection\\ and WiFi Internet Access}{85}{section.218}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.8}Backing Up the Raspberry Pi}{83}{section.256}
+\contentsline {section}{\numberline {D.8}Backing Up the Raspberry Pi}{86}{section.258}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.9}Mount Your USB Flash Memory Stick To the Raspberry Pi}{84}{section.257}
+\contentsline {section}{\numberline {D.9}Mount Your USB Flash Memory Stick To the Raspberry Pi}{87}{section.259}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.9.1}Configuring Your Mount Drive}{84}{subsection.258}
+\contentsline {subsection}{\numberline {D.9.1}Configuring Your Mount Drive}{87}{subsection.260}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.9.2}How to Boot Mount External Memory}{84}{subsection.268}
+\contentsline {subsection}{\numberline {D.9.2}How to Boot Mount External Memory}{87}{subsection.270}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.10}Set Up a wiFi Hotspot}{85}{section.282}
+\contentsline {section}{\numberline {D.10}Set Up a wiFi Hotspot}{88}{section.284}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.11}Configuring HostAPD}{85}{section.305}
+\contentsline {section}{\numberline {D.11}Configuring HostAPD}{88}{section.307}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.12}Configuring DNS access via \texttt {dnsmasq}}{86}{section.331}
+\contentsline {section}{\numberline {D.12}Configuring DNS access via \texttt {dnsmasq}}{89}{section.333}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Appendix E: MIT Licence and Research Ethics Approval}{88}{chapter.338}
+\contentsline {chapter}{\numberline {E}Appendix E: MIT Licence and Research Ethics Approval}{91}{chapter.340}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {E.1}MIT Licence}{88}{section.339}
+\contentsline {section}{\numberline {E.1}MIT Licence}{91}{section.341}
 \defcounter {refsection}{0}\relax 
 \vspace {2em}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{91}{dummy.340}
+\contentsline {chapter}{Bibliography}{94}{dummy.342}
 \contentsfinish 

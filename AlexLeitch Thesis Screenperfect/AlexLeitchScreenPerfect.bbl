@@ -187,6 +187,30 @@
       \field{year}{2008}
       \field{pages}{435\bibrangedash 464}
     \endentry
+    \entry{imposter}{article}{}
+      \name{labelname}{2}{}{%
+        {{uniquename=0,hash=bc230a3969748a26fadba30a66b3756b}{Chance}{C\bibinitperiod}{Pauline\bibnamedelima Rose}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=13e097f334f6ce9efabdc0af97a018cf}{O'Toole}{O\bibinitperiod}{Maureen\bibnamedelima Ann}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=bc230a3969748a26fadba30a66b3756b}{Chance}{C\bibinitperiod}{Pauline\bibnamedelima Rose}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=13e097f334f6ce9efabdc0af97a018cf}{O'Toole}{O\bibinitperiod}{Maureen\bibnamedelima Ann}{M\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge: USA}%
+      }
+      \strng{namehash}{5bf3664cd8b09c2938ff34d7630b7d4b}
+      \strng{fullhash}{5bf3664cd8b09c2938ff34d7630b7d4b}
+      \field{sortinit}{C}
+      \field{labelyear}{1987}
+      \field{labeltitle}{The Imposter Phenomenon: An Internal Barrier to Empowerment and Achievement}
+      \field{issue}{3}
+      \field{journaltitle}{Women and Therapy}
+      \field{title}{The Imposter Phenomenon: An Internal Barrier to Empowerment and Achievement}
+      \field{volume}{6}
+      \field{year}{1987}
+      \field{pages}{51\bibrangedash 64}
+    \endentry
     \entry{cixous}{article}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=58abcb5d6663a687f7993a7e798e7e98}{Cixous}{C\bibinitperiod}{Hélène}{H\bibinitperiod}{}{}{}{}}%
