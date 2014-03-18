@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 MAR 2014 11:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 MAR 2014 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1377,18 +1377,22 @@ Chapter 5.
 ------------------------------------------------------------------------------
 [62
 
-] [63] [64] <Pictures/DEIMayViz.png, id=918, 149.358pt x 199.2243pt>
+] [63] [64] [65] <Pictures/DEIMayViz.png, id=922, 149.358pt x 199.2243pt>
 File: Pictures/DEIMayViz.png Graphic file (type png)
 
 <use Pictures/DEIMayViz.png>
-Package pdftex.def Info: Pictures/DEIMayViz.png used on input line 34.
+Package pdftex.def Info: Pictures/DEIMayViz.png used on input line 37.
 (pdftex.def)             Requested size: 362.88783pt x 484.08809pt.
-) (./Appendices/AppendixA.tex [65 <./Pictures/DEIMayViz.png>] [66]
+ [66
+
+ <./Pictures/DEIMayViz.png>])
+(./Appendices/AppendixA.tex
 Appendix A.
 ------------------------------------------------------------------------------
  A screenPerfect Installation Guide
 ------------------------------------------------------------------------------
 [67
+
 
 ] [68] [69]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
@@ -1590,7 +1594,7 @@ exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (107 pages, 8508417 bytes).
+Output written on AlexLeitchScreenPerfect.pdf (107 pages, 8508567 bytes).
 PDF statistics:
  1521 PDF objects out of 1728 (max. 8388607)
  1361 compressed objects within 14 object streams

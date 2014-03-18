@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber AlexLeitchScreenPerfect"] 1395156870 "AlexLeitchScreenPerfect.bcf" "AlexLeitchScreenPerfect.bbl" "AlexLeitchScreenPerfect" 1395156883
-  "AlexLeitchScreenPerfect.bcf" 1395156876 99780 528c16cf918473b355d37b494e8987ec ""
+["biber AlexLeitchScreenPerfect"] 1395156870 "AlexLeitchScreenPerfect.bcf" "AlexLeitchScreenPerfect.bbl" "AlexLeitchScreenPerfect" 1395158517
+  "AlexLeitchScreenPerfect.bcf" 1395158517 99780 528c16cf918473b355d37b494e8987ec ""
   "Bibliography.bib" 1395156779 10953 51f33630e92decb986efaa70d9a9136f ""
   (generated)
   "AlexLeitchScreenPerfect.blg"
   "AlexLeitchScreenPerfect.bbl"
-["pdflatex"] 1395156872 "AlexLeitchScreenPerfect.tex" "AlexLeitchScreenPerfect.pdf" "AlexLeitchScreenPerfect" 1395156883
+["pdflatex"] 1395158513 "AlexLeitchScreenPerfect.tex" "AlexLeitchScreenPerfect.pdf" "AlexLeitchScreenPerfect" 1395158517
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf" 1367878877 6963 2e0cb3d93aa64508bdb0db58ae900d97 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def" 1368743226 42950 b2c89311c96d7b70c24e1365a2fa51ee ""
@@ -110,12 +110,12 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/vmargin/vmargin.sty" 1137111065 6845 5eae49c3f07fead60d92def0a4f5c30f ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/wrapfig/wrapfig.sty" 1137111090 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
-  "AlexLeitchScreenPerfect.aux" 1395156876 27365 a1d671ddd878369b62bfa275c7867814 ""
+  "AlexLeitchScreenPerfect.aux" 1395158517 27365 7cd6e418e62cc63d3d3886c18062ba5e ""
   "AlexLeitchScreenPerfect.bbl" 1395156880 35676 a77a9ec43102939c105d20e3b73d3bee "biber AlexLeitchScreenPerfect"
-  "AlexLeitchScreenPerfect.lof" 1395156876 3464 bd8034b642eb6debf58625f735d906a4 ""
-  "AlexLeitchScreenPerfect.out" 1395156876 19621 dd67bf072d6ee24c428f1f4dfc0b2c2e ""
+  "AlexLeitchScreenPerfect.lof" 1395158517 3464 ab5ea0af2cd78d7c311a094ffd72a554 ""
+  "AlexLeitchScreenPerfect.out" 1395158517 19621 dd67bf072d6ee24c428f1f4dfc0b2c2e ""
   "AlexLeitchScreenPerfect.tex" 1395082437 15082 7e92302f5936ee60d8eb3e5ec38b828e ""
-  "AlexLeitchScreenPerfect.toc" 1395156876 11403 2ef1f188a86b5e82d2f439255099a8b2 ""
+  "AlexLeitchScreenPerfect.toc" 1395158517 11403 2ef1f188a86b5e82d2f439255099a8b2 ""
   "Appendices/AppendixA.tex" 1394658073 6439 ca076bc49513dd6dbc84e2be557a021e ""
   "Appendices/AppendixB.tex" 1394659590 21630 ef454d32b92cb3b2bfc70f3f09407cf6 ""
   "Appendices/AppendixC.tex" 1394659699 3562 c036e25d47c21d96e02541a342cd396c ""
@@ -125,7 +125,7 @@
   "Chapters/Chapter2.tex" 1395156863 11536 50fc13250eb1b0d12dc3eec6bf52613b ""
   "Chapters/Chapter3.tex" 1395074853 26765 ae654c6cfc63a501d47e84bdabcec06e ""
   "Chapters/Chapter4.tex" 1395086759 15819 cd733ae2da9ab38f736bf04cab3dda72 ""
-  "Chapters/Chapter5.tex" 1395156647 7005 816d103b713cd8ab3d325718767109a5 ""
+  "Chapters/Chapter5.tex" 1395158473 7090 4062f7a6ed15ee133aa2f1c580c60541 ""
   "Pictures/DEIMayViz.png" 1395156594 280254 65f8b3e96f78fb7dc8a08b739e1da0f2 ""
   "Pictures/Seizuredome2.jpg" 1394048122 513834 db22a12a563d7c2c2a1676bbd5d7869d ""
   "Pictures/cc-sa-by.png" 1394571046 5083 15d99bea74da9b7ec6a0ca3bad80903c ""
@@ -149,6 +149,6 @@
   "AlexLeitchScreenPerfect.toc"
   "AlexLeitchScreenPerfect.pdf"
   "AlexLeitchScreenPerfect.log"
-  "AlexLeitchScreenPerfect.out"
   "AlexLeitchScreenPerfect.aux"
+  "AlexLeitchScreenPerfect.out"
   "AlexLeitchScreenPerfect.lof"
