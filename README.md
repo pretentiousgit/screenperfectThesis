@@ -17,7 +17,7 @@ by Alex Leitch
 20th March 2014  
 
 This thesis examines what it means for technology to open, and how that open technology may
-be commodified in support of the arts. Drawing on H´el`ene Cixous’ ”Laugh of the Medusa”,
+be commodified in support of the arts. Drawing on Hélène Cixous’ ”Laugh of the Medusa”,
 I propose a feminist, inclusive design method that subverts imposter syndrome by involving
 community engagement in the software development process, then uses that method to develop
 software that powers narrative-focused FMV video games using Node.JS internet technologies.
