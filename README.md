@@ -21,6 +21,7 @@ be commodified in support of the arts. Drawing on Hélène Cixous’ ”Laugh of
 I propose a feminist, inclusive design method that subverts imposter syndrome by involving
 community engagement in the software development process, then uses that method to develop
 software that powers narrative-focused FMV video games using Node.JS internet technologies.
+
 The sample software described allows artists to assemble and install branched video narratives
 for exhibition using web technologies served over Linux on the not-for-profit Raspberry Pi
 platform. It was developed through the twin working practices of open software design and
