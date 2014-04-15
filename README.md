@@ -1,4 +1,4 @@
-# _Project_
+#_Project_
 
 This is a thesis repo for an MRP - a Major Research Paper - in defence of a Master's of Design.
 
