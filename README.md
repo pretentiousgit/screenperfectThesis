@@ -9,9 +9,9 @@ This project is backed up here because I used it to learn LaTeX along with JS an
 
 ### Related Projects
 
-http://www.github.com/pretentiousgit/MechanismFMV
-http://www.github.com/pretentiousgit/screenperfect-dev
-http://www.github.com/jennie/iV
+* http://www.github.com/pretentiousgit/MechanismFMV
+* http://www.github.com/pretentiousgit/screenperfect-dev
+* http://www.github.com/jennie/iV
 
 
 ### Troubleshooting & Useful Tools
