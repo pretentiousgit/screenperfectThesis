@@ -17,7 +17,7 @@ by Alex Leitch
 20th March 2014  
 
 This thesis examines what it means for technology to open, and how that open technology
-may be applied in support of the arts. Drawing on Hélèene Cixous' "Laugh of the Medusa",
+may be applied in support of the arts. Drawing on Hélène Cixous' "Laugh of the Medusa",
 the paper proposes a feminist, inclusive design process that subverts imposter syndrome by
 involving community engagement in the software development process, then uses that method
 to develop software that powers narrative-focused FMV video games using Node.JS internet
