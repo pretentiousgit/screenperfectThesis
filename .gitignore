@@ -55,6 +55,7 @@ nwsnapshot
 *.ai
 *.docx
 *.doc
+*.dxf
 
 # Node specific  	 #
 ######################
