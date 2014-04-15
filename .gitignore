@@ -43,6 +43,9 @@ public/video/*
 node-webkit.app/*
 nwsnapshot
 
+*.mp3
+*.acc
+*.wav
 *.gif
 *.jpg
 *.jpeg
