@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 MAR 2014 12:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  23 MAR 2014 18:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,6 +1063,19 @@ Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@footins=\box39
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 102.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box40
+\beforetitleunit=\skip124
+\aftertitleunit=\skip125
+\ttl@plus=\dimen156
+\ttl@minus=\dimen157
+\ttl@toksa=\toks36
+\titlewidth=\dimen158
+\titlewidthlast=\dimen159
+\titlewidthfirst=\dimen160
+)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1086,22 +1099,22 @@ File: english.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
 (./AlexLeitchScreenPerfect.aux)
 \openout1 = `AlexLeitchScreenPerfect.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
-LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -1118,20 +1131,20 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count320
-\scratchdimen=\dimen156
-\scratchbox=\box40
+\scratchdimen=\dimen161
+\scratchbox=\box41
 \nofMPsegments=\count321
 \nofMParguments=\count322
-\everyMPshowfont=\toks36
+\everyMPshowfont=\toks37
 \MPscratchCnt=\count323
-\MPscratchDim=\dimen157
+\MPscratchDim=\dimen162
 \MPnumerator=\count324
 \makeMPintoPDFobject=\count325
-\everyMPtoPDFconversion=\toks37
+\everyMPtoPDFconversion=\toks38
 )
 \c@lstlisting=\count326
-\AtBeginShipoutBox=\box41
-Package hyperref Info: Link coloring ON on input line 105.
+\AtBeginShipoutBox=\box42
+Package hyperref Info: Link coloring ON on input line 108.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1140,9 +1153,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count327
 )
-LaTeX Info: Redefining \ref on input line 105.
-LaTeX Info: Redefining \pageref on input line 105.
-LaTeX Info: Redefining \nameref on input line 105.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
 
 (./AlexLeitchScreenPerfect.out) (./AlexLeitchScreenPerfect.out)
 \@outlinefile=\write4
@@ -1157,36 +1170,36 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'AlexLeitchScreenPerfect.bbl' found.
 
 (./AlexLeitchScreenPerfect.bbl)
-Package biblatex Info: Reference section=0 on input line 105.
-Package biblatex Info: Reference segment=0 on input line 105.
+Package biblatex Info: Reference section=0 on input line 108.
+Package biblatex Info: Reference segment=0 on input line 108.
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--134
+Underfull \hbox (badness 10000) in paragraph at lines 134--139
 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 140.
+LaTeX Font Info:    Try loading font information for U+msa on input line 145.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 140.
+LaTeX Font Info:    Try loading font information for U+msb on input line 145.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 142--148
+Underfull \hbox (badness 10000) in paragraph at lines 147--153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--155
+Underfull \hbox (badness 10000) in paragraph at lines 154--160
 
  []
 
-<Pictures/cc-sa-by.png, id=359, 88.33pt x 31.11626pt>
+<Pictures/cc-sa-by.png, id=343, 88.33pt x 31.11626pt>
 File: Pictures/cc-sa-by.png Graphic file (type png)
 
 <use Pictures/cc-sa-by.png>
-Package pdftex.def Info: Pictures/cc-sa-by.png used on input line 156.
+Package pdftex.def Info: Pictures/cc-sa-by.png used on input line 161.
 (pdftex.def)             Requested size: 70.66408pt x 24.89302pt.
  [1
 
@@ -1198,7 +1211,7 @@ res/cc-sa-by.png>]
  Declaration of Authorship
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 
  []
 
@@ -1213,7 +1226,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--187
  Acknowledgements
 ------------------------------------------------------------------------------
 [4
-
 
 ]
 ------------------------------------------------------------------------------
@@ -1238,163 +1250,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 187--187
 ------------------------------------------------------------------------------
  Abbreviations
 ------------------------------------------------------------------------------
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.292 }
+       
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
 [10
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
- 1 Introduction: A Better Time-Based Installation
+ 1 Introduction: A Better Interactive Design Method
 ------------------------------------------------------------------------------
 [1
 
 
 
-] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
-<Pictures/gamecart.jpg, id=621, 984.67876pt x 738.76pt>
+] [2] [3] [4] <Pictures/gamecart.jpg, id=541, 984.67876pt x 738.76pt>
 File: Pictures/gamecart.jpg Graphic file (type jpg)
 
 <use Pictures/gamecart.jpg>
-Package pdftex.def Info: Pictures/gamecart.jpg used on input line 80.
+Package pdftex.def Info: Pictures/gamecart.jpg used on input line 53.
 (pdftex.def)             Requested size: 226.80403pt x 170.15921pt.
- [12 <./Pictures/gamecart.jpg>]
-<Pictures/Seizuredome2.jpg, id=626, 2055.68pt x 1541.76pt>
-File: Pictures/Seizuredome2.jpg Graphic file (type jpg)
+ [5] [6 <./Pictures/gamecart.jpg>] [7] [8] [9]
+<Pictures/DevelopmentFramework.jpg, id=571, 2437.105pt x 3397.69376pt>
+File: Pictures/DevelopmentFramework.jpg Graphic file (type jpg)
 
-<use Pictures/Seizuredome2.jpg>
-Package pdftex.def Info: Pictures/Seizuredome2.jpg used on input line 91.
-(pdftex.def)             Requested size: 226.80403pt x 170.08815pt.
- [13 <./Pictures/Seizuredome2.jpg>] [14]
-[15] [16] [17] [18] [19] [20]) (./Chapters/Chapter2.tex [21]
+<use Pictures/DevelopmentFramework.jpg>
+Package pdftex.def Info: Pictures/DevelopmentFramework.jpg used on input line 8
+5.
+(pdftex.def)             Requested size: 453.60808pt x 632.34818pt.
+ [10
+
+ <./Pictures/DevelopmentFramework.jpg>]) (./Chapters/Chapter2.tex
 Chapter 2.
 ------------------------------------------------------------------------------
- 2 Background, Theory, and the State of the Art
+ 2 Artist-Led Technical Collaboration
 ------------------------------------------------------------------------------
-[22
+[11
 
-] [23] [24] [25] [26]) (./Chapters/Chapter3.tex [27]
-Chapter 3.
-------------------------------------------------------------------------------
- 3 Software Design, Industry Engagement, and Hardware Design
-------------------------------------------------------------------------------
-[28
-
-] <Pictures/spCodeFlow.jpg, id=728, 547.5657pt x 612.3678pt>
+] [12] [13] [14] <Pictures/spCodeFlow.jpg, id=597, 2256.43pt x 3155.79pt>
 File: Pictures/spCodeFlow.jpg Graphic file (type jpg)
 
 <use Pictures/spCodeFlow.jpg>
-Package pdftex.def Info: Pictures/spCodeFlow.jpg used on input line 22.
-(pdftex.def)             Requested size: 453.60808pt x 507.28401pt.
- [29 <./Pictures/spCodeFlow.jpg>] [30]
-<Pictures/editSoftAssetTab.png, id=737, 1203.49625pt x 644.4075pt>
+Package pdftex.def Info: Pictures/spCodeFlow.jpg used on input line 35.
+(pdftex.def)             Requested size: 453.60808pt x 634.37311pt.
+ [15
+
+ <./Pictures/spCodeFlow.jpg>] [16
+
+] [17]
+[18] [19] [20] [21] [22] [23] [24]
+<Pictures/editSoftAssetTab.png, id=661, 1203.49625pt x 644.4075pt>
 File: Pictures/editSoftAssetTab.png Graphic file (type png)
 
 <use Pictures/editSoftAssetTab.png>
-Package pdftex.def Info: Pictures/editSoftAssetTab.png used on input line 40.
+Package pdftex.def Info: Pictures/editSoftAssetTab.png used on input line 108.
 (pdftex.def)             Requested size: 453.60808pt x 242.88132pt.
 
-<Pictures/editSoftExitTab.png, id=738, 1212.53pt x 654.445pt>
+<Pictures/editSoftExitTab.png, id=662, 1212.53pt x 654.445pt>
 File: Pictures/editSoftExitTab.png Graphic file (type png)
 
 <use Pictures/editSoftExitTab.png>
-Package pdftex.def Info: Pictures/editSoftExitTab.png used on input line 46.
+Package pdftex.def Info: Pictures/editSoftExitTab.png used on input line 114.
 (pdftex.def)             Requested size: 453.60808pt x 244.82709pt.
- [31 <./Pictures/editSoftAssetTab.png> <./Pictures/editSoftExitTab.png>] [32] [
-33] [34] [35] [36] [37] [38] [39] [40]
-[41] [42] <Pictures/twineNodeTree.png, id=805, 762.85pt x 577.15625pt>
+ [25 <./Pictures/editSoftAssetTab.png> <./Pictures/editSoftExitTab.png>]) (./Ch
+apters/Chapter3.tex
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Industry Engagement and Community Based Research
+------------------------------------------------------------------------------
+[26
+
+] [27] [28] [29] [30] [31] [32] [33]
+<Pictures/twineNodeTree.png, id=721, 762.85pt x 577.15625pt>
 File: Pictures/twineNodeTree.png Graphic file (type png)
 
 <use Pictures/twineNodeTree.png>
-Package pdftex.def Info: Pictures/twineNodeTree.png used on input line 132.
+Package pdftex.def Info: Pictures/twineNodeTree.png used on input line 81.
 (pdftex.def)             Requested size: 453.60808pt x 343.18765pt.
- [43 <./Pictures/twineNodeTree.png>] [44])
-(./Chapters/Chapter4.tex [45]
+ [34 <./Pictures/twineNodeTree.png>] [35]
+[36]) (./Chapters/Chapter4.tex [37] [38]
 Chapter 4.
 ------------------------------------------------------------------------------
- 4 Hardware Deployment in Limited Local Space
+ 4 Prototype Development for Display Hardware
 ------------------------------------------------------------------------------
-<Pictures/psXXYborgVan3.jpg, id=819, 642.4pt x 481.8pt>
+<Pictures/psXXYborgVan3.jpg, id=742, 642.4pt x 481.8pt>
 File: Pictures/psXXYborgVan3.jpg Graphic file (type jpg)
 
 <use Pictures/psXXYborgVan3.jpg>
 Package pdftex.def Info: Pictures/psXXYborgVan3.jpg used on input line 12.
 (pdftex.def)             Requested size: 453.60808pt x 340.21306pt.
-
-<Pictures/psXXYborgInterior.jpg, id=820, 642.4pt x 481.8pt>
-File: Pictures/psXXYborgInterior.jpg Graphic file (type jpg)
-
-<use Pictures/psXXYborgInterior.jpg>
-Package pdftex.def Info: Pictures/psXXYborgInterior.jpg used on input line 18.
-(pdftex.def)             Requested size: 453.60808pt x 340.21306pt.
- [46
+ [39
 
  <./Pictures/psXXYborgVan3.jpg>]
-[47 <./Pictures/psXXYborgInterior.jpg>] [48]
-<Pictures/psXXYborgTent.jpg, id=834, 1951.29pt x 2601.72pt>
-File: Pictures/psXXYborgTent.jpg Graphic file (type jpg)
+<Pictures/ServerClientModel.jpg, id=748, 2363.83125pt x 3246.1275pt>
+File: Pictures/ServerClientModel.jpg Graphic file (type jpg)
 
-<use Pictures/psXXYborgTent.jpg>
-Package pdftex.def Info: Pictures/psXXYborgTent.jpg used on input line 32.
-(pdftex.def)             Requested size: 317.52426pt x 423.35013pt.
- [49 <./Pictures/psXXYborgTent.jpg>]
-<Pictures/psXXYborgTentPlay.jpg, id=839, 2457.18pt x 3276.24pt>
+<use Pictures/ServerClientModel.jpg>
+Package pdftex.def Info: Pictures/ServerClientModel.jpg used on input line 19.
+(pdftex.def)             Requested size: 453.60808pt x 622.9126pt.
+ [40
+
+ <./Pictures/ServerClientModel.jpg>]
+[41
+
+] <Pictures/psXXYborgTentPlay.jpg, id=759, 2457.18pt x 3276.24pt>
 File: Pictures/psXXYborgTentPlay.jpg Graphic file (type jpg)
 
 <use Pictures/psXXYborgTentPlay.jpg>
-Package pdftex.def Info: Pictures/psXXYborgTentPlay.jpg used on input line 39.
+Package pdftex.def Info: Pictures/psXXYborgTentPlay.jpg used on input line 35.
 (pdftex.def)             Requested size: 317.52426pt x 423.32661pt.
- [50
+ [42
 
  <./Pictures/psXXYborgTentPlay.jpg>]
-<Pictures/psXXYborgBox.png, id=844, 1620.0525pt x 918.43124pt>
-File: Pictures/psXXYborgBox.png Graphic file (type png)
+[43
 
-<use Pictures/psXXYborgBox.png>
-Package pdftex.def Info: Pictures/psXXYborgBox.png used on input line 46.
-(pdftex.def)             Requested size: 453.60808pt x 257.159pt.
-
-<Pictures/projectionBox.png, id=845, 621.32124pt x 464.73625pt>
-File: Pictures/projectionBox.png Graphic file (type png)
-
-<use Pictures/projectionBox.png>
-Package pdftex.def Info: Pictures/projectionBox.png used on input line 51.
-(pdftex.def)             Requested size: 453.60808pt x 339.29008pt.
- [51
-
- <./Pictures/psXXYborgBox.png>] [52 <./Pictures/projectionBox.png>] [53
-
-] [54] [55] [56]
-File: Pictures/Seizuredome2.jpg Graphic file (type jpg)
- <use Pictures/Seizuredome2.jpg>
-Package pdftex.def Info: Pictures/Seizuredome2.jpg used on input line 91.
-(pdftex.def)             Requested size: 453.60808pt x 340.19983pt.
-
-[57] [58
-
-] [59] [60]) (./Chapters/Chapter5.tex [61]
+] [44] [45] [46] [47]) (./Chapters/Chapter5.tex [48]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Conclusion
 ------------------------------------------------------------------------------
-[62
+[49
 
-] [63] [64] [65] <Pictures/DEIMayViz.png, id=922, 149.358pt x 199.2243pt>
-File: Pictures/DEIMayViz.png Graphic file (type png)
-
-<use Pictures/DEIMayViz.png>
-Package pdftex.def Info: Pictures/DEIMayViz.png used on input line 37.
-(pdftex.def)             Requested size: 362.88783pt x 484.08809pt.
- [66
-
- <./Pictures/DEIMayViz.png>])
-(./Appendices/AppendixA.tex
+] [50]) (./Appendices/AppendixA.tex [51]
 Appendix A.
 ------------------------------------------------------------------------------
  A screenPerfect Installation Guide
 ------------------------------------------------------------------------------
-[67
+[52
 
-
-] [68] [69]
+] [53] [54]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
 
  (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
@@ -1403,182 +1393,156 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
 )
-(./Appendices/AppendixB.tex [70]
+(./Appendices/AppendixB.tex [55]
 Appendix B.
 ------------------------------------------------------------------------------
- B Annotated Literature Review
+ B Game Jam Documentation
 ------------------------------------------------------------------------------
+[56
 
-Overfull \hbox (48.69328pt too wide) in paragraph at lines 17--19
-[]\OT1/cmr/m/n/10.95 Maly, T. (2013). We Have Al-ways Coded. Me-dium.com. https
-://medium.com/weird-future/2acc5ba75929
- []
-
-[71
-
-] [72] [73]
-Overfull \hbox (112.40622pt too wide) in paragraph at lines 94--98
-\OT1/cmr/m/n/10.95 Arts, News, Food and Liv-ing. Re-trieved April 22, 2013, fro
-m http://www.washingtoncitypaper.com/articles/43235/our-
- []
-
-[74]
-Overfull \hbox (43.73555pt too wide) in paragraph at lines 104--106
-[]\OT1/cmr/m/n/10.95 One Laptop per Child. (n.d.). One Laptop per Child. Re-tri
-eved July 3, 2013, from http://one.laptop.org/
- []
-
-[75]) (./Appendices/AppendixC.tex [76]
+]) (./Appendices/AppendixC.tex [57]
 Appendix C.
 ------------------------------------------------------------------------------
- C Game Jam Documentation
+ C Raspberry Pi Setup Documentation
 ------------------------------------------------------------------------------
-[77
+[58
 
-]) (./Appendices/AppendixD.tex [78]
-Appendix D.
-------------------------------------------------------------------------------
- D Raspberry Pi Setup Documentation
-------------------------------------------------------------------------------
-[79
-
-] [80]
+] [59]
 Overfull \hbox (65.27048pt too wide) in paragraph at lines 99--100
 \OT1/cmr/m/n/10.95 verse.com user DrewTM. It is Thing #114244 and can be found 
 at ht-tps://www.thingiverse.com/thing:114244. 
  []
 
-[81] <Pictures/raspiWiFi.jpg, id=1090, 2812.5075pt x 1860.9525pt>
+[60] <Pictures/raspiWiFi.jpg, id=948, 2812.5075pt x 1860.9525pt>
 File: Pictures/raspiWiFi.jpg Graphic file (type jpg)
 
 <use Pictures/raspiWiFi.jpg>
 Package pdftex.def Info: Pictures/raspiWiFi.jpg used on input line 105.
 (pdftex.def)             Requested size: 226.80403pt x 150.04347pt.
 
-<Pictures/raspiCase.jpg, id=1091, 4015.0pt x 2433.09pt>
+<Pictures/raspiCase.jpg, id=949, 4015.0pt x 2433.09pt>
 File: Pictures/raspiCase.jpg Graphic file (type jpg)
 
 <use Pictures/raspiCase.jpg>
 Package pdftex.def Info: Pictures/raspiCase.jpg used on input line 111.
 (pdftex.def)             Requested size: 226.80403pt x 137.44014pt.
- [82 <./Pictures/raspiWiFi.jpg> <./Pictures/raspiCase.jpg>] [83] [84] [85] [86]
- [87] [88]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+ [61 <./Pictures/raspiWiFi.jpg> <./Pictures/raspiCase.jpg>] [62] [63] [64] [65]
+ [66] [67]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 429.
-) (./Appendices/AppendixE.tex [89]
-[90]
-Appendix E.
+) (./Appendices/AppendixD.tex [68]
+Appendix D.
 ------------------------------------------------------------------------------
- E Appendix E: MIT Licence and Research Ethics Approval
+ D Appendix D: MIT Licence and Research Ethics Approval
 ------------------------------------------------------------------------------
-[91
+[69
 
-]) [92] <WestecottLeitchapproval.pdf, id=1282, 614.295pt x 794.97pt>
+]) [70] <WestecottLeitchapproval.pdf, id=1136, 614.295pt x 794.97pt>
 File: WestecottLeitchapproval.pdf Graphic file (type pdf)
 
 <use WestecottLeitchapproval.pdf>
-Package pdftex.def Info: WestecottLeitchapproval.pdf used on input line 339.
+Package pdftex.def Info: WestecottLeitchapproval.pdf used on input line 344.
 (pdftex.def)             Requested size: 503.72516pt x 651.87962pt.
 
-Overfull \hbox (50.11708pt too wide) in paragraph at lines 339--340
+Overfull \hbox (50.11708pt too wide) in paragraph at lines 344--345
 [][] 
  []
 
-[93
+[71
 
  <./WestecottLeitchapproval.pdf>]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
 
-Overfull \hbox (18.09447pt too wide) in paragraph at lines 353--353
+Overfull \hbox (18.09447pt too wide) in paragraph at lines 358--358
 [][]\OT1/cmr/m/n/10.95 Ebert, R. (2005). Vide games can never be art. Re-trieve
 d from [][]$www . rogerebert . com / rogers-[]journal /
  []
 
 
-Overfull \hbox (17.30365pt too wide) in paragraph at lines 353--353
+Overfull \hbox (17.30365pt too wide) in paragraph at lines 358--358
 [][]\OT1/cmr/m/n/10.95 Ebert, R. (2010). Okay, kids, play on my lawn. Re-trieve
 d from [][]$www . rogerebert . com / rogers-[]journal /
  []
 
-[94
 
-
-]
-Overfull \hbox (44.06091pt too wide) in paragraph at lines 353--353
+Overfull \hbox (44.06091pt too wide) in paragraph at lines 358--358
 \OT1/cmr/m/n/10.95 Re-trieved Oc-to-ber 1, 2005, from [][]$http : / / archives 
 . igda . org / diversity / IGDA[]DeveloperDemographics[]
  []
 
-
-Overfull \hbox (41.55553pt too wide) in paragraph at lines 353--353
-[][]\OT1/cmr/m/n/10.95 Twitch Plays Poke-mon. (2014, Feb-ru-ary 14). Re-trieved
- from [][]$http : / / www . twitch . tv / twitchplayspokemon$[][] 
- []
+[72
 
 
-Overfull \hbox (85.0909pt too wide) in paragraph at lines 353--353
+]
+Overfull \hbox (85.0909pt too wide) in paragraph at lines 358--358
 [][]$\OT1/cmr/m/n/10.95 http : / / www . washingtonpost . com / blogs / she-[]t
 he-[]people / wp / 2013 / 07 / 22 / the-[]new-[]domesticity-[]vs-[]ambition/$[]
 [] 
  []
 
-[95]
-Overfull \hbox (18.09447pt too wide) in paragraph at lines 369--369
+
+Overfull \hbox (33.44327pt too wide) in paragraph at lines 358--358
+\OT1/cmr/m/n/10.95 from [][]$http : / / www . theatlantic . com / magazine / ar
+chive / 2012 / 07 / why-[]women-[]still-[]cant-[]have-[]it-[]all /
+ []
+
+[73]
+Overfull \hbox (18.09447pt too wide) in paragraph at lines 374--374
 [][]\OT1/cmr/m/n/10.95 Ebert, R. (2005). Vide games can never be art. Re-trieve
 d from [][]$www . rogerebert . com / rogers-[]journal /
  []
 
 
-Overfull \hbox (17.30365pt too wide) in paragraph at lines 369--369
+Overfull \hbox (17.30365pt too wide) in paragraph at lines 374--374
 [][]\OT1/cmr/m/n/10.95 Ebert, R. (2010). Okay, kids, play on my lawn. Re-trieve
 d from [][]$www . rogerebert . com / rogers-[]journal /
  []
 
-[96
 
-]
-Overfull \hbox (44.06091pt too wide) in paragraph at lines 369--369
+Overfull \hbox (44.06091pt too wide) in paragraph at lines 374--374
 \OT1/cmr/m/n/10.95 Re-trieved Oc-to-ber 1, 2005, from [][]$http : / / archives 
 . igda . org / diversity / IGDA[]DeveloperDemographics[]
  []
 
 
-Overfull \hbox (41.55553pt too wide) in paragraph at lines 369--369
-[][]\OT1/cmr/m/n/10.95 Twitch Plays Poke-mon. (2014, Feb-ru-ary 14). Re-trieved
- from [][]$http : / / www . twitch . tv / twitchplayspokemon$[][] 
- []
-
-
-Overfull \hbox (85.0909pt too wide) in paragraph at lines 369--369
+Overfull \hbox (85.0909pt too wide) in paragraph at lines 374--374
 [][]$\OT1/cmr/m/n/10.95 http : / / www . washingtonpost . com / blogs / she-[]t
 he-[]people / wp / 2013 / 07 / 22 / the-[]new-[]domesticity-[]vs-[]ambition/$[]
 [] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 372.
-[97]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 372.
+[74
+
+]
+Overfull \hbox (33.44327pt too wide) in paragraph at lines 374--374
+\OT1/cmr/m/n/10.95 from [][]$http : / / www . theatlantic . com / magazine / ar
+chive / 2012 / 07 / why-[]women-[]still-[]cant-[]have-[]it-[]all /
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
+[75]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
  (./AlexLeitchScreenPerfect.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 372.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 372.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 377.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
 Package rerunfilecheck Info: File `AlexLeitchScreenPerfect.out' has not changed
 .
-(rerunfilecheck)             Checksum: DD67BF072D6EE24C428F1F4DFC0B2C2E;19621.
+(rerunfilecheck)             Checksum: 06F1F395682E43B506C7C570B65D635E;19471.
 Package logreq Info: Writing requests to 'AlexLeitchScreenPerfect.run.xml'.
 \openout1 = `AlexLeitchScreenPerfect.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 372.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
  ) 
 Here is how much of TeX's memory you used:
- 21770 strings out of 493315
- 325520 string characters out of 6137904
- 828178 words of memory out of 5000000
- 24377 multiletter control sequences out of 15000+600000
- 13550 words of font info for 51 fonts, out of 8000000 for 9000
+ 21871 strings out of 493315
+ 326554 string characters out of 6137904
+ 841624 words of memory out of 5000000
+ 24523 multiletter control sequences out of 15000+600000
+ 14203 words of font info for 53 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,12n,57p,1740b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,12n,57p,1379b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1594,10 +1558,10 @@ exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texli
 ve/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on AlexLeitchScreenPerfect.pdf (107 pages, 8508567 bytes).
+Output written on AlexLeitchScreenPerfect.pdf (85 pages, 12036434 bytes).
 PDF statistics:
- 1521 PDF objects out of 1728 (max. 8388607)
- 1361 compressed objects within 14 object streams
- 487 named destinations out of 1000 (max. 500000)
- 790 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1356 PDF objects out of 1440 (max. 8388607)
+ 1224 compressed objects within 13 object streams
+ 446 named destinations out of 1000 (max. 500000)
+ 738 words of extra memory for PDF output out of 10000 (max. 10000000)
 

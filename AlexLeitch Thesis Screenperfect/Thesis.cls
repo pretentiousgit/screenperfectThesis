@@ -183,8 +183,8 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Captive Portal Art Machine:\\ the importance of accessible technology for artistic use.} 
-\thesistitlenobreak{Captive Portal Art Machine: the importance of accessible technology for artistic use.} 
+\thesistitle{Mechanism: An artist-led, feminist design process for open technology tools.} 
+\thesistitlenobreak{Mechanism:\\ An artist-led, feminist design process for open technology tools.} 
 % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
 \supervisor{Prof. Emma \textsc{Westecott}} % You supervisor's name - this is used in the title page

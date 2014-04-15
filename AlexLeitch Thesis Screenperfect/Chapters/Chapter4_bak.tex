@@ -7,20 +7,20 @@
 \lhead{Chapter 4. \emph{Hardware Deployment in Limited Local Space}}
 
 \section{Hardware Design}
-There were many hardware difficulties associated with early builds of screenPerfect as psXXYborg. The software is dependent on open wiFi and high bandwidth, a stable computing system, a variety of tablets and other devices, and none of these things are confirmed to work together. Idealistically, the software is open. In reality, it is incredibly difficult to build a new software system to work on broad platforms, and this ended up being an unrealistic goal.
+There were many hardware difficulties associated with early builds of screenPerfect as psXXYborg. The software is dependent on open wifi and high bandwidth, a stable computing system, a variety of tablets and other devices, and none of these things are confirmed to work together. Idealistically, the software is open. In reality, it is incredibly difficult to build a new software system to work on broad platforms, and this ended up being an unrealistic goal.
 After installing PornGame at the Art Gallery of Ontario for a Long Winter event, even the software developed by Miso failed repeatedly to load correctly on a variety of devices. This resulted in the need to reprogram the psXXYborg build of the software to work within a limited network, and from there, I began to research what it would take to adequately display these time-based works. The answer seemed clear: A limited hardware system with a consistent environment, similar to a video game console such as the Super Nintendo Entertainment System. 
 With that in mind, I acquired a Raspberry Pi, a new type of microcomputer designed to be used for learning and prototyping new systems. The chief problems on display by screenPerfect were connecting at all, running the application consistently in hot temperatures or unreliable environments, and getting the various videos to display adequately on mobile and non-mobile systems. In addition, the many installations of various games in public began to imply that people love interacting with things, but that computers are unreliable in a public environment. 
-I observed that people are willing to use their smartphones publicly, but mainly to access the external internet, or messaging services while they are in public. ScreenPerfect, which relies on the form factor of a mobile device as well as a powerful multipurpose computer, did not seem to work so well in this context.
+I observed that people are willing to use their smartphones publicly, but mainly to access the external internet, or messaging services while they are in public. screenPerfect, which relies on the form factor of a mobile device as well as a powerful multipurpose computer, did not seem to work so well in this context.
 This led me to consider how people interact with the internet publicly, and to consider topics of privacy and public space, and how these problems have already been solved by galleries and coffee shops wishing to offer their clientele data services to promote engagement.
-In public spaces, internet is supplied by wiFi, which comes through a specific type of router known as a "captive portal." A user will walk into a shop, attach to a network, and "sign" an agreement to make use of the wiFi within that space. 
-Normally, the wiFi will then give them access to the external internet - the internet as supplied by a major ISP. This is not necessarily what needs to be supplied, however. In the Subnod.es project, hosted by Eyebeam in NYC, users pair to a captive portal which is also a server, supplying access to an entirely private chat room, which is available only to users on the network supplied by the captive portal itself. 
-This seemed like an excellent answer to the question of how to supply screenPerfect applications so that users can pair to them in an intuitive way, with a minimal amount of hardware that is easily maintainable, and I therefore set about building a Raspberry Pi that would supply two things: a wiFi signal and a server that serves an instance of screenPerfect where users can experience at least one, but hopefully more, screenPerfect games. 
+In public spaces, internet is supplied by wifi, which comes through a specific type of router known as a "captive portal." A user will walk into a shop, attach to a network, and "sign" an agreement to make use of the wifi within that space. 
+Normally, the wifi will then give them access to the external internet - the internet as supplied by a major ISP. This is not necessarily what needs to be supplied, however. In the Subnod.es project, hosted by Eyebeam in NYC, users pair to a captive portal which is also a server, supplying access to an entirely private chat room, which is available only to users on the network supplied by the captive portal itself. 
+This seemed like an excellent answer to the question of how to supply screenPerfect applications so that users can pair to them in an intuitive way, with a minimal amount of hardware that is easily maintainable, and I therefore set about building a Raspberry Pi that would supply two things: a wifi signal and a server that serves an instance of screenPerfect where users can experience at least one, but hopefully more, screenPerfect games. 
 In this, I hoped to address a few problems. The first is that downloading applications to a smartphone seems invasive, particularly if those applications are experimental or site-specific, as - post-psXXYborg - I think that screenPerfect games are when they are at their best. The next is that web applications are very much not user specific - they can be experienced anywhere while they are on the open web, even if their content is intended to be restricted to a specific type of installation, or requires it for best use. 
 A small, portable piece of resilient hardware (a Raspberry Pi stores its entire operating system on a single SD card) seemed like an excellent answer, which would provide an appliance-like container to serve this software, and also provide a solution to the problem of external bandwidth reliance. By serving the application locally, there is no reliance on an outside pipe. A copy of the game can be sold, customised, and stored in a collection, if such is desired, or installed in any kind of specific cabinet for later use. 
 I decided on the Pi specifically because it is a cheap, accessible, reproducible system with a broad community of access and support, with the ability to include hardware controls where necessary. This type of system could also be built out on any leftover PC using a build of the Debian linux system.
 
 \section{Physical Deployment on the Raspberry Pi}
-One of the earliest problems screenPerfect has been compromises in how the software is served to players and artists. Reliance on public internet is difficult, because the internet is not always available. WiFi is taken for granted in most institutions, but it is not always reliable, and the most interesting installation zones, such as the forest, may not have internet available at all. 
+One of the earliest problems screenPerfect has been compromises in how the software is served to players and artists. Reliance on public internet is difficult, because the internet is not always available. wifi is taken for granted in most institutions, but it is not always reliable, and the most interesting installation zones, such as the forest, may not have internet available at all. 
 There are other challenges to public deployment, such as leaving a valuable production environment out in public, or requiring a technician to look in on specialized equipment. Both of these restrict the venues permitted for public display of work. Also limiting are instances where work should be deployed near people consuming alcohol, which is notoriously bad for electronics.
 This chapter addresses my central idea on how to repair the gap between excellent idea for web-based deployment, and the physical reality of gallery spaces with sharply limited resources available for persistent software deployment. 
 
@@ -43,10 +43,10 @@ Some brainstorming resulted in the following scenarios that a reasonable arcade 
 \item The exhibition is assumed to be supervised by technically untrained people.
 \item The emphasis of the work should be on the work's display, rather than on a laptop screen.
 \item The collectors of the work are assumed to have extremely limited resources for ruggedized workstations.
-\item Any host-provided data carriage for external connection - wiFi - is assumed to be overloaded by default.
+\item Any host-provided data carriage for external connection - wifi - is assumed to be overloaded by default.
 \end{enumerate}
 
- These are all very real constraints that impact display of new media art. We use computers for work and play, but we still separate our lives into periods when we pursue one or the other, and we still have boundaries between our personal and public lives. To use the same machines to display art as we do to build the work is to reduce the work from something approachable to any other tab in a computer. New media works especially must be seen within their exhibition context to be understood.
+ These are all very real constraints that impact display of digital art. We use computers for work and play, but we still separate our lives into periods when we pursue one or the other, and we still have boundaries between our personal and public lives. To use the same machines to display art as we do to build the work is to reduce the work from something approachable to any other tab in a computer. digital works especially must be seen within their exhibition context to be understood.
 
 \subsection{Subnod.es and Public Private Space}
 This project has a precursor using similar technology builtat Eyebeam in New York in 2013. Subnod.es uses a captive portal similar to my own, based on the inexpensive Raspberry Pi framework, to display a chat client to only the local environment. The differences are substantial, although mainly located within the code. Subnod.es relies on an external DNS being made available via the actual subnod.es software, and depends on a different collection of software to serve the portal proper. It is also built such that those library dependencies are inseparable from the main project script.
@@ -58,11 +58,11 @@ This sense of limited private space is key to the code-switching that human comm
  
  \subsection{Materials and Supplies}
 \textbf{Raspberry Pi}
-The Raspberry Pi is a full linux computer the size of a large credit card. A Raspi runs Debian linux off of a common SD card.
+The Raspberry Pi is a full linux computer the size of a large credit card. A Raspberry Pi runs Debian linux off of a common SD card.
 \textbf{32Gb SD Card for Raspberry Pi}
 This is where we place the operating system and software for the Pi.
-\textbf{USB wiFi dongle}
-Edimax-based wiFi USB dongle, for serving wiFi hotspot on the Pi.
+\textbf{USB wifi dongle}
+Edimax-based wifi USB dongle, for serving wifi hotspot on the Pi.
 \textbf{USB flash memory}
 For transferring or storing complete programs authored on external systems.
 \textbf{Keyboard and Mouse}
@@ -97,21 +97,21 @@ This section is written for a Windows 7 environment, and is based on the common 
 
 
 \subsection{Configuring Raspbian}
-Once the RasPi is turning on, it needs to be set up to include all of its software. Turn the Pi on, and wait until the blue configuration screen comes up.
-Figure 4.3: Early RasPi Configuration Screen
+Once the Raspberry Pi is turning on, it needs to be set up to include all of its software. Turn the Pi on, and wait until the blue configuration screen comes up.
+Figure 4.3: Early Raspberry Pi Configuration Screen
 
 \begin{enumerate}
 \item expandrootfs Expand the boot system so that you will not run out of onboard memory for software.
-\item memorysplit Reduce the GPU to minimum, because we will be using the raspi as a headless server from the command line.
+\item memorysplit Reduce the GPU to minimum, because we will be using the Raspberry Pi as a headless server from the command line.
 \item changepass Change the password so that the Raspberry Pi will be less easy to hack.
 \item ssh Enable SSH so that the pi will be accessible from an external computer.
 \end{enumerate}
 
 When done, select finish to exit.
-Type sudo reboot to restart the raspi.
+Type sudo reboot to restart the Raspberry Pi.
 
-\section{Software Setup for External WiFi Access}
-A wiFi antennae can be used for one purpose at a time: it can either be used to access the external internet, for acquiring software to install into the raspi, or it can be used for serving a hotspot. It cannot do both at the same time. To load the pi up requires external access, so we will be loading that first. You must configure your wiFi before plugging in your wiFi antenna. 
+\section{Software Setup for External wifi Access}
+A wifi antennae can be used for one purpose at a time: it can either be used to access the external internet, for acquiring software to install into the Raspberry Pi, or it can be used for serving a hotspot. It cannot do both at the same time. To load the pi up requires external access, so we will be loading that first. You must configure your wifi before plugging in your wifi antenna. 
 In Linux, there is warning you if you mistype a folder name, say, adding an "s" to "network" to make it "networks." If you would like to confirm your folder name is correct, try typing "ls /etc/" to list the contents of that directory. Network is a default folder, and Interfaces is already present at first boot, so you can make sure your things are all there before you really get started. The way to tell you have done something wrong is if you type the below command and an empty new file opens. You are editing a file here, not creating one.
  At your console prompt, type the following:
 
@@ -140,14 +140,14 @@ Then type CTRL-X and Y to save your file.
 sudo halt
 \end{lstlisting}
 
-Plug in your wifi antennae, pull the Raspberry Pi's power cable, and plug it back in. This should make the raspi's antennae turn blue as it turns on. This little blue LED will frequently be the only way to tell something is going correctly or incorrectly, so it is an excellent tell that your machine is running.
+Plug in your wifi antennae, pull the Raspberry Pi's power cable, and plug it back in. This should make the Raspberry Pi's antennae turn blue as it turns on. This little blue LED will frequently be the only way to tell something is going correctly or incorrectly, so it is an excellent tell that your machine is running.
 
-Plug in your wifi antennae, pull the Raspberry Pi's power cable, and plug it back in. This should make the raspi's antennae turn blue as it turns on. This little blue LED will frequently be the only way to tell something is going correctly or incorrectly, so it is an excellent tell that your machine is running. 
+Plug in your wifi antennae, pull the Raspberry Pi's power cable, and plug it back in. This should make the Raspberry Pi's antennae turn blue as it turns on. This little blue LED will frequently be the only way to tell something is going correctly or incorrectly, so it is an excellent tell that your machine is running. 
 
 \begin{figure}[left][h!][center]
 \centering
-\includegraphics{raspiWithWifiAntennaBlue}
-\caption{Raspberry Pi with functioning wiFi antenna}
+\includegraphics{Raspberry PiWithwifiAntennaBlue}
+\caption{Raspberry Pi with functioning wifi antenna}
 \end{figure}
 
 If all went well, you've now connected to your own supply of wireless internet. This will not work if you are using an 802.1x network, such as those within OCADu. On your own home network, however, type:
@@ -205,10 +205,10 @@ export PATH
 
 Control-X, Y to save it.
 
-Node lives in the \texttt{/opt/node} directory you created above. This adds the commands "node" and "npm" to what are called "environment variables." If you are curious, and god knows you must be to play with a raspi, you can type \texttt{ls /opt/node/bin} and see the little programs sitting there in their bin.
+Node lives in the \texttt{/opt/node} directory you created above. This adds the commands "node" and "npm" to what are called "environment variables." If you are curious, and god knows you must be to play with a Raspberry Pi, you can type \texttt{ls /opt/node/bin} and see the little programs sitting there in their bin.
 
 \section{Testing Node}
-Node will need to be able to fetch its own packages separately from the raspi from the internet in order to run some of the monitoring software I've chosen to use. Particularly, you will need the \texttt{forever} package.
+Node will need to be able to fetch its own packages separately from the Raspberry Pi from the internet in order to run some of the monitoring software I've chosen to use. Particularly, you will need the \texttt{forever} package.
 
 \subsection{Selecting Monitoring Software}
 \texttt{forever} has ultimately been the software I've decided on to monitor and run screenPerfect, because it is a node-native package that keeps things running even when they crash. There are other software packages used for broader deployment, such as Monit, which installs to your Debian parcel rather than to Node. Monit typically runs with what is called an HTTP Proxy, which can be written directly in Node or installed independently. In a full deployment build, Monit and HAProxy would be preferable to Node alone, because this follows the best practice of separating out different programming elements from one another in production. Monit and HAProxy can also deploy applications above and beyond Node itself, which is preferable for things written in Python, for example. 
@@ -254,8 +254,8 @@ When I tried to install \texttt{forever} the first five times, it timed out, gav
 
 This process is heavily dependent on a massive network of computers and other people. In development, it is quite likely things beyond one's own control are going to go wrong. Going for a break will help you keep patient.
 
-\section{SSH via Direct Ethernet Connection and WiFi Internet Access}
-Eventually, you will need both of the powered USB slots on the raspi for a USB key and for your wiFi. In addition, the raspi doesn't have the power to drive a monitor and consistently serve wiFi out of its USB ports. To get around this, it is most convenient to be able to SSH in to your device. Although it appears to be best practice to use the wpa_supplicant file to store how you wish the Raspberry Pi to connect to the internet, I have had limited success with it, likely because I am not configuring a static IP for my raspi properly.
+\section{SSH via Direct Ethernet Connection and wifi Internet Access}
+Eventually, you will need both of the powered USB slots on the Raspberry Pi for a USB key and for your wifi. In addition, the Raspberry Pi doesn't have the power to drive a monitor and consistently serve wifi out of its USB ports. To get around this, it is most convenient to be able to SSH in to your device. Although it appears to be best practice to use the wpa_supplicant file to store how you wish the Raspberry Pi to connect to the internet, I have had limited success with it, likely because I am not configuring a static IP for my Raspberry Pi properly.
 
 My \texttt{/etc/network/interfaces} file looks like this:
 \begin{lstlisting}
@@ -286,7 +286,7 @@ SUSPEND_ACTION="stop"
 \end{lstlisting}
 
 This is an edit of the existing bits, and I can't tell if it will break everything long-term.
-Here is what your startup script should read. This ensures that your wiFi antenna turns on, which is likely not something it was doing when you plugged in your ethernet directly.
+Here is what your startup script should read. This ensures that your wifi antenna turns on, which is likely not something it was doing when you plugged in your ethernet directly.
 
 \begin{lstlisting}
 sudo nano /etc/rc.local
@@ -310,7 +310,7 @@ CTRL-X and Y to save, then \texttt{sudo reboot} open a terminal on your main lap
 ssh pi@[the static ip address you entered under eth0 static above]
 \end{lstlisting}
 
-Your \texttt{pi@[static ip]} should appear in your terminal window, which means you can now talk to raspi.
+Your \texttt{pi@[static ip]} should appear in your terminal window, which means you can now talk to Raspberry Pi.
 Per usual, to ensure your wifi is still working properly, try a \texttt{sudo apt-get update} or \texttt{ping google.com}, both should return you data.
 
 \section{Backing Up the Raspberry Pi}
@@ -321,7 +321,7 @@ Create a new file folder somewhere within your Documents folder. I called mine R
 
 In the Write From section of the application, select your SD card, which is probably called boot. In the Write To section, select your new folder. 
 
-Write a copy of the kernel image from the boot card to the new backup directory. Then safely eject your SD Card and re-insert it in the RasPi. It is best practice to form these occasional backups as you proceed through set up. Many of these steps can cause the Raspberry Pi distro to break badly. A backup will save a great deal of time when the inevitable happens.
+Write a copy of the kernel image from the boot card to the new backup directory. Then safely eject your SD Card and re-insert it in the Raspberry Pi. It is best practice to form these occasional backups as you proceed through set up. Many of these steps can cause the Raspberry Pi distro to break badly. A backup will save a great deal of time when the inevitable happens.
 
 \section{Mount Your USB Flash Memory Stick To the Raspberry Pi}
 
@@ -346,7 +346,7 @@ sudo mount -t vfat -o uid=pi,gid=pi /dev/sda1 /mnt/USBSTICKNAME/
 sudo reboot
 \end{lstlisting}
 
-Rebooting will restart the raspi but also close your SSH session. Watch the lights on the raspi board until they're stable again, about two minutes, then:
+Rebooting will restart the Raspberry Pi but also close your SSH session. Watch the lights on the Raspberry Pi board until they're stable again, about two minutes, then:
 \begin{lstlisting}
 ssh pi@[static ip]
 \end{lstlisting}
@@ -390,7 +390,7 @@ To store your games locally, rather than in the USB stick:
 sudo cp -r /mnt/USBSTICKNAME /home/pi/YOURDIRECTORYNAME
 \end{lstlisting}
 
-\section{Set Up a wiFi Hotspot}
+\section{Set Up a wifi Hotspot}
 To get started, you will need some more software.
 
 \begin{lstlisting}
@@ -424,7 +424,7 @@ iface wlan0 inet static
 \end{lstlisting}
 
 \section{Configuring HostAPD}
-\texttt{hostapd} is the software that provides the access point using the Raspberry Pi. It can be tricky, and in order to make it work, it needs to be compiled for one's specific model of wiFi antennae. For the purposes of this paper, we are using an antenna sold and supported by Adafruit. The appropriate compile of the hostapd software is included in the supplementary files to this paper, but can also be found at \url{http://www.adafruit.com/downloads/adafruit_hostapd.zip}.
+\texttt{hostapd} is the software that provides the access point using the Raspberry Pi. It can be tricky, and in order to make it work, it needs to be compiled for one's specific model of wifi antennae. For the purposes of this paper, we are using an antenna sold and supported by Adafruit. The appropriate compile of the hostapd software is included in the supplementary files to this paper, but can also be found at \url{http://www.adafruit.com/downloads/adafruit_hostapd.zip}.
 
 To install a valid copy of hostapd:
 \begin{lstlisting}
@@ -474,14 +474,14 @@ To configure your dnsmasq installation, enter \texttt{sudo nano /etc/dnsmasq.con
 interface=wlan0
 dhcp-range=192.168.42.2, 192.168.42.50,255.255.255.0,12h
 address=/#/192.168.42.1 #redirect all DNS requests to 192.168.42.1
-server=/screenperfect/192.168.42.1#3003
+server=/screenPerfect/192.168.42.1#3003
 address=/apple.com/0.0.0.0
 \end{lstlisting}
 
-What the above does is tell the raspi to listen on the wlan0 interface, to the dhcp range between 192.168.42.2 and 42.50, for twelve hours per time a client connects to the wiFi point.  In addition, the portal is supposed to redirect all DNS requests - things like "google.com" - to the Pi's main address, which is - as we can see in/etc/network/interfaces - 192.168.42.1, and from there to the port 3003, on which my particular Node application listens.
+What the above does is tell the Raspberry Pi to listen on the wlan0 interface, to the dhcp range between 192.168.42.2 and 42.50, for twelve hours per time a client connects to the wifi point.  In addition, the portal is supposed to redirect all DNS requests - things like "google.com" - to the Pi's main address, which is - as we can see in/etc/network/interfaces - 192.168.42.1, and from there to the port 3003, on which my particular Node application listens.
 
 In addition, the portal serves a spoof address to apple.com, which helps us to pop up the appropriate page on the captive portal when it is turned on. 
 
-To date, this portion has not proven totally effective. Getting a page to pop up on a captive portal requires a series of correct internet handshakes per device, so it has so far been easier to set the URL by hand on client devices to the Raspi.
+To date, this portion has not proven totally effective. Getting a page to pop up on a captive portal requires a series of correct internet handshakes per device, so it has so far been easier to set the URL by hand on client devices to the Raspberry Pi.
  
 

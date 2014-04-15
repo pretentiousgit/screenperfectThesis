@@ -102,6 +102,9 @@
 \hypersetup{urlcolor=black,linkcolor=black,citecolor=black, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
 \raggedbottom
 
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+
 \begin{document}
 
 \frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
@@ -128,8 +131,10 @@
 %----------------------------------------------------------------------------------------
 
 \begin{titlepage}
-\HRule \\[0.4cm] % Horizontal line
-{\large \bfseries \ttitle}\\[0.4cm] % Thesis title
+\HRule \\[0.5cm] % Horizontal line
+{\huge \bfseries Mechanism}\\
+{\large \it An artist-led, feminist design process for open technology tools.}
+\\[0.4cm] % Thesis title
 \HRule \\[8.5cm] % Horizontal line
 
 \begin{minipage}{0.4\textwidth}
@@ -196,14 +201,17 @@ Date:\\
 \addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
 
 %\abstract % Add a gap in the Contents, for aesthetics
-\begin{abstract}{\addtocontents{toc}{\vspace{1.5em}}}
-
+\begin{abstract}{\addtocontents{toc}{\vspace{1.5em}}}\\
 %The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots}
-This thesis consists of technical design project to, on one hand, make it easier for video artists to assemble web-based dual-screen branched narratives, and then to install and display them consistently in environments without consistent access to the internet. The project examines what it means for technology to be accessible, and how that accessible technology is commodified in support of the arts. 
+This thesis examines what it means for technology to open, and how that open technology may be applied in support of the arts. Drawing on Hélène Cixous' "Laugh of the Medusa", the paper proposes a feminist, inclusive design process that subverts imposter syndrome by involving community engagement in the software development process, then uses that method to develop software that powers narrative-focused FMV video games using Node.JS internet technologies.
 
-The installation of works based on the technology took place during a two-year period between 2013 and 2014 in a variety of exhibition contexts. This essay consists of technical details of installation as well as conceptual supports for what accessibility means, from a feminist and game-art perspective.
+In the first part of this paper presents an artist-led technical collaboration to produce sample software that repeats and extends a specific artistic practice. The sample software described allows artists to assemble and install branched video narratives for exhibition using web technologies served over Linux on the not-for-profit Raspberry Pi platform. 
+
+The second part of this paper tests the expansion and development of this software prototype via a type of voluntary design charette known as a game jam, during which participants use the software to build their own FMV experience. The game jam is pursued with inclusive, feminist intent, and is hosted by the Dames Making Games with technical collaboration from Bento Box on further software development.
+
+The third stage of the design method discusses the public display and distribution of the software on a not-for-profit hardware platform called the Raspberry Pi, which permits low-cost and low-impact display of the custom games. This stage includes discussion of realistic design constraints for new media installations. The intent of hardware development is to permit artist control over the context of their work, while allowing use of contemporary software capabilities in developing what the future of such work might be.
+
 \end{abstract}
-\clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
@@ -212,10 +220,9 @@ The installation of works based on the technology took place during a two-year p
 \setstretch{1.5} % Reset the line-spacing to 1.3 for body text (if it has changed)
 
 \acknowledgements{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+I wish to express my appreciation of my thesis advisors, Emma Westecott and Simone Jones, without whose generous contribution of time and sensible advice this would be a much weaker paper. I would also like to express gratitude to the Site 3 coLaboratory community, who provided me space to work and a community to work with, and Bento Miso - Dann Toliver, Cecily Carver, Jennie and Henry Faber expressly - for their technical advice and their help in hosting No Jam 2. Hannah Epstein deserves my thanks as well for being a fantastic collaborator. Thanks also to my editor, Kathryn Halloran.
 
-I wish to express my appreciation of my thesis advisors, Emma Westecott and Simone Jones, without whose generous contribution of time and sensible advice this would be a much weaker paper. I would also like to express gratitude to the Site 3 coLaboratory community, who provided me space to work and a community to work with, and Bento Miso - Dann Toliver, Cecily Carver, Jennie and Henry Faber expressly - for their technical advice and their help in hosting No Jam 2. I would also like to extend my thanks to Evan of the Digital Futures tech desk for a key tip when I was just starting my research. Hannah Epstein deserves my thanks as well for being a fantastic collaborator.
-
-To my personal support community, many thanks for your patience with me for the duration of this work.
+To my personal community, many thanks for your patience with me for the duration of this work.
 }
 \clearpage % Start a new page
 
@@ -259,9 +266,8 @@ To my personal support community, many thanks for your patience with me for the 
 %\lhead{\emph{Abbreviations and Definitions}} % Set the left side page header to "Abbreviations"
 \listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
 {
-\textbf{CYOA} & \textbf{C}hoose \textbf{Y}our \textbf{O}wn \textbf{A}dventure \\
-& A popular format for game narrative, describing a branched, \\
-& choice-based structure, as versus a linear story. \\
+\textbf{FMV} & \textbf{F}ull \textbf{M}otion \textbf{V}ideo)\\
+& A game format popularized in the early 1990s. 
 
 &\\
 \textbf{FiG} & \textbf{F}eminists \textbf{i}n \textbf{G}ames \\
@@ -334,7 +340,6 @@ To my personal support community, many thanks for your patience with me for the 
 \input{Appendices/AppendixB}
 \input{Appendices/AppendixC}
 \input{Appendices/AppendixD}
-\input{Appendices/AppendixE}
 \clearpage
 \includegraphics[scale=0.82]{WestecottLeitchapproval.pdf}
 
