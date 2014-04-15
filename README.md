@@ -3,7 +3,7 @@
 This is a thesis repo for an MRP - a Major Research Paper - in defence of a Master's of Design.
 
 The most relevant file you will need to read is:
-https://github.com/pretentiousgit/screenperfectThesis/blob/master/AlexLeitch%20Thesis%20Screenperfect/AlexLeitchScreenPerfect.pdf
+https://github.com/pretentiousgit/screenperfectThesis/blob/master/AlexLeitchScreenPerfect.pdf
 
 This project is backed up here because I used it to learn LaTeX along with JS and Debian Linux. None of that documentation is super important for a thesis paper, however, so it is mainly stored in the appendices.
 
